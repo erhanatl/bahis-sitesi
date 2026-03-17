@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "predictionsToday": "Predictions Today",
+    "tomorrow": "Tomorrow",
+    "statistics": "Statistics",
+    "allLeagues": "All Leagues"
+  },
+  "hero": {
+    "title": "Betting Predictions Today and Tonight",
+    "description": "Check out our full list of football betting predictions including match predictions, both teams to score tips, over 2.5 goals tips, and correct score predictions."
+  },
+  "dates": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "today": "Today",
+    "tomorrow": "Tomorrow"
+  },
+  "filters": {
+    "predictionsToday": "Predictions Today",
+    "allLeagues": "All Leagues",
+    "allStakes": "All Stakes",
+    "allPredictions": "All Predictions",
+    "resetFilter": "Reset Filter",
+    "stakeSmall": "Small",
+    "stakeMedium": "Medium",
+    "stakeLarge": "Large",
+    "homeWin": "Home Win",
+    "draw": "Draw",
+    "awayWin": "Away Win"
+  },
+  "table": {
+    "matchOdds": "Match Odds",
+    "overUnder": "O/U 2.5",
+    "btts": "BTTS",
+    "stake": "Stake",
+    "prediction": "Prediction",
+    "match": "Match",
+    "more": "MORE",
+    "form": "Form"
+  },
+  "predictions": {
+    "homeWin": "Home Win",
+    "draw": "Draw",
+    "awayWin": "Away Win",
+    "noData": "-"
+  },
+  "stakes": {
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large"
+  },
+  "quickLinks": {
+    "jumpTo": "Jump To Today's Football Tips",
+    "goToTips": "Go To {count} Tips",
+    "tips": "Tips"
+  },
+  "footer": {
+    "disclaimer": "Predictions are for informational purposes only. Please gamble responsibly.",
+    "copyright": "Football Predictions"
+  },
+  "matchDetail": {
+    "matchInfo": "Match Info",
+    "date": "Date",
+    "time": "Time",
+    "league": "League",
+    "round": "Round",
+    "referee": "Referee",
+    "status": "Status",
+    "odds": "Odds",
+    "matchResult": "Match Result",
+    "home": "Home",
+    "draw": "Draw",
+    "away": "Away",
+    "overUnder": "Over/Under 2.5",
+    "over": "Over",
+    "under": "Under",
+    "btts": "Both Teams to Score",
+    "yes": "Yes",
+    "no": "No",
+    "backToList": "Back to List",
+    "notFound": "Match not found."
+  },
+  "loading": "Loading predictions...",
+  "noMatches": "No matches found for this date.",
+  "language": "Language"
+}

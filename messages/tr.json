@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "predictionsToday": "Bugünün Tahminleri",
+    "tomorrow": "Yarın",
+    "statistics": "İstatistikler",
+    "allLeagues": "Tüm Ligler"
+  },
+  "hero": {
+    "title": "Bugünün Bahis Tahminleri",
+    "description": "Maç tahminleri, karşılıklı gol, 2.5 üst/alt gol tahminleri ve doğru skor tahminlerini içeren tam futbol bahis tahminleri listemize göz atın."
+  },
+  "dates": {
+    "monday": "Pazartesi",
+    "tuesday": "Salı",
+    "wednesday": "Çarşamba",
+    "thursday": "Perşembe",
+    "friday": "Cuma",
+    "saturday": "Cumartesi",
+    "sunday": "Pazar",
+    "today": "Bugün",
+    "tomorrow": "Yarın"
+  },
+  "filters": {
+    "predictionsToday": "Bugünün Tahminleri",
+    "allLeagues": "Tüm Ligler",
+    "allStakes": "Tüm Bahisler",
+    "allPredictions": "Tüm Tahminler",
+    "resetFilter": "Filtreyi Sıfırla",
+    "stakeSmall": "Düşük",
+    "stakeMedium": "Orta",
+    "stakeLarge": "Yüksek",
+    "homeWin": "Ev Sahibi",
+    "draw": "Beraberlik",
+    "awayWin": "Deplasman"
+  },
+  "table": {
+    "matchOdds": "Maç Oranları",
+    "overUnder": "Ü/A 2.5",
+    "btts": "KG",
+    "stake": "Bahis",
+    "prediction": "Tahmin",
+    "match": "Maç",
+    "more": "DETAY",
+    "form": "Form"
+  },
+  "predictions": {
+    "homeWin": "Ev Sahibi",
+    "draw": "Beraberlik",
+    "awayWin": "Deplasman",
+    "noData": "-"
+  },
+  "stakes": {
+    "small": "Düşük",
+    "medium": "Orta",
+    "large": "Yüksek"
+  },
+  "quickLinks": {
+    "jumpTo": "Bugünün Futbol Tahminlerine Git",
+    "goToTips": "{count} Tahmine Git",
+    "tips": "Tahmin"
+  },
+  "footer": {
+    "disclaimer": "Tahminler yalnızca bilgi amaçlıdır. Lütfen sorumlu bir şekilde bahis yapın.",
+    "copyright": "Futbol Tahminleri"
+  },
+  "matchDetail": {
+    "matchInfo": "Maç Bilgisi",
+    "date": "Tarih",
+    "time": "Saat",
+    "league": "Lig",
+    "round": "Hafta",
+    "referee": "Hakem",
+    "status": "Durum",
+    "odds": "Oranlar",
+    "matchResult": "Maç Sonucu",
+    "home": "Ev",
+    "draw": "Beraberlik",
+    "away": "Deplasman",
+    "overUnder": "Üst/Alt 2.5",
+    "over": "Üst",
+    "under": "Alt",
+    "btts": "Karşılıklı Gol",
+    "yes": "Var",
+    "no": "Yok",
+    "backToList": "Listeye Dön",
+    "notFound": "Maç bulunamadı."
+  },
+  "loading": "Tahminler yükleniyor...",
+  "noMatches": "Bu tarih için maç bulunamadı.",
+  "language": "Dil"
+}
