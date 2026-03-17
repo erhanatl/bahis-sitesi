@@ -148,10 +148,11 @@ const CACHE_TTL = 60 * 60 * 1000; // 1 hour
 
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
-// Run promises in batches to avoid hitting rate limits (300 req/min)
-async function batchedPromiseAll<T>(tasks: (() => Promise<T>)[], batchSize = 10): Promise<T[]> {
+// Run promises in batches with delays to avoid hitting rate limits (300 req/min)
+async function batchedPromiseAll<T>(tasks: (() => Promise<T>)[], batchSize = 5): Promise<T[]> {
   const results: T[] = [];
   for (let i = 0; i < tasks.length; i += batchSize) {
+    if (i > 0) await delay(500); // 500ms pause between batches
     const batch = tasks.slice(i, i + batchSize);
     const batchResults = await Promise.all(batch.map(fn => fn()));
     results.push(...batchResults);
@@ -186,7 +187,7 @@ async function apiFetch<T>(endpoint: string, params: Record<string, string> = {}
     // errors can be [] (empty array) or {"rateLimit": "..."} (object)
     if (data.errors && !Array.isArray(data.errors) && data.errors.rateLimit) {
       console.warn(`[API] Rate limit hit (attempt ${attempt + 1}): ${data.errors.rateLimit}`);
-      await delay(2000);
+      await delay(3000);
       continue;
     }
     // Log any other non-empty errors
