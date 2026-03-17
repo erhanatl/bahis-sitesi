@@ -11,8 +11,8 @@ const getCachedMatches = unstable_cache(
     }
     return result;
   },
-  ['matches-by-date'],
-  { revalidate: 3600 }
+  ['matches-v2'],
+  { revalidate: 600 }
 );
 
 export default async function PredictionsDatePage({
