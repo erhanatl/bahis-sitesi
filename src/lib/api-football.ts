@@ -142,9 +142,22 @@ const MAJOR_LEAGUE_IDS = new Set([
   10,   // Friendlies
 ]);
 
-// In-memory cache to minimize API calls (free plan: 100/day)
+// In-memory cache to minimize API calls
 const cache = new Map<string, { data: unknown; timestamp: number }>();
 const CACHE_TTL = 60 * 60 * 1000; // 1 hour
+
+const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+// Run promises in batches to avoid hitting rate limits (300 req/min)
+async function batchedPromiseAll<T>(tasks: (() => Promise<T>)[], batchSize = 10): Promise<T[]> {
+  const results: T[] = [];
+  for (let i = 0; i < tasks.length; i += batchSize) {
+    const batch = tasks.slice(i, i + batchSize);
+    const batchResults = await Promise.all(batch.map(fn => fn()));
+    results.push(...batchResults);
+  }
+  return results;
+}
 
 async function apiFetch<T>(endpoint: string, params: Record<string, string> = {}): Promise<T[]> {
   const cacheKey = `${endpoint}?${new URLSearchParams(params).toString()}`;
@@ -156,46 +169,8 @@ async function apiFetch<T>(endpoint: string, params: Record<string, string> = {}
   const url = new URL(`${BASE_URL}${endpoint}`);
   Object.entries(params).forEach(([key, value]) => url.searchParams.append(key, value));
 
-  const res = await fetch(url.toString(), {
-    headers: {
-      'x-apisports-key': API_KEY,
-    },
-    cache: 'no-store',
-  });
-
-  if (!res.ok) {
-    throw new Error(`API Football error: ${res.status}`);
-  }
-
-  const data = await res.json();
-  if (data.errors?.requests) {
-    console.warn(`[API] Rate limit reached: ${data.errors.requests}`);
-  }
-  const result = data.response || [];
-  // Only cache non-empty results to allow retries
-  if (result.length > 0) {
-    cache.set(cacheKey, { data: result, timestamp: Date.now() });
-  }
-  return result;
-}
-
-// Fetch all pages for paginated endpoints (e.g. /odds)
-async function apiFetchAllPages<T>(endpoint: string, params: Record<string, string> = {}): Promise<T[]> {
-  const cacheKey = `${endpoint}?${new URLSearchParams(params).toString()}&_allpages`;
-  const cached = cache.get(cacheKey);
-  if (cached && Date.now() - cached.timestamp < CACHE_TTL) {
-    return cached.data as T[];
-  }
-
-  let allResults: T[] = [];
-  let currentPage = 1;
-  let totalPages = 1;
-
-  do {
-    const url = new URL(`${BASE_URL}${endpoint}`);
-    Object.entries(params).forEach(([key, value]) => url.searchParams.append(key, value));
-    url.searchParams.set('page', currentPage.toString());
-
+  // Retry up to 3 times with backoff on rate limit
+  for (let attempt = 0; attempt < 3; attempt++) {
     const res = await fetch(url.toString(), {
       headers: {
         'x-apisports-key': API_KEY,
@@ -208,15 +183,50 @@ async function apiFetchAllPages<T>(endpoint: string, params: Record<string, stri
     }
 
     const data = await res.json();
-    const pageResults = data.response || [];
-    allResults = allResults.concat(pageResults);
+    // errors can be [] (empty array) or {"rateLimit": "..."} (object)
+    if (data.errors && !Array.isArray(data.errors) && data.errors.rateLimit) {
+      console.warn(`[API] Rate limit hit (attempt ${attempt + 1}): ${data.errors.rateLimit}`);
+      await delay(2000);
+      continue;
+    }
+    // Log any other non-empty errors
+    if (data.errors && !Array.isArray(data.errors) && Object.keys(data.errors).length > 0) {
+      console.warn(`[API] Error for ${endpoint}:`, JSON.stringify(data.errors));
+    }
+    if (data.errors?.requests) {
+      console.warn(`[API] Daily limit reached: ${data.errors.requests}`);
+      return [];
+    }
+    const result = data.response || [];
+    if (result.length > 0) {
+      cache.set(cacheKey, { data: result, timestamp: Date.now() });
+    }
+    return result;
+  }
 
-    totalPages = data.paging?.total || 1;
-    currentPage++;
-  } while (currentPage <= totalPages);
+  console.warn(`[API] Rate limit persists after retries for ${endpoint}`);
+  return [];
+}
 
-  cache.set(cacheKey, { data: allResults, timestamp: Date.now() });
-  return allResults;
+// Fetch odds by individual league
+async function fetchOddsByLeagues(date: string, leagues: Array<{ id: number; season: number }>): Promise<Map<number, ParsedOdds>> {
+  const oddsMap = new Map<number, ParsedOdds>();
+  const results = await batchedPromiseAll(
+    leagues.map(l => () => apiFetch<OddsResponse>('/odds', {
+      date,
+      league: l.id.toString(),
+      season: l.season.toString(),
+    }))
+  );
+  for (const odds of results) {
+    for (const odd of odds) {
+      const parsed = parseOdds(odd);
+      if (parsed) {
+        oddsMap.set(odd.fixture.id, parsed);
+      }
+    }
+  }
+  return oddsMap;
 }
 
 export async function fetchFixturesByDate(date: string): Promise<Fixture[]> {
@@ -321,7 +331,7 @@ interface StandingsResponse {
 async function fetchTeamFormsFromStandings(leagueId: number, season: number): Promise<Map<number, string>> {
   const formMap = new Map<number, string>();
   try {
-    const seasonsToTry = [season, season - 1, season + 1];
+    const seasonsToTry = [season, season - 1];
     for (const s of seasonsToTry) {
       const results = await apiFetch<StandingsResponse>('/standings', { league: leagueId.toString(), season: s.toString() });
       if (results.length > 0 && results[0].league?.standings) {
@@ -402,12 +412,8 @@ async function computeFormFromFixtures(leagueId: number, season: number): Promis
 }
 
 async function fetchTeamForms(leagueId: number, season: number): Promise<Map<number, string>> {
-  // First try standings API (cheapest)
-  const fromStandings = await fetchTeamFormsFromStandings(leagueId, season);
-  if (fromStandings.size > 0) return fromStandings;
-
-  // Fallback: compute from recent fixture results
-  return computeFormFromFixtures(leagueId, season);
+  // Use standings API only (1 call per league, cheapest option)
+  return fetchTeamFormsFromStandings(leagueId, season);
 }
 
 export async function getMatchesGroupedByLeague(date: string): Promise<LeagueGroup[]> {
@@ -426,19 +432,12 @@ export async function getMatchesGroupedByLeague(date: string): Promise<LeagueGro
     leagueMap.get(leagueId)!.fixtures.push(fixture);
   }
 
-  // Step 3: Try to fetch odds by date (fetches all pages)
-  let oddsMap = new Map<number, ParsedOdds>();
-  try {
-    const allOdds = await apiFetchAllPages<OddsResponse>('/odds', { date });
-    for (const odd of allOdds) {
-      const parsed = parseOdds(odd);
-      if (parsed) {
-        oddsMap.set(odd.fixture.id, parsed);
-      }
-    }
-  } catch {
-    oddsMap = new Map();
-  }
+  // Step 3: Fetch odds per league (1 API call per league, cached)
+  const leagueEntries = Array.from(leagueMap.values()).map(e => ({
+    id: e.league.id,
+    season: e.league.season,
+  }));
+  const oddsMap = await fetchOddsByLeagues(date, leagueEntries);
 
   // Step 4: Determine which leagues have odds, then fetch forms for those
   const leaguesWithOdds: Array<{ league: Fixture['league']; fixtures: Fixture[] }> = [];
@@ -448,10 +447,9 @@ export async function getMatchesGroupedByLeague(date: string): Promise<LeagueGro
     }
   }
 
-  // Step 5: Fetch team forms for leagues with odds (parallel, cached)
-  // Use each league's own season from fixture data
-  const formMaps = await Promise.all(
-    leaguesWithOdds.map(entry => fetchTeamForms(entry.league.id, entry.league.season))
+  // Step 5: Fetch team forms (batched to avoid rate limits)
+  const formMaps = await batchedPromiseAll(
+    leaguesWithOdds.map(entry => () => fetchTeamForms(entry.league.id, entry.league.season))
   );
   const teamFormMap = new Map<number, string>();
   for (const fm of formMaps) {

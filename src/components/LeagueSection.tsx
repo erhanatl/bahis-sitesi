@@ -60,9 +60,9 @@ export default function LeagueSection({ leagueGroup }: LeagueSectionProps) {
           <table className="w-full text-left">
             <thead>
               <tr className="bg-gray-100 text-xs text-gray-600 uppercase">
-                <th className="py-2 px-2 hidden lg:table-cell">{t('form')}</th>
-                <th className="py-2 px-2">{t('match')}</th>
-                <th className="py-2 px-2 hidden lg:table-cell">{t('form')}</th>
+                <th className="py-2 px-2 text-center hidden lg:table-cell">{t('form')}</th>
+                <th className="py-2 px-2 text-center">{t('match')}</th>
+                <th className="py-2 px-2 text-center hidden lg:table-cell">{t('form')}</th>
                 <th className="py-2 px-1 text-center hidden sm:table-cell" colSpan={3}>
                   {t('matchOdds')}
                 </th>
