@@ -159,8 +159,40 @@ export interface MatchData {
 export interface ParsedOdds {
   matchWinner: { home: string; draw: string; away: string };
   overUnder25: { over: string; under: string };
+  overUnder35: { over: string; under: string };
   btts: { yes: string; no: string };
+  corners95: { over: string; under: string };
+  fhBtts: { yes: string; no: string };
+  fhOverUnder15: { over: string; under: string };
 }
+
+// Match statistics from /fixtures/statistics
+export interface FixtureStatistics {
+  team: { id: number; name: string; logo: string };
+  statistics: Array<{
+    type: string;
+    value: number | string | null;
+  }>;
+}
+
+// Lineups from /fixtures/lineups
+export interface LineupPlayer {
+  id: number;
+  name: string;
+  number: number;
+  pos: string;
+  grid: string | null;
+}
+
+export interface FixtureLineup {
+  team: { id: number; name: string; logo: string; colors: unknown };
+  coach: { id: number; name: string; photo: string };
+  formation: string | null;
+  startXI: Array<{ player: LineupPlayer }>;
+  substitutes: Array<{ player: LineupPlayer }>;
+}
+
+// H2H is just Fixture[]
 
 export interface LeagueGroup {
   league: {

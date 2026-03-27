@@ -10,6 +10,7 @@ const MAJOR_LEAGUE_IDS = new Set([
   40,   // Championship
   41,   // League One
   42,   // League Two
+  43,   // National League
   45,   // FA Cup
   48,   // League Cup
   // Spain
@@ -43,10 +44,13 @@ const MAJOR_LEAGUE_IDS = new Set([
   144,  // Pro League
   // Scotland
   179,  // Premiership
+  180,  // Championship
   // Austria
   218,  // Bundesliga
+  219,  // 2. Liga
   // Switzerland
   207,  // Super League
+  208,  // Challenge League
   // Greece
   197,  // Super League
   // Russia
@@ -61,6 +65,8 @@ const MAJOR_LEAGUE_IDS = new Set([
   119,  // Superliga
   // Sweden
   113,  // Allsvenskan
+  // Finland
+  244,  // Veikkausliiga
   // Norway
   103,  // Eliteserien
   // Croatia
@@ -118,6 +124,8 @@ const MAJOR_LEAGUE_IDS = new Set([
   200,  // Botola Pro
   // Tunisia
   202,  // Ligue 1
+  // Wales
+  110,  // Premier League
   // Ireland
   357,  // Premier Division
   // Cyprus
@@ -149,10 +157,10 @@ const CACHE_TTL = 60 * 60 * 1000; // 1 hour
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
 // Run promises in batches with delays to avoid hitting rate limits (300 req/min)
-async function batchedPromiseAll<T>(tasks: (() => Promise<T>)[], batchSize = 5): Promise<T[]> {
+async function batchedPromiseAll<T>(tasks: (() => Promise<T>)[], batchSize = 25): Promise<T[]> {
   const results: T[] = [];
   for (let i = 0; i < tasks.length; i += batchSize) {
-    if (i > 0) await delay(500); // 500ms pause between batches
+    if (i > 0) await delay(100); // 100ms pause between batches
     const batch = tasks.slice(i, i + batchSize);
     const batchResults = await Promise.all(batch.map(fn => fn()));
     results.push(...batchResults);
@@ -176,7 +184,7 @@ async function apiFetch<T>(endpoint: string, params: Record<string, string> = {}
       headers: {
         'x-apisports-key': API_KEY,
       },
-      cache: 'no-store',
+      next: { revalidate: 600 },
     });
 
     if (!res.ok) {
@@ -209,25 +217,81 @@ async function apiFetch<T>(endpoint: string, params: Record<string, string> = {}
   return [];
 }
 
-// Fetch odds by individual league
-async function fetchOddsByLeagues(date: string, leagues: Array<{ id: number; season: number }>): Promise<Map<number, ParsedOdds>> {
+// Fetch all odds for a date in one call (with pagination)
+async function fetchAllOddsForDate(date: string): Promise<Map<number, ParsedOdds>> {
   const oddsMap = new Map<number, ParsedOdds>();
-  const results = await batchedPromiseAll(
-    leagues.map(l => () => apiFetch<OddsResponse>('/odds', {
-      date,
-      league: l.id.toString(),
-      season: l.season.toString(),
-    }))
-  );
-  for (const odds of results) {
-    for (const odd of odds) {
-      const parsed = parseOdds(odd);
-      if (parsed) {
-        oddsMap.set(odd.fixture.id, parsed);
+  let page = 1;
+  const maxPages = 10; // safety limit
+
+  while (page <= maxPages) {
+    const cacheKey = `/odds?date=${date}&page=${page}`;
+    const cached = cache.get(cacheKey);
+    let oddsData: OddsResponse[];
+
+    if (cached && Date.now() - cached.timestamp < CACHE_TTL) {
+      oddsData = cached.data as OddsResponse[];
+    } else {
+      const url = new URL(`${BASE_URL}/odds`);
+      url.searchParams.append('date', date);
+      url.searchParams.append('page', page.toString());
+
+      let fetched = false;
+      for (let attempt = 0; attempt < 3; attempt++) {
+        const res = await fetch(url.toString(), {
+          headers: { 'x-apisports-key': API_KEY },
+          next: { revalidate: 600 },
+        });
+        if (!res.ok) break;
+        const data = await res.json();
+
+        if (data.errors && !Array.isArray(data.errors) && data.errors.rateLimit) {
+          console.warn(`[API] Odds rate limit (page ${page}, attempt ${attempt + 1})`);
+          await delay(3000);
+          continue;
+        }
+
+        oddsData = data.response || [];
+        if (oddsData.length > 0) {
+          cache.set(cacheKey, { data: oddsData, timestamp: Date.now() });
+        }
+
+        // Check pagination
+        const totalPages = data.paging?.total || 1;
+        fetched = true;
+
+        for (const odd of oddsData) {
+          const parsed = parseOdds(odd);
+          if (parsed) {
+            oddsMap.set(odd.fixture.id, parsed);
+          }
+        }
+
+        if (page >= totalPages) return oddsMap;
+        break;
       }
+
+      if (!fetched) break; // API error, stop paginating
+    }
+
+    page++;
+  }
+
+  console.log(`[API] Fetched odds for ${oddsMap.size} fixtures in ${page - 1} page(s)`);
+  return oddsMap;
+}
+
+async function fetchPredictionsForFixtures(fixtures: Fixture[]): Promise<Map<number, Prediction>> {
+  const predMap = new Map<number, Prediction>();
+  const results = await batchedPromiseAll(
+    fixtures.map(f => () => apiFetch<Prediction>('/predictions', { fixture: f.fixture.id.toString() })),
+    10 // larger batch size since these are small calls
+  );
+  for (let i = 0; i < fixtures.length; i++) {
+    if (results[i].length > 0) {
+      predMap.set(fixtures[i].fixture.id, results[i][0]);
     }
   }
-  return oddsMap;
+  return predMap;
 }
 
 export async function fetchFixturesByDate(date: string): Promise<Fixture[]> {
@@ -247,31 +311,73 @@ export async function fetchOdds(fixtureId: number): Promise<OddsResponse | null>
 export function parseOdds(oddsData: OddsResponse | null): ParsedOdds | null {
   if (!oddsData || !oddsData.bookmakers?.length) return null;
 
-  const bookmaker = oddsData.bookmakers[0];
   const result: ParsedOdds = {
     matchWinner: { home: '-', draw: '-', away: '-' },
     overUnder25: { over: '-', under: '-' },
+    overUnder35: { over: '-', under: '-' },
     btts: { yes: '-', no: '-' },
+    corners95: { over: '-', under: '-' },
+    fhBtts: { yes: '-', no: '-' },
+    fhOverUnder15: { over: '-', under: '-' },
   };
 
-  for (const bet of bookmaker.bets) {
-    if (bet.name === 'Match Winner') {
+  // Collect all bets from all bookmakers (use first found for each type)
+  const allBets: typeof oddsData.bookmakers[0]['bets'] = [];
+  for (const bookmaker of oddsData.bookmakers) {
+    allBets.push(...bookmaker.bets);
+  }
+
+  for (const bet of allBets) {
+    if (bet.name === 'Match Winner' && result.matchWinner.home === '-') {
       for (const v of bet.values) {
         if (v.value === 'Home') result.matchWinner.home = v.odd;
         if (v.value === 'Draw') result.matchWinner.draw = v.odd;
         if (v.value === 'Away') result.matchWinner.away = v.odd;
       }
     }
-    if (bet.name === 'Goals Over/Under' || bet.name === 'Over/Under 2.5') {
+    if ((bet.name === 'Goals Over/Under' || bet.name === 'Over/Under 2.5') && result.overUnder25.over === '-') {
       for (const v of bet.values) {
         if (v.value === 'Over 2.5') result.overUnder25.over = v.odd;
         if (v.value === 'Under 2.5') result.overUnder25.under = v.odd;
+        if (v.value === 'Over 3.5') result.overUnder35.over = v.odd;
+        if (v.value === 'Under 3.5') result.overUnder35.under = v.odd;
       }
     }
-    if (bet.name === 'Both Teams Score') {
+    if (bet.name === 'Both Teams Score' && result.btts.yes === '-') {
       for (const v of bet.values) {
         if (v.value === 'Yes') result.btts.yes = v.odd;
         if (v.value === 'No') result.btts.no = v.odd;
+      }
+    }
+    // Corners Over/Under - pick the main line (first over/under pair)
+    if ((bet.name === 'Corners Over Under' || bet.name === 'Total Corners' || bet.name === 'Corners Over/Under') && result.corners95.over === '-') {
+      const overValues = bet.values.filter(v => v.value.startsWith('Over'));
+      const underValues = bet.values.filter(v => v.value.startsWith('Under'));
+      if (overValues.length > 0 && underValues.length > 0) {
+        // Try 9.5 first, then take the first available pair
+        const over95 = bet.values.find(v => v.value === 'Over 9.5');
+        const under95 = bet.values.find(v => v.value === 'Under 9.5');
+        if (over95 && under95) {
+          result.corners95.over = over95.odd;
+          result.corners95.under = under95.odd;
+        } else {
+          result.corners95.over = overValues[0].odd;
+          result.corners95.under = underValues[0].odd;
+        }
+      }
+    }
+    // First Half BTTS
+    if ((bet.name === 'Both Teams Score - First Half' || bet.name === 'Both Teams Score - 1st Half' || bet.name === 'Both Teams To Score - First Half') && result.fhBtts.yes === '-') {
+      for (const v of bet.values) {
+        if (v.value === 'Yes') result.fhBtts.yes = v.odd;
+        if (v.value === 'No') result.fhBtts.no = v.odd;
+      }
+    }
+    // First Half Over/Under
+    if ((bet.name === 'Goals Over/Under First Half' || bet.name === 'Goals Over/Under - First Half' || bet.name === 'Over/Under 1.5 - First Half') && result.fhOverUnder15.over === '-') {
+      for (const v of bet.values) {
+        if (v.value === 'Over 1.5') result.fhOverUnder15.over = v.odd;
+        if (v.value === 'Under 1.5') result.fhOverUnder15.under = v.odd;
       }
     }
   }
@@ -422,7 +528,38 @@ export async function getMatchesGroupedByLeague(date: string): Promise<LeagueGro
   const fixtures = await fetchFixturesByDate(date);
 
   // Step 2: Filter to major leagues and group by league
-  const majorFixtures = fixtures.filter(f => MAJOR_LEAGUE_IDS.has(f.league.id));
+  console.log(`[API] Total fixtures: ${fixtures.length}`);
+
+  // Remove postponed, cancelled, abandoned fixtures
+  const INVALID_STATUSES = new Set(['PST', 'CANC', 'ABD', 'WO', 'AWD']);
+  const activeFixtures = fixtures.filter(f => !INVALID_STATUSES.has(f.fixture.status.short));
+  console.log(`[API] Active fixtures (non-postponed): ${activeFixtures.length}`);
+
+  // Detect duplicate team appearances on the same day:
+  // If a team appears in 2+ fixtures, remove the ones where BOTH teams appear elsewhere
+  // (i.e. league match postponed because of European game — keep the European/cup game)
+  const teamFixtureCount = new Map<number, number>();
+  for (const f of activeFixtures) {
+    teamFixtureCount.set(f.teams.home.id, (teamFixtureCount.get(f.teams.home.id) ?? 0) + 1);
+    teamFixtureCount.set(f.teams.away.id, (teamFixtureCount.get(f.teams.away.id) ?? 0) + 1);
+  }
+  // A fixture is "duplicate-conflicted" if both its teams also appear in another fixture.
+  // In that case, prefer the fixture with the higher-priority league (lower league ID = bigger competition typically).
+  // Simple approach: if a team plays twice, mark both fixtures; then keep the one from the bigger league (UEFA > domestic).
+  const UEFA_IDS = new Set([2, 3, 848, 531, 1, 4, 9, 15]);
+  const deduplicatedFixtures = activeFixtures.filter(f => {
+    const homeCount = teamFixtureCount.get(f.teams.home.id) ?? 1;
+    const awayCount = teamFixtureCount.get(f.teams.away.id) ?? 1;
+    if (homeCount <= 1 && awayCount <= 1) return true; // no conflict
+    // Both teams appear more than once — this fixture is part of a conflict
+    // Keep it only if it's a UEFA/international competition; otherwise drop it
+    // (the assumption: league match is ertelenmiş, European match is the real one)
+    return UEFA_IDS.has(f.league.id);
+  });
+  console.log(`[API] After deduplication: ${deduplicatedFixtures.length}`);
+
+  const majorFixtures = deduplicatedFixtures.filter(f => MAJOR_LEAGUE_IDS.has(f.league.id));
+  console.log(`[API] Major fixtures: ${majorFixtures.length}`);
   const leagueMap = new Map<number, { league: Fixture['league']; fixtures: Fixture[] }>();
 
   for (const fixture of majorFixtures) {
@@ -433,43 +570,44 @@ export async function getMatchesGroupedByLeague(date: string): Promise<LeagueGro
     leagueMap.get(leagueId)!.fixtures.push(fixture);
   }
 
-  // Step 3: Fetch odds per league (1 API call per league, cached)
-  const leagueEntries = Array.from(leagueMap.values()).map(e => ({
-    id: e.league.id,
-    season: e.league.season,
-  }));
-  const oddsMap = await fetchOddsByLeagues(date, leagueEntries);
+  // Step 3: Fetch all odds for the date in bulk (1-2 API calls instead of 30-50)
+  console.log(`[API] Fetching all odds for ${date}...`);
+  const oddsMap = await fetchAllOddsForDate(date);
+  console.log(`[API] Got ${oddsMap.size} odds`);
 
-  // Step 4: Determine which leagues have odds, then fetch forms for those
-  const leaguesWithOdds: Array<{ league: Fixture['league']; fixtures: Fixture[] }> = [];
+  // Step 4: Determine which leagues have at least one odds entry
+  const leaguesWithData: Array<{ league: Fixture['league']; fixtures: Fixture[] }> = [];
   for (const [, entry] of leagueMap) {
     if (entry.fixtures.some(f => oddsMap.has(f.fixture.id))) {
-      leaguesWithOdds.push(entry);
+      leaguesWithData.push(entry);
     }
   }
+  console.log(`[API] Leagues with data: ${leaguesWithData.length}`);
 
-  // Step 5: Fetch team forms (batched to avoid rate limits)
-  const formMaps = await batchedPromiseAll(
-    leaguesWithOdds.map(entry => () => fetchTeamForms(entry.league.id, entry.league.season))
-  );
-  const teamFormMap = new Map<number, string>();
-  for (const fm of formMaps) {
-    for (const [teamId, form] of fm) {
-      teamFormMap.set(teamId, form);
-    }
-  }
-
-  // Step 6: Build league groups
+  // Step 5: Build league groups with odds + form
   const leagueGroups: LeagueGroup[] = [];
 
-  for (const { league, fixtures: leagueFixtures } of leaguesWithOdds) {
-    const matches: MatchData[] = leagueFixtures.map((fixture) => ({
-      fixture,
-      prediction: null,
-      odds: oddsMap.get(fixture.fixture.id) || null,
-      homeForm: teamFormMap.get(fixture.teams.home.id) || undefined,
-      awayForm: teamFormMap.get(fixture.teams.away.id) || undefined,
-    }));
+  for (const { league, fixtures: leagueFixtures } of leaguesWithData) {
+    const matches: MatchData[] = leagueFixtures.map((fixture) => {
+      return {
+        fixture: {
+          fixture: {
+            id: fixture.fixture.id,
+            referee: null,
+            timezone: 'UTC',
+            date: fixture.fixture.date,
+            timestamp: fixture.fixture.timestamp,
+            status: { long: fixture.fixture.status.long, short: fixture.fixture.status.short, elapsed: null },
+          },
+          league: { id: league.id, name: league.name, country: league.country, logo: league.logo, flag: league.flag, season: fixture.league.season, round: '' },
+          teams: fixture.teams,
+          goals: fixture.goals,
+          score: { halftime: { home: null, away: null }, fulltime: { home: null, away: null } },
+        } as Fixture,
+        prediction: null,
+        odds: oddsMap.get(fixture.fixture.id) || null,
+      };
+    });
 
     leagueGroups.push({
       league: {

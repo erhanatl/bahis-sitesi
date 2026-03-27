@@ -33,29 +33,28 @@ export default function DateSelector({ selectedDate }: DateSelectorProps) {
   };
 
   return (
-    <div className="flex justify-center gap-2 flex-wrap py-4">
+    <div className="flex justify-center gap-2 md:gap-3 flex-wrap py-4">
       {dates.map((date) => {
         const dateStr = formatDate(date);
         const isSelected = dateStr === selectedDate;
-        const today = isToday(date);
 
         return (
           <button
             key={dateStr}
             onClick={() => handleDateClick(date)}
-            className={`flex flex-col items-center px-4 py-2 rounded-lg border-2 transition-all min-w-[80px] ${
+            className={`group flex flex-col items-center px-4 py-3 rounded-xl transition-all duration-200 min-w-[76px] ${
               isSelected
-                ? 'bg-red-500 border-red-500 text-white shadow-lg scale-105'
-                : today
-                ? 'bg-yellow-400 border-yellow-400 text-gray-900 hover:bg-yellow-300'
-                : 'bg-green-600 border-green-600 text-white hover:bg-green-500'
+                ? 'bg-gradient-to-b from-emerald-400 to-emerald-600 text-white shadow-lg shadow-emerald-500/30 scale-105'
+                : 'bg-white/20 backdrop-blur-sm text-white hover:bg-white/30 hover:scale-105 border border-white/20'
             }`}
           >
-            <span className="text-xs font-semibold">
+            <span className={`text-[10px] font-semibold uppercase tracking-wider ${isSelected ? 'text-emerald-100' : 'text-white/70'}`}>
               {getMonthName(date, locale).slice(0, 3)}
             </span>
-            <span className="text-2xl font-bold">{date.getDate()}</span>
-            <span className="text-xs">{getLabel(date)}</span>
+            <span className="text-2xl font-black leading-tight">{date.getDate()}</span>
+            <span className={`text-[10px] font-medium ${isSelected ? 'text-emerald-100' : 'text-white/80'}`}>
+              {getLabel(date)}
+            </span>
           </button>
         );
       })}

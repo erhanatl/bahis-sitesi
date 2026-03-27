@@ -64,13 +64,7 @@ export default function LeagueSection({ leagueGroup }: LeagueSectionProps) {
                 <th className="py-2 px-2 text-center">{t('match')}</th>
                 <th className="py-2 px-2 text-center hidden lg:table-cell">{t('form')}</th>
                 <th className="py-2 px-1 text-center hidden sm:table-cell" colSpan={3}>
-                  {t('matchOdds')}
-                </th>
-                <th className="py-2 px-1 text-center hidden md:table-cell" colSpan={2}>
-                  {t('overUnder')}
-                </th>
-                <th className="py-2 px-1 text-center hidden md:table-cell" colSpan={2}>
-                  {t('btts')}
+                  {t('prediction')}
                 </th>
                 <th className="py-2 px-2"></th>
               </tr>
@@ -81,10 +75,6 @@ export default function LeagueSection({ leagueGroup }: LeagueSectionProps) {
                 <th className="py-1 px-1 text-center hidden sm:table-cell">1</th>
                 <th className="py-1 px-1 text-center hidden sm:table-cell">X</th>
                 <th className="py-1 px-1 text-center hidden sm:table-cell">2</th>
-                <th className="py-1 px-1 text-center hidden md:table-cell">O</th>
-                <th className="py-1 px-1 text-center hidden md:table-cell">U</th>
-                <th className="py-1 px-1 text-center hidden md:table-cell">Y</th>
-                <th className="py-1 px-1 text-center hidden md:table-cell">N</th>
                 <th></th>
               </tr>
             </thead>

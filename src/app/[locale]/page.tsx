@@ -12,7 +12,7 @@ const getCachedMatches = unstable_cache(
     }
     return result;
   },
-  ['matches-v2'],
+  ['matches-v4'],
   { revalidate: 600 }
 );
 

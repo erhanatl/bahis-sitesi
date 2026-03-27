@@ -1,22 +1,79 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-primary: #2d6a2e;
-  --color-primary-light: #4CAF50;
-  --color-primary-dark: #1b5e20;
-  --color-accent: #4CAF50;
-  --color-win: #4CAF50;
-  --color-draw: #FFC107;
-  --color-loss: #F44336;
-  --color-odds-bg: #FFF9C4;
-  --color-table-header: #455A64;
-  --color-body-bg: #F5F5F5;
+  --color-primary: #0f172a;
+  --color-primary-light: #1e293b;
+  --color-primary-dark: #020617;
+  --color-accent: #10b981;
+  --color-accent-light: #34d399;
+  --color-win: #10b981;
+  --color-draw: #f59e0b;
+  --color-loss: #ef4444;
+  --color-odds-bg: #f0fdf4;
+  --color-table-header: #1e293b;
+  --color-body-bg: #f8fafc;
   --color-card-bg: #ffffff;
-  --color-hero-bg: #2d6a2e;
+  --color-hero-start: #0f172a;
+  --color-hero-end: #064e3b;
+  --color-gold: #fbbf24;
+  --color-gold-light: #fde68a;
 }
 
 body {
   background: var(--color-body-bg);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 3px;
+}
+
+/* Hero gradient animation */
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #0f172a 0%, #064e3b 50%, #0f172a 100%);
+  background-size: 200% 200%;
+  animation: gradientShift 8s ease infinite;
+}
+
+/* Subtle pattern overlay via pseudo-element */
+.hero-pattern {
+  position: relative;
+}
+.hero-pattern::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 25% 25%, rgba(16, 185, 129, 0.15) 0%, transparent 50%),
+                     radial-gradient(circle at 75% 75%, rgba(251, 191, 36, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* Glow effect */
+.glow-green {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+}
+
+/* Table row hover */
+.match-row {
+  transition: all 0.15s ease;
+}
+.match-row:hover {
+  background: linear-gradient(90deg, #f0fdf4, #ffffff);
+  transform: scale(1.002);
 }
