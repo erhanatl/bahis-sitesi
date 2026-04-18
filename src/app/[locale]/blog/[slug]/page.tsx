@@ -90,8 +90,41 @@ export default async function BlogPostPage({
       </div>
 
       {/* Markdown Content */}
-      <article className="prose prose-slate max-w-none prose-headings:font-black prose-h2:text-xl prose-h2:mt-8 prose-h2:mb-3 prose-p:text-gray-600 prose-p:leading-relaxed prose-li:text-gray-600 prose-strong:text-gray-800 prose-blockquote:border-l-emerald-500 prose-blockquote:text-gray-500 prose-blockquote:text-sm">
-        <ReactMarkdown>{content}</ReactMarkdown>
+      <article className="space-y-0">
+        <ReactMarkdown
+          components={{
+            h2: ({ children }) => (
+              <h2 className="text-xl font-black text-gray-900 mt-8 mb-3 pb-2 border-b border-gray-100">
+                {children}
+              </h2>
+            ),
+            h3: ({ children }) => (
+              <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">{children}</h3>
+            ),
+            p: ({ children }) => (
+              <p className="text-gray-600 leading-relaxed mb-4">{children}</p>
+            ),
+            strong: ({ children }) => (
+              <strong className="font-bold text-gray-800">{children}</strong>
+            ),
+            ul: ({ children }) => (
+              <ul className="mb-4 space-y-1.5 pl-1">{children}</ul>
+            ),
+            li: ({ children }) => (
+              <li className="flex items-start gap-2 text-gray-600">
+                <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
+                <span>{children}</span>
+              </li>
+            ),
+            blockquote: ({ children }) => (
+              <blockquote className="border-l-4 border-emerald-500 pl-4 my-4 text-sm text-gray-500 italic">
+                {children}
+              </blockquote>
+            ),
+          }}
+        >
+          {content}
+        </ReactMarkdown>
       </article>
 
       {/* Disclaimer */}
