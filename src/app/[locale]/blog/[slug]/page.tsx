@@ -41,12 +41,36 @@ export default async function BlogPostPage({
   const t = await getTranslations('blog');
 
   const stats = [
-    { label: '2.5+', val: post.over25 },
-    { label: '3.5+', val: post.over35 },
-    { label: locale === 'tr' ? 'KG Var' : 'BTTS', val: post.btts },
-    { label: locale === 'tr' ? 'İY 1.5+' : 'HT 1.5+', val: post.fhover15 },
-    { label: locale === 'tr' ? 'İY KG Var' : 'HT BTTS', val: post.fhbtts },
-    { label: locale === 'tr' ? '9.5+ Kor' : '9.5+ Cor', val: post.corners },
+    {
+      label: locale === 'tr' ? '2.5 Üst Gol' : 'Over 2.5 Goals',
+      short: '2.5+',
+      val: post.over25,
+    },
+    {
+      label: locale === 'tr' ? '3.5 Üst Gol' : 'Over 3.5 Goals',
+      short: '3.5+',
+      val: post.over35,
+    },
+    {
+      label: locale === 'tr' ? 'Karşılıklı Gol' : 'Both Teams Score',
+      short: locale === 'tr' ? 'KG Var' : 'BTTS',
+      val: post.btts,
+    },
+    {
+      label: locale === 'tr' ? 'İlk Yarı 1.5 Üst' : 'HT Over 1.5',
+      short: locale === 'tr' ? 'İY 1.5+' : 'HT 1.5+',
+      val: post.fhover15,
+    },
+    {
+      label: locale === 'tr' ? 'İlk Yarı KG Var' : 'HT Both Teams Score',
+      short: locale === 'tr' ? 'İY KG Var' : 'HT BTTS',
+      val: post.fhbtts,
+    },
+    {
+      label: locale === 'tr' ? '9.5 Üst Korner' : 'Over 9.5 Corners',
+      short: locale === 'tr' ? '9.5+ Kor' : '9.5+ Cor',
+      val: post.corners,
+    },
   ];
 
   const content = locale === 'tr' ? post.content_tr : post.content_en;
@@ -78,19 +102,46 @@ export default async function BlogPostPage({
         </h1>
       </div>
 
-      {/* Stats grid */}
-      <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 mb-8">
-        {stats.map(stat => (
-          <div key={stat.label} className={`rounded-xl p-3 text-center ${
-            stat.val >= 65 ? 'bg-emerald-500 text-white' :
-            stat.val >= 55 ? 'bg-emerald-100 text-emerald-700' :
-            stat.val >= 45 ? 'bg-amber-50 text-amber-700' :
-            'bg-gray-100 text-gray-500'
-          }`}>
-            <div className="text-lg font-black">%{stat.val}</div>
-            <div className="text-[10px] font-semibold opacity-80">{stat.label}</div>
-          </div>
-        ))}
+      {/* Stats */}
+      <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 mb-8">
+        <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-4">
+          {locale === 'tr' ? 'İstatistiksel Olasılıklar' : 'Statistical Probabilities'}
+        </p>
+        <div className="space-y-3">
+          {stats.map(stat => {
+            const color = stat.val >= 65 ? 'bg-emerald-500' : stat.val >= 55 ? 'bg-emerald-400' : stat.val >= 45 ? 'bg-amber-400' : 'bg-gray-300';
+            const textColor = stat.val >= 65 ? 'text-emerald-600' : stat.val >= 55 ? 'text-emerald-500' : stat.val >= 45 ? 'text-amber-600' : 'text-gray-400';
+            const badge = stat.val >= 65
+              ? (locale === 'tr' ? 'Yüksek' : 'High')
+              : stat.val >= 55
+              ? (locale === 'tr' ? 'Orta-Yüksek' : 'Med-High')
+              : stat.val >= 45
+              ? (locale === 'tr' ? 'Orta' : 'Medium')
+              : (locale === 'tr' ? 'Düşük' : 'Low');
+            return (
+              <div key={stat.short}>
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-sm font-semibold text-gray-700">{stat.label}</span>
+                  <div className="flex items-center gap-2">
+                    <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded-md ${
+                      stat.val >= 65 ? 'bg-emerald-100 text-emerald-700' :
+                      stat.val >= 55 ? 'bg-emerald-50 text-emerald-600' :
+                      stat.val >= 45 ? 'bg-amber-50 text-amber-600' :
+                      'bg-gray-100 text-gray-500'
+                    }`}>{badge}</span>
+                    <span className={`text-base font-black ${textColor}`}>%{stat.val}</span>
+                  </div>
+                </div>
+                <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
+                  <div
+                    className={`h-full rounded-full ${color} transition-all`}
+                    style={{ width: `${stat.val}%` }}
+                  />
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
 
       {/* Markdown Content */}
