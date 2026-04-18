@@ -466,7 +466,7 @@ In the last 5 Ligue 1 meetings:
 **Over 2.5 (72%)** is the strongest statistical indicator for this match. **Both Teams to Score (58%)** follows closely in second. Over 3.5 (42%) is a riskier option, but shouldn't be dismissed given PSG's attacking firepower.`,
   },
   {
-    slug: 'esenler-erokspor-keciörengücü-2026-04-19',
+    slug: 'esenler-erokspor-keciorenguc-2026-04-19',
     title_tr: 'Esenler Erokspor - Keçiörengücü Analizi: TFF 1. Lig\'de KG Var ve 2.5 Üst Öne Çıkıyor',
     title_en: 'Esenler Erokspor vs Keçiörengücü Analysis: BTTS and Over 2.5 Lead in TFF 1. Lig',
     date: '2026-04-19',
@@ -474,7 +474,7 @@ In the last 5 Ligue 1 meetings:
     league_en: 'TFF 1. Lig',
     home_team: 'Esenler Erokspor',
     away_team: 'Keçiörengücü',
-    tags: ['tff-1-lig', 'esenler-erokspor', 'keciörengücü'],
+    tags: ['tff-1-lig', 'esenler-erokspor', 'keciorenguc'],
     over25: 70,
     over35: 39,
     btts: 66,
