@@ -85,6 +85,7 @@ export default function Header() {
             </div>
             {/* Mobile menu button */}
             <div className="md:hidden flex items-center gap-3">
+              <InstallPWA />
               <LanguageSwitcher />
               <button
                 onClick={() => setMobileOpen(!mobileOpen)}
