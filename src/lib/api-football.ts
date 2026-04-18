@@ -152,7 +152,8 @@ const MAJOR_LEAGUE_IDS = new Set([
 
 // In-memory cache to minimize API calls
 const cache = new Map<string, { data: unknown; timestamp: number }>();
-const CACHE_TTL = 60 * 60 * 1000; // 1 hour
+const CACHE_TTL = 60 * 60 * 1000; // 1 hour (fixtures, predictions, standings)
+const ODDS_CACHE_TTL = 10 * 60 * 1000; // 10 minutes (bookmakers publish odds continuously)
 
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -228,7 +229,7 @@ async function fetchAllOddsForDate(date: string): Promise<Map<number, ParsedOdds
     const cached = cache.get(cacheKey);
     let oddsData: OddsResponse[];
 
-    if (cached && Date.now() - cached.timestamp < CACHE_TTL) {
+    if (cached && Date.now() - cached.timestamp < ODDS_CACHE_TTL) {
       oddsData = cached.data as OddsResponse[];
     } else {
       const url = new URL(`${BASE_URL}/odds`);
