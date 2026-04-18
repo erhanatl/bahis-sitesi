@@ -3,6 +3,10 @@ import { ImageResponse } from 'next/og';
 export const runtime = 'edge';
 
 export async function GET() {
+  const logoSrc = await fetch('https://pandatips.net/panda-icon.png')
+    .then((r) => r.arrayBuffer())
+    .then((buf) => `data:image/png;base64,${Buffer.from(buf).toString('base64')}`);
+
   return new ImageResponse(
     (
       <div
@@ -93,30 +97,40 @@ export async function GET() {
         >
           {/* Left: branding */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-            {/* Logo text */}
-            <div style={{ display: 'flex', alignItems: 'baseline' }}>
-              <span
-                style={{
-                  fontSize: 88,
-                  fontWeight: 900,
-                  color: 'white',
-                  letterSpacing: '-3px',
-                  lineHeight: 1,
-                }}
-              >
-                panda
-              </span>
-              <span
-                style={{
-                  fontSize: 88,
-                  fontWeight: 900,
-                  color: '#10b981',
-                  letterSpacing: '-3px',
-                  lineHeight: 1,
-                }}
-              >
-                tips
-              </span>
+            {/* Logo image + text */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: 0 }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={logoSrc}
+                width={160}
+                height={160}
+                style={{ objectFit: 'contain' }}
+                alt="pandatips logo"
+              />
+              <div style={{ display: 'flex', alignItems: 'baseline', marginLeft: -16 }}>
+                <span
+                  style={{
+                    fontSize: 88,
+                    fontWeight: 900,
+                    color: 'white',
+                    letterSpacing: '-3px',
+                    lineHeight: 1,
+                  }}
+                >
+                  panda
+                </span>
+                <span
+                  style={{
+                    fontSize: 88,
+                    fontWeight: 900,
+                    color: '#10b981',
+                    letterSpacing: '-3px',
+                    lineHeight: 1,
+                  }}
+                >
+                  tips
+                </span>
+              </div>
             </div>
 
             {/* Subtitle */}
