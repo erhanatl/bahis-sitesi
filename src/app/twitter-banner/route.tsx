@@ -2,10 +2,29 @@ import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
 
+async function loadFont() {
+  // Fetch Inter 900 (Black) from Google Fonts
+  const css = await fetch(
+    'https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap',
+    { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1)' } }
+  ).then((r) => r.text());
+
+  const url = css.match(/src: url\((.+?)\) format\('woff2'\)/)?.[1];
+  if (!url) return null;
+  return fetch(url).then((r) => r.arrayBuffer());
+}
+
 export async function GET() {
-  const logoSrc = await fetch('https://pandatips.net/panda-icon.png')
-    .then((r) => r.arrayBuffer())
-    .then((buf) => `data:image/png;base64,${Buffer.from(buf).toString('base64')}`);
+  const [logoSrc, fontData] = await Promise.all([
+    fetch('https://pandatips.net/panda-icon.png')
+      .then((r) => r.arrayBuffer())
+      .then((buf) => `data:image/png;base64,${Buffer.from(buf).toString('base64')}`),
+    loadFont(),
+  ]);
+
+  const fonts = fontData
+    ? [{ name: 'Inter', data: fontData, weight: 900 as const, style: 'normal' as const }]
+    : [];
 
   return new ImageResponse(
     (
@@ -16,7 +35,7 @@ export async function GET() {
           display: 'flex',
           flexDirection: 'column',
           backgroundColor: '#0f172a',
-          fontFamily: 'sans-serif',
+          fontFamily: 'Inter, sans-serif',
           overflow: 'hidden',
           position: 'relative',
         }}
@@ -34,7 +53,7 @@ export async function GET() {
           }}
         />
 
-        {/* Decorative circle top-right */}
+        {/* Decorative glow top-right */}
         <div
           style={{
             position: 'absolute',
@@ -48,7 +67,7 @@ export async function GET() {
           }}
         />
 
-        {/* Decorative circle bottom-left */}
+        {/* Decorative glow bottom-left */}
         <div
           style={{
             position: 'absolute',
@@ -62,29 +81,6 @@ export async function GET() {
           }}
         />
 
-        {/* Decorative grid lines */}
-        <div
-          style={{
-            position: 'absolute',
-            inset: 0,
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'space-around',
-            opacity: 0.03,
-          }}
-        >
-          {[0, 1, 2, 3, 4].map((i) => (
-            <div
-              key={i}
-              style={{
-                height: 1,
-                backgroundColor: 'white',
-                display: 'flex',
-              }}
-            />
-          ))}
-        </div>
-
         {/* Main content */}
         <div
           style={{
@@ -95,34 +91,35 @@ export async function GET() {
             padding: '0 100px',
           }}
         >
-          {/* Left: branding */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-            {/* Logo image */}
-            <div style={{ display: 'flex', alignItems: 'center' }}>
+          {/* Left: logo + text + subtitle */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+            {/* Logo + pandatips text */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: 0 }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={logoSrc}
-                width={220}
-                height={220}
+                width={180}
+                height={180}
                 style={{ objectFit: 'contain' }}
-                alt="pandatips logo"
+                alt="panda"
               />
+              <div style={{ display: 'flex', alignItems: 'baseline', marginLeft: -12 }}>
+                <span style={{ fontSize: 86, fontWeight: 900, color: 'white', letterSpacing: '-2px', lineHeight: 1 }}>
+                  panda
+                </span>
+                <span style={{ fontSize: 86, fontWeight: 900, color: '#10b981', letterSpacing: '-2px', lineHeight: 1 }}>
+                  tips
+                </span>
+              </div>
             </div>
 
             {/* Subtitle */}
-            <span
-              style={{
-                fontSize: 24,
-                color: '#64748b',
-                fontWeight: 600,
-                letterSpacing: '1px',
-              }}
-            >
+            <span style={{ fontSize: 22, color: '#64748b', fontWeight: 600, letterSpacing: '0.5px', marginLeft: 8 }}>
               Futbol Maç Analizleri &amp; İstatistikleri
             </span>
 
             {/* Domain pill */}
-            <div style={{ display: 'flex', marginTop: 8 }}>
+            <div style={{ display: 'flex', marginTop: 4, marginLeft: 8 }}>
               <div
                 style={{
                   display: 'flex',
@@ -134,24 +131,14 @@ export async function GET() {
                   padding: '8px 20px',
                 }}
               >
-                <div
-                  style={{
-                    width: 8,
-                    height: 8,
-                    borderRadius: '50%',
-                    backgroundColor: '#10b981',
-                    display: 'flex',
-                  }}
-                />
-                <span style={{ fontSize: 20, color: '#94a3b8', fontWeight: 600 }}>
-                  pandatips.net
-                </span>
+                <div style={{ width: 8, height: 8, borderRadius: '50%', backgroundColor: '#10b981', display: 'flex' }} />
+                <span style={{ fontSize: 18, color: '#94a3b8', fontWeight: 600 }}>pandatips.net</span>
               </div>
             </div>
           </div>
 
           {/* Right: stat cards */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 16, alignItems: 'flex-end' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 14, alignItems: 'flex-end' }}>
             {[
               { label: 'Karşılıklı Gol Var', val: '%73', hot: true },
               { label: '2.5 Üst', val: '%71', hot: true },
@@ -170,15 +157,7 @@ export async function GET() {
                   minWidth: 320,
                 }}
               >
-                <span
-                  style={{
-                    fontSize: 40,
-                    fontWeight: 900,
-                    color: stat.hot ? '#10b981' : '#64748b',
-                    minWidth: 80,
-                    textAlign: 'right',
-                  }}
-                >
+                <span style={{ fontSize: 40, fontWeight: 900, color: stat.hot ? '#10b981' : '#64748b', minWidth: 80, textAlign: 'right' }}>
                   {stat.val}
                 </span>
                 <span style={{ fontSize: 20, color: '#94a3b8', fontWeight: 600 }}>
@@ -190,30 +169,13 @@ export async function GET() {
         </div>
 
         {/* Bottom tagline */}
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            paddingBottom: 24,
-          }}
-        >
-          <span
-            style={{
-              fontSize: 16,
-              color: '#1e293b',
-              letterSpacing: '3px',
-              textTransform: 'uppercase',
-              fontWeight: 700,
-            }}
-          >
+        <div style={{ display: 'flex', justifyContent: 'center', paddingBottom: 20 }}>
+          <span style={{ fontSize: 15, color: '#1e293b', letterSpacing: '3px', textTransform: 'uppercase', fontWeight: 700 }}>
             İstatistiksel analiz • Geçmiş veriler • Olasılık hesaplamaları
           </span>
         </div>
       </div>
     ),
-    {
-      width: 1500,
-      height: 500,
-    }
+    { width: 1500, height: 500, fonts }
   );
 }
