@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
 import { Link } from '@/i18n/routing';
 import { getTranslations } from 'next-intl/server';
+import ShareButton from '@/components/ShareButton';
 import type { Metadata } from 'next';
 
 export async function generateStaticParams() {
@@ -77,13 +78,20 @@ export default async function BlogPostPage({
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      {/* Back link */}
-      <Link href="/blog" className="inline-flex items-center gap-1.5 text-sm text-emerald-600 hover:text-emerald-700 mb-6 font-medium">
-        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-        {t('backToList')}
-      </Link>
+      {/* Back link + Share */}
+      <div className="flex items-center justify-between mb-6">
+        <Link href="/blog" className="inline-flex items-center gap-1.5 text-sm text-emerald-600 hover:text-emerald-700 font-medium">
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+          {t('backToList')}
+        </Link>
+        <ShareButton
+          title={locale === 'tr' ? post.title_tr : post.title_en}
+          text={`${post.home_team} vs ${post.away_team} — pandatips.net`}
+          url={`https://pandatips.net/${locale}/blog/${post.slug}`}
+        />
+      </div>
 
       {/* Header */}
       <div className="bg-gradient-to-r from-slate-800 to-slate-700 rounded-2xl p-6 mb-6 text-white">
