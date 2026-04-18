@@ -4,7 +4,7 @@ export function formatDate(date: Date): string {
 
 export function getWeekDates(centerDate: Date = new Date()): Date[] {
   const dates: Date[] = [];
-  for (let i = 0; i <= 7; i++) {
+  for (let i = 0; i <= 3; i++) {
     const d = new Date(centerDate);
     d.setDate(d.getDate() + i);
     dates.push(d);
