@@ -1,4 +1,4 @@
-import { Fixture, Prediction, OddsResponse, ParsedOdds, MatchData, LeagueGroup } from './types';
+import { Fixture, Prediction, OddsResponse, ParsedOdds, MatchData, LeagueGroup, CalculatedProbs } from './types';
 
 const BASE_URL = 'https://v3.football.api-sports.io';
 const API_KEY = process.env.API_FOOTBALL_KEY || '';
@@ -386,6 +386,53 @@ export function parseOdds(oddsData: OddsResponse | null): ParsedOdds | null {
   return result;
 }
 
+// ─── Poisson distribution helpers ────────────────────────────────────────────
+
+function poissonPMF(lambda: number, k: number): number {
+  if (lambda <= 0) return k === 0 ? 1 : 0;
+  // Use log-space to avoid overflow
+  let logP = -lambda + k * Math.log(lambda);
+  for (let i = 1; i <= k; i++) logP -= Math.log(i);
+  return Math.exp(logP);
+}
+
+function poissonCDF(lambda: number, n: number): number {
+  let p = 0;
+  for (let k = 0; k <= n; k++) p += poissonPMF(lambda, k);
+  return Math.min(1, p);
+}
+
+/**
+ * Calculate statistical probabilities from expected goals using Poisson distribution.
+ * Used as a fallback when bookmaker odds are unavailable for a specific market.
+ */
+export function calcPoissonProbs(homeXG: number, awayXG: number): CalculatedProbs {
+  const hxg = Math.max(0.1, homeXG);
+  const axg = Math.max(0.1, awayXG);
+  const totalXG = hxg + axg;
+
+  // Full-match markets
+  const over25 = Math.round((1 - poissonCDF(totalXG, 2)) * 100);
+  const over35 = Math.round((1 - poissonCDF(totalXG, 3)) * 100);
+  const btts = Math.round((1 - Math.exp(-hxg)) * (1 - Math.exp(-axg)) * 100);
+
+  // First-half markets — typically ~42 % of goals occur in the first half
+  const fhFactor = 0.42;
+  const fhHome = hxg * fhFactor;
+  const fhAway = axg * fhFactor;
+  const fhTotal = fhHome + fhAway;
+  const fhOver15 = Math.round((1 - poissonCDF(fhTotal, 1)) * 100);
+  const fhBtts = Math.round((1 - Math.exp(-fhHome)) * (1 - Math.exp(-fhAway)) * 100);
+
+  // Corners — rough model: avg ~4 corners per expected goal + base 5
+  const expectedCorners = 5 + totalXG * 4;
+  const corners95 = Math.round((1 - poissonCDF(expectedCorners, 9)) * 100);
+
+  return { over25, over35, btts, fhOver15, fhBtts, corners95 };
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+
 export function determinePrediction(prediction: Prediction | null): {
   winner: string;
   score: string;
@@ -580,11 +627,45 @@ export async function getMatchesGroupedByLeague(date: string): Promise<LeagueGro
   const leaguesWithData = Array.from(leagueMap.values());
   console.log(`[API] Leagues with data: ${leaguesWithData.length}`);
 
-  // Step 5: Build league groups with odds + form
+  // Step 5: Identify fixtures that are missing at least one odds market —
+  //         we'll fetch predictions for those to compute Poisson fallback values.
+  const allMajorFixtures = leaguesWithData.flatMap(e => e.fixtures);
+
+  function isMissingAnyMarket(odds: ParsedOdds | undefined): boolean {
+    if (!odds) return true;
+    return (
+      odds.overUnder35.over === '-' ||
+      odds.btts.yes === '-' ||
+      odds.fhBtts.yes === '-' ||
+      odds.fhOverUnder15.over === '-' ||
+      odds.corners95.over === '-'
+    );
+  }
+
+  const fixturesNeedingPrediction = allMajorFixtures.filter(f =>
+    isMissingAnyMarket(oddsMap.get(f.fixture.id))
+  );
+
+  console.log(`[API] Fetching predictions for ${fixturesNeedingPrediction.length} fixtures with missing markets...`);
+  const predMap = await fetchPredictionsForFixtures(fixturesNeedingPrediction);
+  console.log(`[API] Got ${predMap.size} predictions`);
+
+  // Step 6: Build league groups with odds + Poisson fallback
   const leagueGroups: LeagueGroup[] = [];
 
   for (const { league, fixtures: leagueFixtures } of leaguesWithData) {
     const matches: MatchData[] = leagueFixtures.map((fixture) => {
+      const odds = oddsMap.get(fixture.fixture.id) || null;
+      const pred = predMap.get(fixture.fixture.id) || null;
+
+      // Compute Poisson-based probabilities when prediction data is available
+      let calculatedProbs: MatchData['calculatedProbs'];
+      if (pred) {
+        const homeXG = parseFloat(pred.predictions.goals.home) || 1.3;
+        const awayXG = parseFloat(pred.predictions.goals.away) || 1.1;
+        calculatedProbs = calcPoissonProbs(homeXG, awayXG);
+      }
+
       return {
         fixture: {
           fixture: {
@@ -601,7 +682,8 @@ export async function getMatchesGroupedByLeague(date: string): Promise<LeagueGro
           score: { halftime: { home: null, away: null }, fulltime: { home: null, away: null } },
         } as Fixture,
         prediction: null,
-        odds: oddsMap.get(fixture.fixture.id) || null,
+        odds,
+        calculatedProbs,
       };
     });
 

@@ -148,12 +148,22 @@ export interface BetValue {
   odd: string;
 }
 
+export interface CalculatedProbs {
+  over25: number;
+  over35: number;
+  btts: number;
+  fhOver15: number;
+  fhBtts: number;
+  corners95: number;
+}
+
 export interface MatchData {
   fixture: Fixture;
   prediction: Prediction | null;
   odds: ParsedOdds | null;
   homeForm?: string;
   awayForm?: string;
+  calculatedProbs?: CalculatedProbs;
 }
 
 export interface ParsedOdds {
