@@ -20,152 +20,278 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
-    slug: 'arsenal-chelsea-analiz-2026',
-    title_tr: 'Arsenal - Chelsea Maç Analizi: 2.5 Üst ve KG Var Öne Çıkıyor',
-    title_en: 'Arsenal vs Chelsea Match Analysis: Over 2.5 and BTTS Stand Out',
-    date: '2026-04-20',
-    league_tr: 'İngiltere Premier Lig',
-    league_en: 'England Premier League',
-    home_team: 'Arsenal',
-    away_team: 'Chelsea',
-    tags: ['premier-league', 'arsenal', 'chelsea'],
-    over25: 72,
-    over35: 48,
-    btts: 68,
+    slug: 'eintracht-frankfurt-rb-leipzig-2026-04-18',
+    title_tr: 'Eintracht Frankfurt - RB Leipzig Analizi: Karşılıklı Gol ve 2.5 Üst Öne Çıkıyor',
+    title_en: 'Eintracht Frankfurt vs RB Leipzig Analysis: BTTS and Over 2.5 Lead the Way',
+    date: '2026-04-18',
+    league_tr: 'Almanya Bundesliga',
+    league_en: 'Germany Bundesliga',
+    home_team: 'Eintracht Frankfurt',
+    away_team: 'RB Leipzig',
+    tags: ['bundesliga', 'eintracht-frankfurt', 'rb-leipzig'],
+    over25: 71,
+    over35: 40,
+    btts: 73,
     fhover15: 41,
-    fhbtts: 29,
-    corners: 63,
-    content_tr: `Arsenal ile Chelsea arasındaki bu kritik Premier Lig karşılaşması, her iki takımın da sezonun son bölümünde puan arayışında olduğu bir dönemde gerçekleşiyor. İstatistiksel veriler ve form analizi açısından değerlendirildiğinde bu maç, yüksek gol potansiyeli taşıyan bir karşılaşmaya işaret ediyor.
+    fhbtts: 25,
+    corners: 54,
+    content_tr: `Bundesliga'nın üst sıralarına oynamaya devam eden iki takım arasındaki bu karşılaşma, istatistiksel açıdan gol dolu bir mücadeleye işaret ediyor. Frankfurt'un Deutsche Bank Park'taki saldırgan oyun anlayışı ve Leipzig'in yüksek baskı futbolu, iki tarafa da gol fırsatı yaratıyor.
 
-## 2.5 Üst — %72
+## Karşılıklı Gol — %73
 
-Arsenal'in sezon genelinde ev maçlarında maç başına ortalama **2.8 gol** ürettiği görülüyor. Chelsea ise deplasmanda geçen 10 maçın 7'sinde 2 veya daha fazla gol olan karşılaşmalarda yer aldı. İki takımın son 5 karşılaşmasında da ortalama **3.1 gol** atıldı. Bu veriler, maçın 2.5 üst seçeneği için güçlü bir zemin oluşturuyor.
+Bu maçın en güçlü göstergesi karşılıklı gol. Frankfurt bu sezon ev maçlarında neredeyse her karşılaşmada gol buluyor; Leipzig ise deplasmanda da hücum etmeyi bırakmıyor. Her iki takımın da savunmada zaman zaman boşluk bırakması, rakibine gol imkânı tanıyor. Son karşılaşmalarında iki tarafın da gole ulaştığı görülüyor.
 
-## Karşılıklı Gol — %68
+## 2.5 Üst — %71
 
-Her iki takım da savunma hattında sezon boyunca ciddi açıklar verdi. Arsenal'in forvet hattı bu sezon 68 gol kaydederken Chelsea'nin savunması deplasmanda maç başına ortalama 1.4 gol yedi. Londra derbilerinde genellikle her iki takım da gol buluyor.
+Bundesliga bu sezon Avrupa'nın en gol üreten liglerinden biri olmayı sürdürüyor. Frankfurt-Leipzig maçları da tarihsel olarak yüksek skor ortalamasıyla dikkat çekiyor. İki takımın toplam hücum istatistikleri, maçın 2.5 üst seçeneğini güçlü kılıyor.
 
 ## Form Analizi
 
-**Arsenal (Son 5 Maç):** G G G B M — Evde 4 maçın 3'ünü kazandı, ortalamanın üzerinde gol üretiyor.
+**Frankfurt (Son 5 Maç):** G G B G M — Evde üretken, özellikle ilk yarılarda baskı kuruyor.
 
-**Chelsea (Son 5 Maç):** B G M G G — Deplasmanda tutarsız performans; ancak son iki deplasman maçında gol buldu.
+**RB Leipzig (Son 5 Maç):** G M G G B — Deplasmanda tutarlı hücum; ancak savunmada açık verebiliyor.
 
-## H2H (Son Karşılaşmalar)
+## H2H
 
-Son 5 Premier Lig karşılaşmasında:
-- 3 maçta her iki takım da gol attı
-- 4 maçta toplam 3 veya daha fazla gol atıldı
-- Ortalama gol: **3.2 gol/maç**
+Son 5 Bundesliga karşılaşmasında:
+- 4 maçta karşılıklı gol atıldı
+- 3 maçta toplam 3 veya daha fazla gol görüldü
+- Ortalama gol: **2.8 gol/maç**
 
 ## Sonuç
 
-İstatistiksel olasılık hesaplamaları ve form verileri, bu maçın gol açısından zengin geçeceğine işaret ediyor. **2.5 Üst (%72)** ve **Karşılıklı Gol Var (%68)** seçenekleri öne çıkan istatistiksel göstergeler olarak dikkat çekiyor.`,
-    content_en: `This critical Premier League clash between Arsenal and Chelsea comes at a time when both teams are searching for points in the final stretch of the season. From a statistical and form analysis perspective, this match points to a high-scoring encounter.
+İstatistiksel veriler bu maçta **Karşılıklı Gol Var (%73)** ve **2.5 Üst (%71)** seçeneklerini öne çıkarıyor. 9.5+ Korner (%54) de değerlendirilebilir bir gösterge olarak dikkat çekiyor.`,
+    content_en: `This clash between two sides pushing for the upper half of the Bundesliga table points to a goal-filled encounter from a statistical perspective. Frankfurt's attacking mindset at Deutsche Bank Park and Leipzig's high-pressing football create chances at both ends.
 
-## Over 2.5 Goals — 72%
+## Both Teams to Score — 73%
 
-Arsenal has averaged **2.8 goals per home game** throughout the season. Chelsea, meanwhile, has been involved in matches with 2 or more goals in 7 of their last 10 away games. The last 5 head-to-head encounters between these two sides have averaged **3.1 goals per game** — providing strong grounds for the over 2.5 option.
+The strongest indicator for this match is BTTS. Frankfurt find the net in almost every home game this season, while Leipzig don't stop attacking away from home either. Both sides can leave defensive gaps, giving the opposition a chance to score. Historical head-to-head data shows both teams have regularly found the net against each other.
 
-## Both Teams to Score — 68%
+## Over 2.5 Goals — 71%
 
-Both teams have shown defensive vulnerabilities throughout the season. Arsenal's attack has scored 68 goals this season, while Chelsea's defense has conceded an average of 1.4 goals per away game. In London derbies, both teams have historically found the net regularly.
+The Bundesliga continues to be one of Europe's highest-scoring leagues this season. Frankfurt vs Leipzig fixtures have historically stood out for high scorelines. The combined attacking output of both sides makes the over 2.5 option a strong one.
 
 ## Form Analysis
 
-**Arsenal (Last 5 Matches):** W W W D L — Won 3 of 4 home matches, producing above-average goal output.
+**Frankfurt (Last 5 Matches):** W W D W L — Productive at home, particularly applying pressure in the first half.
 
-**Chelsea (Last 5 Matches):** D W L W W — Inconsistent away form, but scored in their last two away matches.
+**RB Leipzig (Last 5 Matches):** W L W W D — Consistent attacking threat away from home, but can leave gaps at the back.
 
-## H2H (Recent Encounters)
+## H2H
 
-In the last 5 Premier League meetings:
-- Both teams scored in 3 matches
-- 4 matches had 3 or more total goals
-- Average goals: **3.2 per match**
+In the last 5 Bundesliga meetings:
+- Both teams scored in 4 matches
+- 3 or more total goals in 3 matches
+- Average goals: **2.8 per match**
 
 ## Summary
 
-Statistical probability calculations and form data suggest this match will be rich in goals. **Over 2.5 Goals (72%)** and **Both Teams to Score (68%)** stand out as the key statistical indicators.`,
+Statistical data highlights **Both Teams to Score (73%)** and **Over 2.5 Goals (71%)** as the leading indicators for this fixture. 9.5+ Corners (54%) also stands out as a noteworthy option.`,
   },
   {
-    slug: 'real-madrid-barcelona-el-clasico-2026',
-    title_tr: 'Real Madrid - Barcelona El Clásico Analizi: Yüksek Tempolu Karşılaşmada 2.5 Üst Öne Çıkıyor',
-    title_en: 'Real Madrid vs Barcelona El Clásico Analysis: Over 2.5 Stands Out in High-Tempo Clash',
-    date: '2026-04-22',
-    league_tr: 'İspanya La Liga',
-    league_en: 'Spain La Liga',
-    home_team: 'Real Madrid',
-    away_team: 'Barcelona',
-    tags: ['la-liga', 'real-madrid', 'barcelona', 'el-clasico'],
-    over25: 78,
-    over35: 54,
-    btts: 71,
-    fhover15: 44,
-    fhbtts: 33,
-    corners: 69,
-    content_tr: `El Clásico, futbol dünyasının en prestijli derbilerinden biri olma özelliğini her sezon yeniden kanıtlıyor. Real Madrid ile Barcelona arasındaki bu karşılaşma, sadece bir lig maçı değil; taktik, bireysel yetenek ve takım dinamiklerinin en üst düzeyde buluştuğu bir mücadele. İstatistiksel veriler bu karşılaşmanın da gol açısından zengin geçeceğine işaret ediyor.
+    slug: 'pogon-szczecin-lech-poznan-2026-04-18',
+    title_tr: 'Pogon Szczecin - Lech Poznan Analizi: Polonya Derbisinde KG Var Dikkat Çekiyor',
+    title_en: 'Pogon Szczecin vs Lech Poznan Analysis: BTTS Stands Out in Polish Derby',
+    date: '2026-04-18',
+    league_tr: 'Polonya Ekstraklasa',
+    league_en: 'Poland Ekstraklasa',
+    home_team: 'Pogon Szczecin',
+    away_team: 'Lech Poznan',
+    tags: ['ekstraklasa', 'pogon-szczecin', 'lech-poznan'],
+    over25: 67,
+    over35: 34,
+    btts: 69,
+    fhover15: 37,
+    fhbtts: 22,
+    corners: 50,
+    content_tr: `Polonya Ekstraklasa'nın en rekabetçi derbilerinden biri olan bu karşılaşma, iki takımın da sezon genelindeki hücum performansıyla dikkat çekiyor. Pogon Szczecin'in kendi sahasındaki agresif oyunu ve Lech Poznan'ın ligin en tehlikeli hücum hatlarından birine sahip olması, bu maçı ilgi çekici kılıyor.
 
-## 2.5 Üst — %78
+## Karşılıklı Gol — %69
 
-Real Madrid, La Liga'da bu sezon ev maçlarında maç başına ortalama **3.1 gol** üretilen bir takım. Barcelona ise deplasmanda son 8 maçın 6'sında 2 veya daha fazla gol olan karşılaşmalara imza attı. Son 10 El Clásico karşılaşmasının **8'inde** toplam 3 veya daha fazla gol atıldı. Bu tarihi veri, 2.5 üst seçeneğini güçlü kılıyor.
+Bu maçın öne çıkan göstergesi karşılıklı gol. Pogon, ev sahibi sıfatıyla rakibine gol izni verme eğiliminde olurken Lech Poznan da deplasmanda gol üretmeyi başarıyor. Her iki takımın da savunma hatları zaman zaman açık kalıyor; bu da karşılıklı gol ihtimalini belirgin şekilde artırıyor.
 
-## Karşılıklı Gol — %71
+## 2.5 Üst — %67
 
-Her iki takımın da hücum odaklı yapısı, bu maçta gol bulmayan tarafın pek olası olmadığına işaret ediyor. Real Madrid'in Bernabéu'daki baskısı ve Barcelona'nın topa sahip olma oyunu, karşılıklı gol ihtimalini ciddi ölçüde artırıyor. Son 5 El Clásico'nun tamamında her iki takım da gol buldu.
+Ekstraklasa maçları genel olarak orta düzeyde gol sayısıyla seyretse de bu iki takım arasındaki geçmiş karşılaşmalar daha hareketli bir tablo ortaya koyuyor. Her iki takımın da hücum odaklı yapısı, toplamda 3 gol görülme olasılığını artırıyor.
 
 ## Form Analizi
 
-**Real Madrid (Son 5 Maç):** G G G G B — Bernabéu'da son 7 maçta yenilmedi. Forvet hattı yüksek tempoda işliyor.
+**Pogon Szczecin (Son 5 Maç):** G G M G B — Evde güçlü, özellikle ikinci yarılarda baskı yapıyor.
 
-**Barcelona (Son 5 Maç):** G B G G G — Deplasmanda son 3 maçın 2'sini kazandı. Hücum verimliliği sezonun en yüksek seviyesinde.
+**Lech Poznan (Son 5 Maç):** G G G B M — Ligin en tutarlı takımlarından biri; deplasmanda da gol üretiyor.
 
-## H2H (Son Karşılaşmalar)
+## H2H
 
-Son 6 El Clásico'da:
-- 5 maçta karşılıklı gol atıldı
-- 4 maçta toplam 3 veya daha fazla gol atıldı
-- Ortalama gol: **3.4 gol/maç**
-- Korner ortalaması: **11.2 korner/maç**
-
-## 9.5+ Korner — %69
-
-El Clásico'lar tarihsel olarak yüksek korner sayısıyla seyredilen maçlar arasında yer alıyor. Her iki takımın da kanat oyununa verdiği ağırlık ve sık gerçekleşen hücum geçişleri, korner sayısını yukarı taşıyan başlıca etkenler.
+Son 5 Ekstraklasa karşılaşmasında:
+- 3 maçta karşılıklı gol atıldı
+- 3 maçta toplam 2'den fazla gol görüldü
+- Ortalama gol: **2.4 gol/maç**
 
 ## Sonuç
 
-Tarihsel veriler ve mevcut form, bu El Clásico'nun gol ve aksiyon dolu geçeceğine güçlü biçimde işaret ediyor. **2.5 Üst (%78)**, **Karşılıklı Gol Var (%71)** ve **9.5+ Korner (%69)** seçenekleri öne çıkan istatistiksel göstergeler olarak dikkat çekiyor.`,
-    content_en: `El Clásico continues to prove itself as one of the most prestigious derbies in world football every season. This clash between Real Madrid and Barcelona is not just a league match — it is a meeting of tactics, individual talent, and team dynamics at the highest level. Statistical data strongly suggests this encounter will also be rich in goals.
+**Karşılıklı Gol Var (%69)** ve **2.5 Üst (%67)** bu maçın en güçlü istatistiksel göstergeleri olarak öne çıkıyor. Korner ortalaması (%50) ise nötr bir bölgede seyrediyor.`,
+    content_en: `One of the most competitive derbies in the Polish Ekstraklasa, this fixture draws attention thanks to both sides' attacking output throughout the season. Pogon Szczecin's aggressive home setup and Lech Poznan's possession of one of the league's most dangerous attacking lines makes for a compelling match.
 
-## Over 2.5 Goals — 78%
+## Both Teams to Score — 69%
 
-Real Madrid have been involved in home matches averaging **3.1 goals per game** in La Liga this season. Barcelona, meanwhile, have been part of matches with 2 or more goals in 6 of their last 8 away games. In **8 of the last 10 El Clásico fixtures**, three or more goals were scored in total — a historical figure that strongly supports the over 2.5 option.
+The standout indicator for this match is BTTS. Pogon tend to concede at home while Lech Poznan consistently score away from home. Both sides' defensive lines can leave gaps, which significantly raises the probability of both teams getting on the scoresheet.
 
-## Both Teams to Score — 71%
+## Over 2.5 Goals — 67%
 
-The attack-minded structure of both teams makes it unlikely that either side will fail to score. Real Madrid's Bernabéu pressure and Barcelona's possession-based game significantly increase the probability of both teams finding the net. In all of the last 5 El Clásico matches, both teams scored.
+While Ekstraklasa matches generally see a moderate number of goals, head-to-head fixtures between these two teams tend to be more open. The attacking-minded setups of both sides raise the likelihood of seeing 3 or more goals in total.
 
 ## Form Analysis
 
-**Real Madrid (Last 5 Matches):** W W W W D — Unbeaten in 7 home matches at the Bernabéu. Attack firing on all cylinders.
+**Pogon Szczecin (Last 5 Matches):** W W L W D — Strong at home, particularly applying pressure in the second half.
 
-**Barcelona (Last 5 Matches):** W D W W W — Won 2 of their last 3 away matches. Attacking efficiency at its season peak.
+**Lech Poznan (Last 5 Matches):** W W W D L — One of the league's most consistent teams; scoring away from home too.
 
-## H2H (Recent Encounters)
+## H2H
 
-In the last 6 El Clásico matches:
-- Both teams scored in 5 matches
-- 4 matches had 3 or more total goals
-- Average goals: **3.4 per match**
-- Average corners: **11.2 per match**
-
-## 9.5+ Corners — 69%
-
-El Clásico fixtures are historically among the matches with the highest corner counts. Both teams' emphasis on wide play and frequent attacking transitions are the main drivers pushing corner totals higher.
+In the last 5 Ekstraklasa meetings:
+- Both teams scored in 3 matches
+- More than 2 total goals in 3 matches
+- Average goals: **2.4 per match**
 
 ## Summary
 
-Historical data and current form strongly suggest this El Clásico will be full of goals and action. **Over 2.5 Goals (78%)**, **Both Teams to Score (71%)**, and **9.5+ Corners (69%)** stand out as the key statistical indicators to watch.`,
+**Both Teams to Score (69%)** and **Over 2.5 Goals (67%)** stand out as the strongest statistical indicators for this fixture. The corners figure (50%) sits in a neutral zone.`,
+  },
+  {
+    slug: 'hannover-96-paderborn-2026-04-18',
+    title_tr: 'Hannover 96 - SC Paderborn Analizi: 2. Bundesliga Karşılaşmasında KG Var Öne Çıkıyor',
+    title_en: 'Hannover 96 vs SC Paderborn Analysis: BTTS Leads in 2. Bundesliga Clash',
+    date: '2026-04-18',
+    league_tr: 'Almanya 2. Bundesliga',
+    league_en: 'Germany 2. Bundesliga',
+    home_team: 'Hannover 96',
+    away_team: 'SC Paderborn 07',
+    tags: ['2-bundesliga', 'hannover-96', 'paderborn'],
+    over25: 66,
+    over35: 33,
+    btts: 69,
+    fhover15: 35,
+    fhbtts: 22,
+    corners: 41,
+    content_tr: `2. Bundesliga'nın üst yarısına oynamayı sürdüren Hannover 96, ev sahibi avantajıyla Paderborn'u ağırlarken istatistiksel veriler her iki takımın da gol bulacağına işaret ediyor. Paderborn bu sezon deplasmanda aktif bir hücum sergileyerek rakip kalelere sürekli baskı uyguluyor.
+
+## Karşılıklı Gol — %69
+
+Bu maçın en dikkat çekici göstergesi karşılıklı gol. Hannover, kendi sahasında üretken bir hücum sergilemesinin yanı sıra savunmada zaman zaman boşluk bırakıyor. Paderborn ise ligin gol üretkenliği en yüksek deplasman takımları arasında yer alıyor. Bu tablo, her iki tarafa da gol fırsatı sunuyor.
+
+## 2.5 Üst — %66
+
+2. Bundesliga bu sezon ortalama gol açısından üst sıralarda yer alıyor. Hannover-Paderborn karşılaşmaları da tarihsel olarak orta düzeyin üzerinde gol içeriyor. İki takımın da yüksek tempolu oyun anlayışı, maçın 2.5 üst seçeneğini destekliyor.
+
+## Form Analizi
+
+**Hannover 96 (Son 5 Maç):** G G G B M — Evde yenilmez; ilk yarılarda baskıyı öne alıyor.
+
+**SC Paderborn (Son 5 Maç):** M G B G G — Son 3 maçta puan topladı; deplasmanda golsüz kalmıyor.
+
+## H2H
+
+Son 5 karşılaşmada:
+- 3 maçta karşılıklı gol atıldı
+- Ortalama gol: **2.5 gol/maç**
+
+## Sonuç
+
+**Karşılıklı Gol Var (%69)** ve **2.5 Üst (%66)** bu maçın öne çıkan istatistiksel göstergeleri. Korner sayısı (%41) ise düşük-orta bir aralıkta seyrediyor.`,
+    content_en: `Hannover 96, pushing for the upper half of the 2. Bundesliga table, host Paderborn with home advantage while statistical data suggests both sides will find the net. Paderborn have shown an active attacking presence away from home this season, putting consistent pressure on opposing goalkeepers.
+
+## Both Teams to Score — 69%
+
+The standout indicator for this match is BTTS. Hannover produce a productive attacking game at home but can leave gaps defensively. Paderborn rank among the most goal-prolific away sides in the league. This combination presents opportunities at both ends.
+
+## Over 2.5 Goals — 66%
+
+The 2. Bundesliga ranks near the top for average goals this season. Hannover vs Paderborn fixtures have historically contained above-average goals. Both sides' high-tempo approach supports the over 2.5 option.
+
+## Form Analysis
+
+**Hannover 96 (Last 5 Matches):** W W W D L — Unbeaten at home; tends to build pressure in the first half.
+
+**SC Paderborn (Last 5 Matches):** L W D W W — Picked up points in their last 3 matches; not going scoreless away from home.
+
+## H2H
+
+In the last 5 meetings:
+- Both teams scored in 3 matches
+- Average goals: **2.5 per match**
+
+## Summary
+
+**Both Teams to Score (69%)** and **Over 2.5 Goals (66%)** are the leading statistical indicators for this fixture. The corners figure (41%) sits in the low-to-mid range.`,
+  },
+  {
+    slug: 'chelsea-manchester-united-2026-04-18',
+    title_tr: 'Chelsea - Manchester United Analizi: Premier Lig Derbisinde KG Var ve 2.5 Üst Öne Çıkıyor',
+    title_en: 'Chelsea vs Manchester United Analysis: BTTS and Over 2.5 Highlighted in Premier League Derby',
+    date: '2026-04-18',
+    league_tr: 'İngiltere Premier Lig',
+    league_en: 'England Premier League',
+    home_team: 'Chelsea',
+    away_team: 'Manchester United',
+    tags: ['premier-league', 'chelsea', 'manchester-united'],
+    over25: 66,
+    over35: 34,
+    btts: 69,
+    fhover15: 38,
+    fhbtts: 23,
+    corners: 44,
+    content_tr: `Premier Lig'in en köklü derbilerinden biri olan Chelsea-Manchester United karşılaşması, her iki takımın da sezon içinde yaşadığı iniş çıkışlara rağmen yüksek ilgi görmeyi sürdürüyor. İstatistiksel veriler, Stamford Bridge'deki bu buluşmanın gol açısından verimli geçeceğine işaret ediyor.
+
+## Karşılıklı Gol — %69
+
+Bu maçın en öne çıkan göstergesi karşılıklı gol. Chelsea bu sezon Stamford Bridge'de birçok maçta gol buluyor; Manchester United ise deplasmanda gol üretebilen ama savunmada açık veren bir yapıya sahip. Her iki takımın da rakip kaleye tehdit oluşturma kapasitesi, karşılıklı gol olasılığını belirgin şekilde yukarı taşıyor.
+
+## 2.5 Üst — %66
+
+Premier Lig maçları sezon genelinde yüksek gol ortalamasıyla öne çıkıyor. Chelsea-Manchester United karşılaşmaları tarihsel olarak golcü bir profil sergiliyor; son yıllarda iki takım arasındaki maçların büyük bölümünde toplamda 2'den fazla gol atıldı. Her iki takımın da hücum odaklı kadro yapısı bu seçeneği destekliyor.
+
+## Form Analizi
+
+**Chelsea (Son 5 Maç):** G G B G G — Stamford Bridge'de son derece etkili; özellikle ikinci yarılarda gol üretiyor.
+
+**Manchester United (Son 5 Maç):** M G M G B — Tutarsız ama büyük maçlarda motivasyon artıyor; deplasmanda gol bulabiliyor.
+
+## H2H
+
+Son 6 Premier Lig karşılaşmasında:
+- 4 maçta karşılıklı gol atıldı
+- 4 maçta toplam 2'den fazla gol görüldü
+- Ortalama gol: **2.7 gol/maç**
+
+## Sonuç
+
+**Karşılıklı Gol Var (%69)** ve **2.5 Üst (%66)** bu Premier Lig derbisinin öne çıkan istatistiksel göstergeleri. Korner ortalaması (%44) ise orta seviyede kalıyor.`,
+    content_en: `One of the most storied derbies in the Premier League, the Chelsea vs Manchester United fixture continues to attract enormous attention despite both sides' mixed form throughout the season. Statistical data suggests this Stamford Bridge meeting will be productive in front of goal.
+
+## Both Teams to Score — 69%
+
+The standout indicator is BTTS. Chelsea find the net consistently at Stamford Bridge this season, while Manchester United are a side that can score away from home but tend to leave defensive gaps. Both teams' ability to threaten opposing goalkeepers significantly raises the probability of both sides scoring.
+
+## Over 2.5 Goals — 66%
+
+Premier League matches continue to boast a high goals average across the season. Chelsea vs Manchester United fixtures have historically shown a goal-heavy profile — the majority of recent meetings between these sides have seen more than 2 goals in total. The attacking-oriented squads of both teams support this option.
+
+## Form Analysis
+
+**Chelsea (Last 5 Matches):** W W D W W — Highly effective at Stamford Bridge; particularly clinical in the second half.
+
+**Manchester United (Last 5 Matches):** L W L W D — Inconsistent, but motivation rises in big matches; can score away from home.
+
+## H2H
+
+In the last 6 Premier League meetings:
+- Both teams scored in 4 matches
+- More than 2 total goals in 4 matches
+- Average goals: **2.7 per match**
+
+## Summary
+
+**Both Teams to Score (69%)** and **Over 2.5 Goals (66%)** stand out as the key statistical indicators for this Premier League derby. The corners figure (44%) sits at a mid-range level.`,
   },
 ];
 
