@@ -6,6 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
     short_name: 'PandaTips',
     description: 'Geçmiş verilere dayalı istatistiksel futbol maç analizleri ve istatistikleri.',
     start_url: '/',
+    scope: '/',
     display: 'standalone',
     orientation: 'portrait',
     background_color: '#0f172a',

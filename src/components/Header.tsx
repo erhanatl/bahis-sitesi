@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
 import { formatDate } from '@/lib/utils';
 import LanguageSwitcher from './LanguageSwitcher';
+import InstallPWA from './InstallPWA';
 import Image from 'next/image';
 
 export default function Header() {
@@ -77,7 +78,8 @@ export default function Header() {
               >
                 {t('contact')}
               </Link>
-              <div className="ml-3 pl-3 border-l border-white/10">
+              <div className="ml-3 pl-3 border-l border-white/10 flex items-center gap-2">
+                <InstallPWA />
                 <LanguageSwitcher />
               </div>
             </div>
