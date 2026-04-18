@@ -153,7 +153,12 @@ const MAJOR_LEAGUE_IDS = new Set([
 // In-memory cache to minimize API calls
 const cache = new Map<string, { data: unknown; timestamp: number }>();
 const CACHE_TTL = 60 * 60 * 1000; // 1 hour (fixtures, predictions, standings)
-const ODDS_CACHE_TTL = 10 * 60 * 1000; // 10 minutes (bookmakers publish odds continuously)
+const ODDS_CACHE_TTL = 10 * 60 * 1000; // 10 minutes (re-check for new fixtures not yet locked)
+
+// Write-once odds lock: first fetched value for a fixture is never overwritten.
+// Prevents displayed percentages from drifting when bookmakers move their lines —
+// important for consistency with blog analysis posts written at a specific moment.
+const lockedFixtureOdds = new Map<number, ParsedOdds>();
 
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -220,7 +225,9 @@ async function apiFetch<T>(endpoint: string, params: Record<string, string> = {}
 
 // Fetch all odds for a date in one call (with pagination)
 async function fetchAllOddsForDate(date: string): Promise<Map<number, ParsedOdds>> {
-  const oddsMap = new Map<number, ParsedOdds>();
+  // Seed the result map with already-locked odds — these are never overwritten
+  const oddsMap = new Map<number, ParsedOdds>(lockedFixtureOdds);
+
   let page = 1;
   const maxPages = 10; // safety limit
 
@@ -261,8 +268,11 @@ async function fetchAllOddsForDate(date: string): Promise<Map<number, ParsedOdds
         fetched = true;
 
         for (const odd of oddsData) {
+          // Write-once: skip if this fixture's odds are already locked
+          if (lockedFixtureOdds.has(odd.fixture.id)) continue;
           const parsed = parseOdds(odd);
           if (parsed) {
+            lockedFixtureOdds.set(odd.fixture.id, parsed); // lock it in
             oddsMap.set(odd.fixture.id, parsed);
           }
         }
@@ -272,6 +282,18 @@ async function fetchAllOddsForDate(date: string): Promise<Map<number, ParsedOdds
       }
 
       if (!fetched) break; // API error, stop paginating
+    }
+
+    // For cached pages, also apply write-once logic
+    if (cached) {
+      for (const odd of (cached.data as OddsResponse[])) {
+        if (lockedFixtureOdds.has(odd.fixture.id)) continue;
+        const parsed = parseOdds(odd);
+        if (parsed) {
+          lockedFixtureOdds.set(odd.fixture.id, parsed);
+          oddsMap.set(odd.fixture.id, parsed);
+        }
+      }
     }
 
     page++;
