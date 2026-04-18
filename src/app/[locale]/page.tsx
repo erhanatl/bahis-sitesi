@@ -2,7 +2,9 @@ import { getMatchesGroupedByLeague } from '@/lib/api-football';
 import { formatDate } from '@/lib/utils';
 import { LeagueGroup } from '@/lib/types';
 import PredictionsPage from '@/components/PredictionsPage';
+import LatestAnalysis from '@/components/LatestAnalysis';
 import { unstable_cache } from 'next/cache';
+import { getLocale } from 'next-intl/server';
 
 const getCachedMatches = unstable_cache(
   async (date: string) => {
@@ -18,6 +20,7 @@ const getCachedMatches = unstable_cache(
 
 export default async function HomePage() {
   const today = formatDate(new Date());
+  const locale = await getLocale();
 
   let leagueGroups: LeagueGroup[];
   try {
@@ -31,5 +34,10 @@ export default async function HomePage() {
     }
   }
 
-  return <PredictionsPage leagueGroups={leagueGroups} selectedDate={today} />;
+  return (
+    <>
+      <PredictionsPage leagueGroups={leagueGroups} selectedDate={today} />
+      <LatestAnalysis locale={locale} limit={3} />
+    </>
+  );
 }

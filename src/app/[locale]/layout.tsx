@@ -14,12 +14,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
 
   const titles: Record<string, string> = {
-    tr: 'pandatips - Futbol Bahis Tahminleri ve Analiz',
-    en: 'pandatips - Football Betting Predictions & Analysis',
+    tr: 'pandatips - Futbol Maç Analizleri ve İstatistikleri',
+    en: 'pandatips - Football Match Analysis & Statistics',
   };
   const descriptions: Record<string, string> = {
-    tr: 'Bugünün maçları için ücretsiz futbol bahis tahminleri. 2.5 üst, karşılıklı gol, korner tahminleri ve maç istatistikleri.',
-    en: 'Free football betting predictions for today\'s matches. Over 2.5 goals, BTTS, corner tips and match statistics.',
+    tr: 'Geçmiş verilere dayalı istatistiksel maç analizleri. 2.5 üst, karşılıklı gol, korner istatistikleri ve olasılık hesaplamaları.',
+    en: 'Statistical match analysis based on historical data. Over 2.5 goals, BTTS, corner statistics and probability calculations.',
   };
 
   return {
@@ -62,8 +62,8 @@ export default async function LocaleLayout({
     name: 'pandatips',
     url: 'https://pandatips.net',
     description: locale === 'tr'
-      ? 'Futbol bahis tahminleri ve maç analizi'
-      : 'Football betting predictions and match analysis',
+      ? 'Geçmiş verilere dayalı istatistiksel futbol maç analizleri'
+      : 'Statistical football match analysis based on historical data',
     inLanguage: locale === 'tr' ? 'tr-TR' : 'en-US',
     potentialAction: {
       '@type': 'SearchAction',

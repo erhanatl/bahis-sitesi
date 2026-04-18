@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
 import { formatDate } from '@/lib/utils';
 import LanguageSwitcher from './LanguageSwitcher';
+import Image from 'next/image';
 
 export default function Header() {
   const t = useTranslations('nav');
@@ -21,34 +22,16 @@ export default function Header() {
       <nav className="bg-primary/95 backdrop-blur-md border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-2.5 group">
-              {/* Panda icon */}
-              <svg width="32" height="32" viewBox="0 0 100 100" className="shrink-0">
-                {/* Head */}
-                <circle cx="50" cy="52" r="32" fill="white"/>
-                {/* Ears */}
-                <circle cx="24" cy="28" r="14" fill="#1e293b"/>
-                <circle cx="76" cy="28" r="14" fill="#1e293b"/>
-                <circle cx="24" cy="28" r="8" fill="#334155"/>
-                <circle cx="76" cy="28" r="8" fill="#334155"/>
-                {/* Eye patches */}
-                <ellipse cx="36" cy="50" rx="12" ry="10" fill="#1e293b" transform="rotate(-10 36 50)"/>
-                <ellipse cx="64" cy="50" rx="12" ry="10" fill="#1e293b" transform="rotate(10 64 50)"/>
-                {/* Eyes */}
-                <circle cx="36" cy="50" r="5" fill="white"/>
-                <circle cx="64" cy="50" r="5" fill="white"/>
-                {/* Pupils - emerald colored */}
-                <circle cx="37" cy="49" r="2.5" fill="#10b981"/>
-                <circle cx="65" cy="49" r="2.5" fill="#06b6d4"/>
-                {/* Eye shine */}
-                <circle cx="35" cy="48" r="1.2" fill="white" opacity="0.9"/>
-                <circle cx="63" cy="48" r="1.2" fill="white" opacity="0.9"/>
-                {/* Nose */}
-                <ellipse cx="50" cy="62" rx="5" ry="3.5" fill="#1e293b"/>
-                {/* Mouth */}
-                <path d="M 45 66 Q 50 72 55 66" fill="none" stroke="#1e293b" strokeWidth="2" strokeLinecap="round"/>
-              </svg>
-              <span className="text-2xl font-black tracking-tight">
+            <Link href="/" className="flex items-center gap-1 group">
+              <Image
+                src="/panda-icon.png"
+                alt="PandaTips"
+                width={96}
+                height={96}
+                className="h-24 w-24 object-contain group-hover:scale-105 transition-transform shrink-0"
+                priority
+              />
+              <span className="text-2xl font-black tracking-tight -ml-4">
                 <span className="text-white">panda</span>
                 <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">tips</span>
               </span>
@@ -73,6 +56,16 @@ export default function Header() {
                 }`}
               >
                 {t('tomorrow')}
+              </Link>
+              <Link
+                href="/blog"
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                  pathname === '/blog'
+                    ? 'bg-emerald-500/20 text-emerald-400'
+                    : 'text-gray-300 hover:text-white hover:bg-white/5'
+                }`}
+              >
+                {t('blog')}
               </Link>
               <Link
                 href="/contact"
@@ -136,6 +129,17 @@ export default function Header() {
               }`}
             >
               {t('tomorrow')}
+            </Link>
+            <Link
+              href="/blog"
+              onClick={() => setMobileOpen(false)}
+              className={`block py-3 px-4 rounded-lg text-sm font-medium transition-all ${
+                pathname === '/blog'
+                  ? 'bg-emerald-500/20 text-emerald-400'
+                  : 'text-gray-300 hover:bg-white/5'
+              }`}
+            >
+              {t('blog')}
             </Link>
             <Link
               href="/contact"

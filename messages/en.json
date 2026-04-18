@@ -4,11 +4,12 @@
     "tomorrow": "Tomorrow",
     "statistics": "Statistics",
     "allLeagues": "All Leagues",
+    "blog": "Analysis",
     "contact": "Contact"
   },
   "hero": {
-    "title": "Betting Predictions Today and Tonight",
-    "description": "Check out our full list of football betting predictions including match predictions, both teams to score tips, over 2.5 goals tips, and correct score predictions."
+    "title": "Today's Football Match Analysis",
+    "description": "Statistical match analysis based on historical data. Over 2.5 goals, BTTS, corner statistics and probability calculations for today's matches."
   },
   "dates": {
     "monday": "Monday",
@@ -69,7 +70,8 @@
     "tips": "Tips"
   },
   "footer": {
-    "disclaimer": "Predictions are for informational purposes only. Please gamble responsibly.",
+    "disclaimer": "This site provides statistical analysis only and does not promote any betting or gambling activity.",
+    "legal": "PandaTips is an analysis platform providing statistical probability calculations based on historical match data. No content on this site constitutes betting advice.",
     "copyright": "pandatips"
   },
   "matchDetail": {
@@ -154,6 +156,13 @@
     "emailPlaceholder": "your@email.com",
     "subjectPlaceholder": "What is this about?",
     "messagePlaceholder": "Write your message here..."
+  },
+  "blog": {
+    "title": "Match Analysis",
+    "subtitle": "Statistical football match analysis based on historical data",
+    "readMore": "Read More",
+    "backToList": "Back to Analysis",
+    "noPosts": "No analysis posts yet."
   },
   "loading": "Loading predictions...",
   "noMatches": "No matches found for this date.",

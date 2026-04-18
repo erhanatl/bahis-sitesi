@@ -72,19 +72,11 @@ export default function Loading() {
       {/* Loading overlay - subtle dark tint */}
       <div className="absolute inset-0 bg-primary/30 flex items-center justify-center z-10">
         <div className="flex flex-col items-center gap-6">
-          {/* Panda icon with pulse */}
-          <div className="relative">
-            <div className="absolute inset-0 rounded-full bg-accent/20 animate-ping" />
-            <svg width="64" height="64" viewBox="0 0 100 100" className="relative animate-bounce" style={{ animationDuration: '1.5s' }}>
-              <circle cx="50" cy="52" r="38" fill="#e2e8f0" />
-              <circle cx="28" cy="30" r="16" fill="#1e293b" />
-              <circle cx="72" cy="30" r="16" fill="#1e293b" />
-              <circle cx="35" cy="45" r="12" fill="white" />
-              <circle cx="65" cy="45" r="12" fill="white" />
-              <circle cx="37" cy="44" r="6" fill="#1e293b" />
-              <circle cx="63" cy="44" r="6" fill="#1e293b" />
-              <ellipse cx="50" cy="62" rx="8" ry="5" fill="#1e293b" />
-            </svg>
+          {/* Logo with pulse */}
+          <div className="relative flex items-center justify-center">
+            <div className="absolute w-48 h-48 rounded-full bg-emerald-500/20 animate-ping" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/panda-icon.png" alt="PandaTips" width={192} height={192} className="relative animate-bounce object-contain drop-shadow-2xl" style={{ animationDuration: '1.5s' }} />
           </div>
 
           {/* Loading dots */}

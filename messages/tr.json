@@ -4,11 +4,12 @@
     "tomorrow": "Yarın",
     "statistics": "İstatistikler",
     "allLeagues": "Tüm Ligler",
+    "blog": "Analizler",
     "contact": "İletişim"
   },
   "hero": {
-    "title": "Bugünün Bahis Tahminleri",
-    "description": "Maç tahminleri, karşılıklı gol, 2.5 üst/alt gol tahminleri ve doğru skor tahminlerini içeren tam futbol bahis tahminleri listemize göz atın."
+    "title": "Bugünün Maç Analizleri",
+    "description": "Geçmiş verilere dayalı istatistiksel maç analizlerimize göz atın. 2.5 üst, karşılıklı gol, korner istatistikleri ve olasılık hesaplamaları."
   },
   "dates": {
     "monday": "Pazartesi",
@@ -69,7 +70,8 @@
     "tips": "Tahmin"
   },
   "footer": {
-    "disclaimer": "Tahminler yalnızca bilgi amaçlıdır. Lütfen sorumlu bir şekilde bahis yapın.",
+    "disclaimer": "Bu site yalnızca istatistiksel analiz sunar; herhangi bir bahis veya şans oyunu faaliyetini teşvik etmez.",
+    "legal": "PandaTips, geçmiş maç verilerine dayalı istatistiksel olasılık hesaplamaları sunan bir analiz platformudur. Sitede yer alan hiçbir içerik bahis tavsiyesi niteliği taşımaz. Türkiye'de yasal izin olmaksızın yürütülen şans oyunları faaliyetlerini desteklemez.",
     "copyright": "pandatips"
   },
   "matchDetail": {
@@ -154,6 +156,13 @@
     "emailPlaceholder": "eposta@adresiniz.com",
     "subjectPlaceholder": "Konu nedir?",
     "messagePlaceholder": "Mesajınızı buraya yazın..."
+  },
+  "blog": {
+    "title": "Maç Analizleri",
+    "subtitle": "Geçmiş verilere dayalı istatistiksel futbol maç analizleri",
+    "readMore": "Devamını Oku",
+    "backToList": "Analizlere Dön",
+    "noPosts": "Henüz analiz yazısı bulunmuyor."
   },
   "loading": "Tahminler yükleniyor...",
   "noMatches": "Bu tarih için maç bulunamadı.",
