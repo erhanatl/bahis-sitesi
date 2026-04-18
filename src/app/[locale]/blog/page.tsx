@@ -2,6 +2,7 @@ import { getAllPosts } from '@/data/posts';
 import { Link } from '@/i18n/routing';
 import { getTranslations } from 'next-intl/server';
 import ShareButton from '@/components/ShareButton';
+import TwitterShareButton from '@/components/TwitterShareButton';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -95,11 +96,14 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
                   <span className="text-xs font-semibold text-emerald-600 group-hover:text-emerald-700">
                     {t('readMore')} →
                   </span>
-                  <ShareButton
-                    title={locale === 'tr' ? post.title_tr : post.title_en}
-                    text={`${post.home_team} vs ${post.away_team}`}
-                    url={`https://pandatips.net/${locale}/blog/${post.slug}`}
-                  />
+                  <div className="flex items-center gap-3">
+                    <TwitterShareButton post={post} locale={locale} />
+                    <ShareButton
+                      title={locale === 'tr' ? post.title_tr : post.title_en}
+                      text={`${post.home_team} vs ${post.away_team}`}
+                      url={`https://pandatips.net/${locale}/blog/${post.slug}`}
+                    />
+                  </div>
                 </div>
               </Link>
             ))}

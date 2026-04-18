@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import { Link } from '@/i18n/routing';
 import { getTranslations } from 'next-intl/server';
 import ShareButton from '@/components/ShareButton';
+import TwitterShareButton from '@/components/TwitterShareButton';
 import type { Metadata } from 'next';
 
 export async function generateStaticParams() {
@@ -86,11 +87,14 @@ export default async function BlogPostPage({
           </svg>
           {t('backToList')}
         </Link>
-        <ShareButton
-          title={locale === 'tr' ? post.title_tr : post.title_en}
-          text={`${post.home_team} vs ${post.away_team} — pandatips.net`}
-          url={`https://pandatips.net/${locale}/blog/${post.slug}`}
-        />
+        <div className="flex items-center gap-3">
+          <TwitterShareButton post={post} locale={locale} />
+          <ShareButton
+            title={locale === 'tr' ? post.title_tr : post.title_en}
+            text={`${post.home_team} vs ${post.away_team} — pandatips.net`}
+            url={`https://pandatips.net/${locale}/blog/${post.slug}`}
+          />
+        </div>
       </div>
 
       {/* Header */}
