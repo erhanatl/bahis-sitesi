@@ -164,6 +164,10 @@
     "backToList": "Back to Analysis",
     "noPosts": "No analysis posts yet."
   },
+  "share": {
+    "share": "Share",
+    "copied": "Copied!"
+  },
   "loading": "Loading predictions...",
   "noMatches": "No matches found for this date.",
   "language": "Language"

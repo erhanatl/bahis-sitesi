@@ -164,6 +164,10 @@
     "backToList": "Analizlere Dön",
     "noPosts": "Henüz analiz yazısı bulunmuyor."
   },
+  "share": {
+    "share": "Paylaş",
+    "copied": "Kopyalandı"
+  },
   "loading": "Tahminler yükleniyor...",
   "noMatches": "Bu tarih için maç bulunamadı.",
   "language": "Dil"
