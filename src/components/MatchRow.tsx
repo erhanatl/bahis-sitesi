@@ -1,7 +1,7 @@
 'use client';
 
 import { MatchData } from '@/lib/types';
-import { Link } from '@/i18n/routing';
+import { Link, useRouter } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
@@ -46,6 +46,7 @@ interface MatchRowProps {
 
 export default function MatchRow({ match }: MatchRowProps) {
   const t = useTranslations('table');
+  const router = useRouter();
   const { fixture } = match;
   const odds = match.odds;
 
@@ -63,8 +64,17 @@ export default function MatchRow({ match }: MatchRowProps) {
   const pctFhBtts = odds ? oddsToNormalizedPercent(odds.fhBtts.yes, odds.fhBtts.no) : 0;
   const pctFhOver15 = odds ? oddsToNormalizedPercent(odds.fhOverUnder15.over, odds.fhOverUnder15.under) : 0;
 
+  const handleRowClick = (e: React.MouseEvent) => {
+    // Link tıklamalarını çift tetiklememek için
+    if ((e.target as HTMLElement).closest('a')) return;
+    router.push(`/match/${fixture.fixture.id}`);
+  };
+
   return (
-    <tr className="match-row">
+    <tr
+      className="match-row cursor-pointer hover:bg-emerald-50/50 transition-colors"
+      onClick={handleRowClick}
+    >
       {/* Time */}
       <td className="py-3 px-3 text-center whitespace-nowrap">
         {isLive ? (
