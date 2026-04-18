@@ -19,9 +19,13 @@ export async function generateMetadata({
   const { slug, locale } = await params;
   const post = getPostBySlug(slug);
   if (!post) return {};
+  const title = `${locale === 'tr' ? post.title_tr : post.title_en} — PandaTips`;
+  const description = `${post.home_team} vs ${post.away_team} — ${locale === 'tr' ? post.league_tr : post.league_en}`;
   return {
-    title: `${locale === 'tr' ? post.title_tr : post.title_en} — PandaTips`,
-    description: `${post.home_team} vs ${post.away_team} — ${locale === 'tr' ? post.league_tr : post.league_en}`,
+    title,
+    description,
+    openGraph: { title, description, type: 'article' },
+    twitter: { card: 'summary_large_image', title, description },
   };
 }
 
