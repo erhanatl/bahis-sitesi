@@ -97,40 +97,16 @@ export async function GET() {
         >
           {/* Left: branding */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-            {/* Logo image + text */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: 0 }}>
+            {/* Logo image */}
+            <div style={{ display: 'flex', alignItems: 'center' }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={logoSrc}
-                width={160}
-                height={160}
+                width={220}
+                height={220}
                 style={{ objectFit: 'contain' }}
                 alt="pandatips logo"
               />
-              <div style={{ display: 'flex', alignItems: 'baseline', marginLeft: -16 }}>
-                <span
-                  style={{
-                    fontSize: 88,
-                    fontWeight: 900,
-                    color: 'white',
-                    letterSpacing: '-3px',
-                    lineHeight: 1,
-                  }}
-                >
-                  panda
-                </span>
-                <span
-                  style={{
-                    fontSize: 88,
-                    fontWeight: 900,
-                    color: '#10b981',
-                    letterSpacing: '-3px',
-                    lineHeight: 1,
-                  }}
-                >
-                  tips
-                </span>
-              </div>
             </div>
 
             {/* Subtitle */}
