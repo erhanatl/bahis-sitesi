@@ -97,6 +97,8 @@ export default function PredictionsPage({ leagueGroups, selectedDate }: Predicti
       if (selectedLeague !== 'all' && match.leagueId.toString() !== selectedLeague) return false;
       const status = match.fixture.fixture.status.short;
       if (['1H', '2H', 'HT', 'ET', 'P', 'BT', 'FT', 'AET', 'PEN'].includes(status)) return false;
+      // Hide matches with no odds AND no Poisson fallback data
+      if (!match.odds && !match.calculatedProbs) return false;
       // Search filter
       if (query) {
         const homeName = match.fixture.teams.home.name.toLowerCase();

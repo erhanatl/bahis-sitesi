@@ -645,8 +645,13 @@ export async function getMatchesGroupedByLeague(date: string): Promise<LeagueGro
   const oddsMap = await fetchAllOddsForDate(date);
   console.log(`[API] Got ${oddsMap.size} odds`);
 
-  // Step 4: Include all major-league fixtures; odds shown as '-' where unavailable
-  const leaguesWithData = Array.from(leagueMap.values());
+  // Step 4: Only include leagues where at least one fixture has bookmaker odds
+  const leaguesWithData: Array<{ league: Fixture['league']; fixtures: Fixture[] }> = [];
+  for (const [, entry] of leagueMap) {
+    if (entry.fixtures.some(f => oddsMap.has(f.fixture.id))) {
+      leaguesWithData.push(entry);
+    }
+  }
   console.log(`[API] Leagues with data: ${leaguesWithData.length}`);
 
   // Step 5: Identify fixtures that are missing at least one odds market —
