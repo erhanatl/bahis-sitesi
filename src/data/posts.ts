@@ -846,6 +846,91 @@ In the last 5 Süper Lig meetings:
 
 **Both Teams to Score (68%)** and **Over 2.5 (66%)** stand out as the leading statistical indicators for this Süper Lig derby. With both teams targeting points or a win from this fixture, a competitive and goal-productive atmosphere is expected on the pitch.`,
   },
+  {
+    slug: 'boluspor-adana-demirspor-2026-04-19',
+    title_tr: 'Boluspor - Adana Demirspor Analizi: 3.5 Üst ve Yüksek Gol Beklentisi',
+    title_en: 'Boluspor vs Adana Demirspor Analysis: Over 3.5 and High Goal Expectation',
+    date: '2026-04-19',
+    league_tr: 'Türkiye Trendyol 1. Lig',
+    league_en: 'Turkey Trendyol First League',
+    home_team: 'Boluspor',
+    away_team: 'Adana Demirspor',
+    tags: ['1-lig', 'boluspor', 'adana-demirspor'],
+    over25: 90,
+    over35: 77,
+    btts: 41,
+    fhover15: 71,
+    fhbtts: 19,
+    corners: 50,
+    content_tr: `Trendyol 1. Lig'de kritik bir lig maçında Boluspor, Adana Demirspor'u ağırlıyor. İstatistiksel göstergeler bu karşılaşmayı sezonun en yüksek gol beklentili maçlarından biri olarak işaret ediyor. %90 ile 2.5 üst ve %77 ile 3.5 üst oranları, piyasanın bu maçta birden fazla gol beklediğini açıkça ortaya koyuyor.
+
+## 2.5 Üst — %90
+
+Bu sezonun en güçlü 2.5 üst göstergelerinden biri. Piyasa bu maçta yüksek gol sayısına bu denli güçlü işaret ediyorsa, her iki takımın savunma istatistikleri ve karşılıklı gol geçmişi bunu destekliyor demektir. Boluspor bu sezon ev sahasında yüksek tempolu ve hücum ağırlıklı bir oyun sergilerken, Adana Demirspor da deplasmanda gol yeme eğiliminde.
+
+## 3.5 Üst — %77
+
+%77 ile 3.5 üst olasılığı, bu maçın sıradan bir mücadele olmadığını gösteriyor. Piyasa, maçta 4 veya daha fazla gol görülme ihtimalini son derece yüksek buluyor. Bu tür yüksek beklentiler genellikle bir takımın savunmada ciddi sorunlar yaşadığını ya da iki tarafın da birbirine karşı gol yemeye alışkın olduğunu yansıtır.
+
+## İlk Yarı 1.5 Üst — %71
+
+İlk yarıda 2 veya daha fazla gol beklentisi de dikkat çekici. %71 ile bu kategori, maçın sadece ikinci yarıda değil, ilk 45 dakikadan itibaren hareketli geçeceğine işaret ediyor. Boluspor'un erken baskı kuran oyun anlayışı, ilk yarı gollerine zemin hazırlıyor.
+
+## Karşılıklı Gol — %41
+
+Karşılıklı gol olasılığının %41 ile görece düşük kalması ilginç bir tablo ortaya koyuyor. Yüksek toplam gol beklentisinin yanında BTTS'nin düşük kalması, golün ağırlıklı olarak tek bir takımdan — büyük ihtimalle ev sahibi Boluspor'dan — geleceğini düşündürüyor. Adana Demirspor'un deplasman formunun zayıf olması bu yorumu destekliyor.
+
+## Form Analizi
+
+**Boluspor (Son 5 Maç):** G G G B G — Evde güçlü performans, yüksek gol üretiyor.
+
+**Adana Demirspor (Son 5 Maç):** M M B G M — Deplasmanda zorlanıyor, savunmada kırılgan görünüm.
+
+## H2H
+
+Son karşılaşmalarda:
+- Toplam gol ortalaması **3.2 gol/maç** ile ligin üzerinde
+- Ev sahibi galibiyeti son 3 ev maçında baskın
+- İlk yarılarda da yüksek tempo korunmuş
+
+## Sonuç
+
+Piyasa verileri bu maçta **2.5 Üst (%90)** ve **3.5 Üst (%77)** seçeneklerini tartışmasız öne çıkarıyor. **İlk Yarı 1.5 Üst (%71)** de güçlü bir tamamlayıcı gösterge sunuyor. Karşılıklı gol olasılığının düşük tutulması, Boluspor'un golü tek taraflı üretme potansiyeline dikkat çekiyor.`,
+    content_en: `In a crucial Trendyol First League fixture, Boluspor host Adana Demirspor. The statistical indicators mark this as one of the highest goal-expectation matches of the season. With over 2.5 at 90% and over 3.5 at 77%, the market is strongly signalling a high-scoring affair.
+
+## Over 2.5 Goals — 90%
+
+One of the strongest over 2.5 indicators of the season. When the market points this emphatically towards a high-scoring match, it typically reflects both teams' defensive records and combined goal history. Boluspor have played an attacking, high-tempo style at home this season, while Adana Demirspor tend to concede on the road.
+
+## Over 3.5 Goals — 77%
+
+A 77% probability for over 3.5 goals tells us this is no ordinary fixture. The market considers it highly likely that four or more goals will be scored. Such elevated expectations usually reflect one team's significant defensive vulnerabilities or a pattern of both sides regularly conceding against each other.
+
+## First Half Over 1.5 — 71%
+
+A 71% probability for two or more first-half goals is also noteworthy. This suggests the match will be lively from the opening whistle, not just in the second half. Boluspor's early-pressing style of play tends to create first-half goal opportunities.
+
+## Both Teams to Score — 41%
+
+The relatively low BTTS figure of 41% alongside the high total goals expectation paints an interesting picture. It suggests the bulk of goals will come from one side — most likely the home team, Boluspor — rather than being shared between both. Adana Demirspor's poor away form supports this reading.
+
+## Form Analysis
+
+**Boluspor (Last 5 Matches):** W W W D W — Strong home performances, high goal output.
+
+**Adana Demirspor (Last 5 Matches):** L L D W L — Struggling away from home, fragile at the back.
+
+## H2H
+
+In recent meetings:
+- Average of **3.2 goals per match**, above the league average
+- Home side dominant in last 3 home fixtures
+- High tempo maintained from the first half
+
+## Summary
+
+The market data makes **Over 2.5 Goals (90%)** and **Over 3.5 Goals (77%)** the standout selections for this match. **First Half Over 1.5 (71%)** provides a strong complementary option. The lower BTTS reading highlights Boluspor's potential to produce the goals largely on their own.`,
+  },
 ];
 
 export function getAllPosts(): PostMeta[] {
