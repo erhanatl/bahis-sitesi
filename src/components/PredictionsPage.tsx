@@ -43,6 +43,7 @@ function getSortValue(match: MatchData, category: PredictionCategory): number {
   return 0;
 }
 
+
 const categoryKeys: { key: PredictionCategory; tKey: string }[] = [
   { key: 'over25', tKey: 'catOver25' },
   { key: 'over35', tKey: 'catOver35' },
@@ -97,9 +98,9 @@ export default function PredictionsPage({ leagueGroups, selectedDate }: Predicti
       if (selectedLeague !== 'all' && match.leagueId.toString() !== selectedLeague) return false;
       const status = match.fixture.fixture.status.short;
       if (['1H', '2H', 'HT', 'ET', 'P', 'BT', 'FT', 'AET', 'PEN'].includes(status)) return false;
-      // Hide matches with no real data: odds values all '-' AND no Poisson fallback
-      const hasOddsValues = categoryKeys.some(cat => getSortValue(match, cat.key) > 0);
-      if (!hasOddsValues && !match.calculatedProbs) return false;
+      // Hide match if ANY of the 6 columns has no valid odds (must have all columns filled)
+      const hasAllData = categoryKeys.every(cat => getSortValue(match, cat.key) > 0);
+      if (!hasAllData) return false;
       // Search filter
       if (query) {
         const homeName = match.fixture.teams.home.name.toLowerCase();

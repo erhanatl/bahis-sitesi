@@ -57,19 +57,17 @@ export default function MatchRow({ match }: MatchRowProps) {
   const isLive = ['1H', '2H', 'HT', 'ET', 'P', 'BT'].includes(status);
   const isFinished = ['FT', 'AET', 'PEN'].includes(status);
 
-  const cp = match.calculatedProbs;
-
-  function getPct(oddsA: string | undefined, oddsB: string | undefined, fallback: number | undefined): number {
+  function getPct(oddsA: string | undefined, oddsB: string | undefined): number {
     if (oddsA && oddsB && oddsA !== '-' && oddsB !== '-') return oddsToNormalizedPercent(oddsA, oddsB);
-    return fallback ?? 0;
+    return 0;
   }
 
-  const pctOver25 = getPct(odds?.overUnder25.over, odds?.overUnder25.under, cp?.over25);
-  const pctOver35 = getPct(odds?.overUnder35.over, odds?.overUnder35.under, cp?.over35);
-  const pctBtts = getPct(odds?.btts.yes, odds?.btts.no, cp?.btts);
-  const pctCorners = getPct(odds?.corners95.over, odds?.corners95.under, cp?.corners95);
-  const pctFhBtts = getPct(odds?.fhBtts.yes, odds?.fhBtts.no, cp?.fhBtts);
-  const pctFhOver15 = getPct(odds?.fhOverUnder15.over, odds?.fhOverUnder15.under, cp?.fhOver15);
+  const pctOver25 = getPct(odds?.overUnder25.over, odds?.overUnder25.under);
+  const pctOver35 = getPct(odds?.overUnder35.over, odds?.overUnder35.under);
+  const pctBtts = getPct(odds?.btts.yes, odds?.btts.no);
+  const pctCorners = getPct(odds?.corners95.over, odds?.corners95.under);
+  const pctFhBtts = getPct(odds?.fhBtts.yes, odds?.fhBtts.no);
+  const pctFhOver15 = getPct(odds?.fhOverUnder15.over, odds?.fhOverUnder15.under);
 
   const handleRowClick = (e: React.MouseEvent) => {
     // Link tıklamalarını çift tetiklememek için

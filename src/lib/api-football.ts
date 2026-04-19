@@ -155,10 +155,21 @@ const cache = new Map<string, { data: unknown; timestamp: number }>();
 const CACHE_TTL = 60 * 60 * 1000; // 1 hour (fixtures, predictions, standings)
 const ODDS_CACHE_TTL = 10 * 60 * 1000; // 10 minutes (re-check for new fixtures not yet locked)
 
-// Write-once odds lock: first fetched value for a fixture is never overwritten.
-// Prevents displayed percentages from drifting when bookmakers move their lines —
-// important for consistency with blog analysis posts written at a specific moment.
+// Smart odds lock: once a market has a real value it won't be overwritten,
+// but markets that are still '-' get filled in when new data arrives.
 const lockedFixtureOdds = new Map<number, ParsedOdds>();
+
+function mergeOdds(existing: ParsedOdds, incoming: ParsedOdds): ParsedOdds {
+  const m = { ...existing };
+  if (m.matchWinner.home === '-') m.matchWinner = { ...incoming.matchWinner };
+  if (m.overUnder25.over === '-') m.overUnder25 = { ...incoming.overUnder25 };
+  if (m.overUnder35.over === '-') m.overUnder35 = { ...incoming.overUnder35 };
+  if (m.btts.yes === '-') m.btts = { ...incoming.btts };
+  if (m.corners95.over === '-') m.corners95 = { ...incoming.corners95 };
+  if (m.fhBtts.yes === '-') m.fhBtts = { ...incoming.fhBtts };
+  if (m.fhOverUnder15.over === '-') m.fhOverUnder15 = { ...incoming.fhOverUnder15 };
+  return m;
+}
 
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -268,12 +279,17 @@ async function fetchAllOddsForDate(date: string): Promise<Map<number, ParsedOdds
         fetched = true;
 
         for (const odd of oddsData) {
-          // Write-once: skip if this fixture's odds are already locked
-          if (lockedFixtureOdds.has(odd.fixture.id)) continue;
           const parsed = parseOdds(odd);
           if (parsed) {
-            lockedFixtureOdds.set(odd.fixture.id, parsed); // lock it in
-            oddsMap.set(odd.fixture.id, parsed);
+            if (lockedFixtureOdds.has(odd.fixture.id)) {
+              // Merge: fill in only the markets that are still '-'
+              const merged = mergeOdds(lockedFixtureOdds.get(odd.fixture.id)!, parsed);
+              lockedFixtureOdds.set(odd.fixture.id, merged);
+              oddsMap.set(odd.fixture.id, merged);
+            } else {
+              lockedFixtureOdds.set(odd.fixture.id, parsed);
+              oddsMap.set(odd.fixture.id, parsed);
+            }
           }
         }
 
@@ -284,14 +300,19 @@ async function fetchAllOddsForDate(date: string): Promise<Map<number, ParsedOdds
       if (!fetched) break; // API error, stop paginating
     }
 
-    // For cached pages, also apply write-once logic
+    // For cached pages, also apply merge logic
     if (cached) {
       for (const odd of (cached.data as OddsResponse[])) {
-        if (lockedFixtureOdds.has(odd.fixture.id)) continue;
         const parsed = parseOdds(odd);
         if (parsed) {
-          lockedFixtureOdds.set(odd.fixture.id, parsed);
-          oddsMap.set(odd.fixture.id, parsed);
+          if (lockedFixtureOdds.has(odd.fixture.id)) {
+            const merged = mergeOdds(lockedFixtureOdds.get(odd.fixture.id)!, parsed);
+            lockedFixtureOdds.set(odd.fixture.id, merged);
+            oddsMap.set(odd.fixture.id, merged);
+          } else {
+            lockedFixtureOdds.set(odd.fixture.id, parsed);
+            oddsMap.set(odd.fixture.id, parsed);
+          }
         }
       }
     }
