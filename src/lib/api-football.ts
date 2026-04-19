@@ -680,8 +680,20 @@ export async function getMatchesGroupedByLeague(date: string): Promise<LeagueGro
   // Step 6: Build league groups with odds + Poisson fallback
   const leagueGroups: LeagueGroup[] = [];
 
+  // Returns true when at least one bookmaker odds value is a real number (not '-')
+  function oddsHaveValues(odds: ParsedOdds | null): boolean {
+    if (!odds) return false;
+    return [
+      odds.overUnder25.over, odds.overUnder25.under,
+      odds.overUnder35.over, odds.btts.yes,
+      odds.corners95.over, odds.fhBtts.yes, odds.fhOverUnder15.over,
+    ].some(v => v !== '-' && !isNaN(parseFloat(v)));
+  }
+
   for (const { league, fixtures: leagueFixtures } of leaguesWithData) {
-    const matches: MatchData[] = leagueFixtures.map((fixture) => {
+    const matches: MatchData[] = [];
+
+    for (const fixture of leagueFixtures) {
       const odds = oddsMap.get(fixture.fixture.id) || null;
       const pred = predMap.get(fixture.fixture.id) || null;
 
@@ -693,7 +705,10 @@ export async function getMatchesGroupedByLeague(date: string): Promise<LeagueGro
         calculatedProbs = calcPoissonProbs(homeXG, awayXG);
       }
 
-      return {
+      // Skip fixtures with no usable data at all (server-side filter)
+      if (!oddsHaveValues(odds) && !calculatedProbs) continue;
+
+      matches.push({
         fixture: {
           fixture: {
             id: fixture.fixture.id,
@@ -711,8 +726,10 @@ export async function getMatchesGroupedByLeague(date: string): Promise<LeagueGro
         prediction: null,
         odds,
         calculatedProbs,
-      };
-    });
+      });
+    }
+
+    if (matches.length === 0) continue; // skip leagues with no usable matches
 
     leagueGroups.push({
       league: {
