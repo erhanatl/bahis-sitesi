@@ -13,6 +13,11 @@ function dot(val: number) {
   return '⚪';
 }
 
+function matchHashtag(home: string, away: string): string {
+  const clean = (s: string) => s.replace(/\s+/g, '').replace(/[^\wÇçĞğİıÖöŞşÜü]/g, '');
+  return `#${clean(home)}v${clean(away)}`;
+}
+
 export default function TwitterShareButton({ post, locale }: Props) {
   const isTR = locale === 'tr';
 
@@ -37,7 +42,7 @@ export default function TwitterShareButton({ post, locale }: Props) {
         ``,
         `🔗 ${url}`,
         ``,
-        `#Futbol #PandaTips`,
+        `#Futbol #PandaTips ${matchHashtag(post.home_team, post.away_team)}`,
       ]
     : [
         `⚽ ${post.home_team} - ${post.away_team}`,
@@ -52,7 +57,7 @@ export default function TwitterShareButton({ post, locale }: Props) {
         ``,
         `🔗 ${url}`,
         ``,
-        `#Football #PandaTips`,
+        `#Football #PandaTips ${matchHashtag(post.home_team, post.away_team)}`,
       ];
 
   const tweetText = lines.join('\n');
