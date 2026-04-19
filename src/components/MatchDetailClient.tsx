@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { Fixture, FixtureStatistics, FixtureLineup, Prediction } from '@/lib/types';
@@ -15,10 +15,16 @@ interface MatchDetailClientProps {
 
 export default function MatchDetailClient({ fixture, statistics, lineups, h2h, prediction }: MatchDetailClientProps) {
   const t = useTranslations('matchDetail');
+  const locale = useLocale();
 
+  const tz = locale === 'tr' ? 'Europe/Istanbul' : 'UTC';
   const matchDate = new Date(fixture.fixture.date);
-  const dateStr = `${matchDate.getDate().toString().padStart(2, '0')}.${(matchDate.getMonth() + 1).toString().padStart(2, '0')}.${matchDate.getFullYear()}`;
-  const timeStr = `${String(matchDate.getHours()).padStart(2, '0')}:${String(matchDate.getMinutes()).padStart(2, '0')}`;
+  const dateStr = matchDate.toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-GB', {
+    day: '2-digit', month: '2-digit', year: 'numeric', timeZone: tz,
+  });
+  const timeStr = matchDate.toLocaleTimeString('en-GB', {
+    hour: '2-digit', minute: '2-digit', timeZone: tz,
+  });
 
   const status = fixture.fixture.status;
   const isLive = ['1H', '2H', 'HT', 'ET', 'P', 'BT'].includes(status.short);
@@ -277,7 +283,9 @@ export default function MatchDetailClient({ fixture, statistics, lineups, h2h, p
               <tbody>
                 {h2h.map((match) => {
                   const mDate = new Date(match.fixture.date);
-                  const mDateStr = `${mDate.getDate().toString().padStart(2, '0')}.${(mDate.getMonth() + 1).toString().padStart(2, '0')}.${mDate.getFullYear()}`;
+                  const mDateStr = mDate.toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-GB', {
+                    day: '2-digit', month: '2-digit', year: 'numeric', timeZone: tz,
+                  });
                   const homeWin = match.teams.home.winner === true;
                   const awayWin = match.teams.away.winner === true;
                   return (

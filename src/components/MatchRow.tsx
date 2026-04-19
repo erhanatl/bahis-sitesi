@@ -2,7 +2,7 @@
 
 import { MatchData } from '@/lib/types';
 import { Link, useRouter } from '@/i18n/routing';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
 
 // Spread percentages to make differences more visible
@@ -46,12 +46,17 @@ interface MatchRowProps {
 
 export default function MatchRow({ match }: MatchRowProps) {
   const t = useTranslations('table');
+  const locale = useLocale();
   const router = useRouter();
   const { fixture } = match;
   const odds = match.odds;
 
-  const d = new Date(fixture.fixture.date);
-  const matchTime = `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+  const tz = locale === 'tr' ? 'Europe/Istanbul' : 'UTC';
+  const matchTime = new Date(fixture.fixture.date).toLocaleTimeString('en-GB', {
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone: tz,
+  });
 
   const status = fixture.fixture.status.short;
   const isLive = ['1H', '2H', 'HT', 'ET', 'P', 'BT'].includes(status);
