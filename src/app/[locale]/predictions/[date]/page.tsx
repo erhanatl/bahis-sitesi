@@ -12,8 +12,8 @@ const getCachedMatches = unstable_cache(
     }
     return result;
   },
-  ['matches-v4'],
-  { revalidate: 600 }
+  ['matches-v6'],
+  { revalidate: 300 }
 );
 
 type Props = {
