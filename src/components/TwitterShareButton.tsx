@@ -13,9 +13,24 @@ function dot(val: number) {
   return '⚪';
 }
 
-function matchHashtag(home: string, away: string): string {
-  const clean = (s: string) => s.replace(/\s+/g, '').replace(/[^\wÇçĞğİıÖöŞşÜü]/g, '');
-  return `#${clean(home)}v${clean(away)}`;
+// "Türkiye Süper Lig" → "#SüperLig", "Germany Bundesliga" → "#Bundesliga"
+function leagueHashtag(league: string): string {
+  const countryPrefixes = [
+    'Türkiye', 'Almanya', 'Fransa', 'İngiltere', 'İspanya', 'İtalya',
+    'Hollanda', 'Portekiz', 'Belçika', 'Avusturya', 'İskoçya', 'Çekya',
+    'Turkey', 'Germany', 'France', 'England', 'Spain', 'Italy',
+    'Netherlands', 'Portugal', 'Belgium', 'Austria', 'Scotland', 'Czech',
+  ];
+  let name = league.trim();
+  for (const prefix of countryPrefixes) {
+    if (name.startsWith(prefix + ' ')) {
+      name = name.slice(prefix.length + 1);
+      break;
+    }
+  }
+  // Boşluk ve noktalama kaldır, Türkçe harfler korunsun
+  const tag = name.replace(/[\s.]/g, '').replace(/[^\wÇçĞğİıÖöŞşÜü]/g, '');
+  return `#${tag}`;
 }
 
 export default function TwitterShareButton({ post, locale }: Props) {
@@ -27,6 +42,9 @@ export default function TwitterShareButton({ post, locale }: Props) {
   );
 
   const url = `https://pandatips.net/${locale}/blog/${post.slug}`;
+
+  const trHashtags = `#iddaa #tahmin #futbol #banko ${leagueHashtag(post.league_tr)} #iddaatahmin #bahisanaliz #misli`;
+  const enHashtags = `#football #betting #tips #banker ${leagueHashtag(post.league_en)} #bettingtips #bettinganalysis #sportsbetting`;
 
   const lines = isTR
     ? [
@@ -42,7 +60,7 @@ export default function TwitterShareButton({ post, locale }: Props) {
         ``,
         `🔗 ${url}`,
         ``,
-        `#Futbol #PandaTips ${matchHashtag(post.home_team, post.away_team)}`,
+        trHashtags,
       ]
     : [
         `⚽ ${post.home_team} - ${post.away_team}`,
@@ -57,7 +75,7 @@ export default function TwitterShareButton({ post, locale }: Props) {
         ``,
         `🔗 ${url}`,
         ``,
-        `#Football #PandaTips ${matchHashtag(post.home_team, post.away_team)}`,
+        enHashtags,
       ];
 
   const tweetText = lines.join('\n');
@@ -72,7 +90,6 @@ export default function TwitterShareButton({ post, locale }: Props) {
       className="inline-flex items-center gap-1.5 text-xs font-semibold text-gray-400 hover:text-sky-500 transition-colors"
       title={isTR ? "X'te paylaş" : 'Share on X'}
     >
-      {/* X (Twitter) logo */}
       <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
         <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.261 5.635 5.902-5.635zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
       </svg>
