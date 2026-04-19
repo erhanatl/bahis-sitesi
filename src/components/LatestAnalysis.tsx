@@ -53,16 +53,21 @@ export default async function LatestAnalysis({ locale, limit = 3 }: Props) {
               href={`/blog/${post.slug}`}
               className="group bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-all hover:-translate-y-0.5"
             >
-              {/* League + date bar */}
+              {/* League + date + time bar */}
               <div className="bg-gradient-to-r from-slate-800 to-slate-700 px-4 py-2 flex items-center justify-between">
                 <span className="text-xs text-gray-300 font-medium truncate">
                   {locale === 'tr' ? post.league_tr : post.league_en}
                 </span>
-                <span className="text-xs text-gray-400 shrink-0 ml-2">
+                <span className="text-xs text-gray-400 shrink-0 ml-2 flex items-center gap-1.5">
                   {new Date(post.date).toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-GB', {
                     day: 'numeric',
                     month: 'short',
                   })}
+                  {post.time && (
+                    <span className="bg-white/10 px-1.5 py-0.5 rounded font-semibold text-gray-300">
+                      {post.time}
+                    </span>
+                  )}
                 </span>
               </div>
 

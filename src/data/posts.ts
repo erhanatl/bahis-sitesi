@@ -2,7 +2,8 @@ export interface PostMeta {
   slug: string;
   title_tr: string;
   title_en: string;
-  date: string;
+  date: string;       // 'YYYY-MM-DD'
+  time?: string;      // 'HH:MM' (opsiyonel)
   league_tr: string;
   league_en: string;
   home_team: string;
@@ -851,6 +852,7 @@ In the last 5 Süper Lig meetings:
     title_tr: 'Boluspor - Adana Demirspor Analizi: 3.5 Üst ve Yüksek Gol Beklentisi',
     title_en: 'Boluspor vs Adana Demirspor Analysis: Over 3.5 and High Goal Expectation',
     date: '2026-04-19',
+    time: '14:00',
     league_tr: 'Türkiye Trendyol 1. Lig',
     league_en: 'Turkey Trendyol First League',
     home_team: 'Boluspor',
@@ -936,6 +938,7 @@ The market data makes **Over 2.5 Goals (90%)** and **Over 3.5 Goals (77%)** the 
     title_tr: 'Den Bosch - Jong Utrecht Analizi: Karşılıklı Gol ve 2.5 Üst Öne Çıkıyor',
     title_en: 'Den Bosch vs Jong Utrecht Analysis: BTTS and Over 2.5 Lead the Way',
     date: '2026-04-19',
+    time: '19:00',
     league_tr: 'Hollanda Eerste Divisie',
     league_en: 'Netherlands Eerste Divisie',
     home_team: 'Den Bosch',
@@ -1011,7 +1014,15 @@ The market data makes **Both Teams to Score (70%)** and **Over 2.5 Goals (69%)**
 ];
 
 export function getAllPosts(): PostMeta[] {
-  return [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  return posts
+    .map((post, index) => ({ post, index }))
+    .sort((a, b) => {
+      const dateDiff = new Date(b.post.date).getTime() - new Date(a.post.date).getTime();
+      if (dateDiff !== 0) return dateDiff;
+      // Aynı tarihte: diziye en son eklenen önce (yüksek index = daha yeni)
+      return b.index - a.index;
+    })
+    .map(({ post }) => post);
 }
 
 export function getPostBySlug(slug: string): PostMeta | null {
