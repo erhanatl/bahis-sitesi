@@ -934,10 +934,10 @@ In recent meetings:
 The market data makes **Over 2.5 Goals (90%)** and **Over 3.5 Goals (77%)** the standout selections for this match. **First Half Over 1.5 (71%)** provides a strong complementary option. The lower BTTS reading highlights Boluspor's potential to produce the goals largely on their own.`,
   },
   {
-    slug: 'den-bosch-jong-utrecht-2026-04-19',
+    slug: 'den-bosch-jong-utrecht-2026-04-20',
     title_tr: 'Den Bosch - Jong Utrecht Analizi: Karşılıklı Gol ve 2.5 Üst Öne Çıkıyor',
     title_en: 'Den Bosch vs Jong Utrecht Analysis: BTTS and Over 2.5 Lead the Way',
-    date: '2026-04-19',
+    date: '2026-04-20',
     time: '19:00',
     league_tr: 'Hollanda Eerste Divisie',
     league_en: 'Netherlands Eerste Divisie',
