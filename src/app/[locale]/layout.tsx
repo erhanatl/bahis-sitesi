@@ -86,10 +86,14 @@ export default async function LocaleLayout({
         <meta name="apple-mobile-web-app-title" content="PandaTips" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.webmanifest" />
-        {/* Service Worker kaydı */}
+        {/* PWA: beforeinstallprompt erken yakala — React yüklenmeden önce tetiklenebilir */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('/sw.js')})}`,
+            __html: `
+window.__pwaInstallPrompt=null;
+window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();window.__pwaInstallPrompt=e;});
+if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js');})}
+`.trim(),
           }}
         />
       </head>

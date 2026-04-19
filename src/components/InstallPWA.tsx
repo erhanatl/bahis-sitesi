@@ -7,6 +7,12 @@ interface BeforeInstallPromptEvent extends Event {
   userChoice: Promise<{ outcome: 'accepted' | 'dismissed' }>;
 }
 
+declare global {
+  interface Window {
+    __pwaInstallPrompt: BeforeInstallPromptEvent | null;
+  }
+}
+
 export default function InstallPWA() {
   const [prompt, setPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [installed, setInstalled] = useState(false);
@@ -14,30 +20,46 @@ export default function InstallPWA() {
   const [showIOSHint, setShowIOSHint] = useState(false);
 
   useEffect(() => {
-    const standalone = window.matchMedia('(display-mode: standalone)').matches;
-    if (standalone) { setInstalled(true); return; }
+    // Zaten standalone modda çalışıyorsa gösterme
+    if (window.matchMedia('(display-mode: standalone)').matches) {
+      setInstalled(true);
+      return;
+    }
 
     const ios = /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as unknown as Record<string, unknown>).MSStream;
     setIsIOS(ios);
+    if (ios) return; // iOS için prompt yok, sadece isIOS=true yeterli
 
+    // Önce layout.tsx'te erken yakalanan prompt'u kontrol et
+    if (window.__pwaInstallPrompt) {
+      setPrompt(window.__pwaInstallPrompt);
+      return;
+    }
+
+    // Yoksa ileriki tetiklenmeyi dinle
     const handler = (e: Event) => {
       e.preventDefault();
       setPrompt(e as BeforeInstallPromptEvent);
     };
-
     window.addEventListener('beforeinstallprompt', handler);
     window.addEventListener('appinstalled', () => setInstalled(true));
-    return () => window.removeEventListener('beforeinstallprompt', handler);
+    return () => {
+      window.removeEventListener('beforeinstallprompt', handler);
+    };
   }, []);
 
   if (installed) return null;
 
-  // Android/Desktop Chrome: normal install prompt
+  // Android / Desktop Chrome
   if (prompt) {
     const handleInstall = async () => {
       await prompt.prompt();
       const { outcome } = await prompt.userChoice;
-      if (outcome === 'accepted') { setInstalled(true); setPrompt(null); }
+      if (outcome === 'accepted') {
+        setInstalled(true);
+        setPrompt(null);
+        window.__pwaInstallPrompt = null;
+      }
     };
 
     return (
@@ -55,7 +77,7 @@ export default function InstallPWA() {
     );
   }
 
-  // iOS Safari: show manual instructions tooltip
+  // iOS Safari: manuel yönlendirme tooltip'i
   if (isIOS) {
     return (
       <div className="relative">
