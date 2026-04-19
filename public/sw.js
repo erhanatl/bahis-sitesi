@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pandatips-v1';
+const CACHE_NAME = 'pandatips-v3';
 
 // Static assets to cache on install
 const STATIC_ASSETS = [
