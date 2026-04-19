@@ -931,6 +931,83 @@ In recent meetings:
 
 The market data makes **Over 2.5 Goals (90%)** and **Over 3.5 Goals (77%)** the standout selections for this match. **First Half Over 1.5 (71%)** provides a strong complementary option. The lower BTTS reading highlights Boluspor's potential to produce the goals largely on their own.`,
   },
+  {
+    slug: 'den-bosch-jong-utrecht-2026-04-19',
+    title_tr: 'Den Bosch - Jong Utrecht Analizi: Karşılıklı Gol ve 2.5 Üst Öne Çıkıyor',
+    title_en: 'Den Bosch vs Jong Utrecht Analysis: BTTS and Over 2.5 Lead the Way',
+    date: '2026-04-19',
+    league_tr: 'Hollanda Eerste Divisie',
+    league_en: 'Netherlands Eerste Divisie',
+    home_team: 'Den Bosch',
+    away_team: 'Jong Utrecht',
+    tags: ['eerste-divisie', 'den-bosch', 'jong-utrecht'],
+    over25: 69,
+    over35: 38,
+    btts: 70,
+    fhover15: 41,
+    fhbtts: 24,
+    corners: 58,
+    content_tr: `Hollanda Eerste Divisie'de Den Bosch, Jong Utrecht'i konuk ediyor. İstatistiksel göstergeler bu maçta her iki takımın da gol bulmasını kuvvetle işaret ederken, toplam gol sayısının çok yüksek olmayacağı bir karşılaşmaya dikkat çekiyor. **Karşılıklı Gol %70** ve **2.5 Üst %69** bu maçın iki öne çıkan seçeneği.
+
+## Karşılıklı Gol — %70
+
+Bu maçın en belirgin istatistiksel sinyali karşılıklı gol. Her iki takım da bu sezon rakibine gol bulma konusunda tutarlı bir performans sergilemiş. Den Bosch ev sahasında gol üretkenliğini korurken, Jong Utrecht de deplasmanda sessiz kalmayan bir yapıya sahip. Piyasanın %70'lik BTTS olasılığı vermesi, beklentinin net olduğunu gösteriyor.
+
+## 2.5 Üst — %69
+
+Karşılıklı gol beklentisiyle paralel olarak 2.5 üst de %69 ile güçlü bir gösterge sunuyor. Her iki takımın da gol bulacağı öngörüldüğünde maçın en az 3 golle bitmesi daha olası hale geliyor. Bununla birlikte 3.5 üst olasılığının sadece %38 kalması, maçın yüksek tempolu ama kontrollü bir skor çizgisinde ilerleyebileceğini — 2-1, 1-2 veya 2-2 gibi — düşündürüyor.
+
+## 9.5 Üst Korner — %58
+
+Korner istatistiği %58 ile hafif pozitif bir beklenti sunuyor. Eerste Divisie maçlarında yüksek baskılı ve kanat odaklı oyun anlayışı özellikle ev sahiplerinin korner üretkenliğine yansıyor. Maç dengeli geçtiğinde her iki takımın da korner aramaya devam etmesi bekleniyor.
+
+## Form Analizi
+
+**Den Bosch (Son 5 Maç):** G B G M G — Evde dengeli bir performans; gol üretiminde tutarlı.
+
+**Jong Utrecht (Son 5 Maç):** M G B G M — Deplasmanda değişken sonuçlar; ancak gol bulmaktan kaçınmıyor.
+
+## H2H
+
+Son karşılaşmalarda:
+- Her iki takımın da gol bulduğu maç sayısı baskın
+- Ortalama gol: **2.4 gol/maç** — düşük-orta seviye toplam, ama karşılıklı gol sık
+- 3.5 üst nadiren gerçekleşiyor
+
+## Sonuç
+
+Piyasa verileri bu maçta **Karşılıklı Gol Var (%70)** ve **2.5 Üst (%69)** seçeneklerini öne çıkarıyor. 3.5 üst olasılığının düşük tutulması, beklentinin gol sayısından çok her iki tarafın da skora ortak olması yönünde olduğunu ortaya koyuyor. **9.5 Üst Korner (%58)** de tamamlayıcı bir gösterge olarak değerlendirilebilir.`,
+    content_en: `In the Netherlands Eerste Divisie, Den Bosch host Jong Utrecht. The statistical indicators point strongly towards both teams finding the net, while suggesting the total goal count won't be particularly high. **BTTS at 70%** and **Over 2.5 at 69%** are the two standout selections for this fixture.
+
+## Both Teams to Score — 70%
+
+The clearest statistical signal for this match is BTTS. Both sides have been consistent in finding the net this season. Den Bosch maintain their goal-scoring productivity at home, while Jong Utrecht rarely go quiet away from home. The market's 70% BTTS reading reflects a clear consensus.
+
+## Over 2.5 Goals — 69%
+
+Alongside the BTTS expectation, Over 2.5 sits at 69% — a strong reading. When both teams are expected to score, the match reaching at least three goals becomes more likely. That said, the Over 3.5 probability sitting at just 38% suggests the match will follow a controlled scoreline — something like 2-1, 1-2 or 2-2 — rather than a high-scoring affair.
+
+## Over 9.5 Corners — 58%
+
+The corners market shows a mildly positive reading at 58%. High-pressing and wide-play-oriented styles in the Eerste Divisie tend to produce corner volume, particularly from the home side. A balanced match where both teams push forward should maintain a steady flow of corners.
+
+## Form Analysis
+
+**Den Bosch (Last 5 Matches):** W D W L W — Balanced home performances; consistent in front of goal.
+
+**Jong Utrecht (Last 5 Matches):** L W D W L — Variable away results, but not shy in front of goal.
+
+## H2H
+
+In recent meetings:
+- Both teams scored in the majority of encounters
+- Average goals: **2.4 per match** — low-to-mid total, but BTTS frequent
+- Over 3.5 rarely occurred
+
+## Summary
+
+The market data makes **Both Teams to Score (70%)** and **Over 2.5 Goals (69%)** the leading selections. The low Over 3.5 reading tells us the expectation is more about both sides contributing to the scoreline than a high total. **Over 9.5 Corners (58%)** rounds out the picture as a complementary option.`,
+  },
 ];
 
 export function getAllPosts(): PostMeta[] {
