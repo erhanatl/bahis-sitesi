@@ -43,8 +43,8 @@ export default function TwitterShareButton({ post, locale }: Props) {
 
   const url = `https://pandatips.net/${locale}/blog/${post.slug}`;
 
-  const trHashtags = `#iddaa #tahmin #futbol #banko ${leagueHashtag(post.league_tr)} #iddaatahmin #bahisanaliz #misli`;
-  const enHashtags = `#football #betting #tips #banker ${leagueHashtag(post.league_en)} #bettingtips #bettinganalysis #sportsbetting`;
+  const trHashtags = `#futbol #banko ${leagueHashtag(post.league_tr)} #iddaatahmin #bahisanaliz`;
+  const enHashtags = `#football ${leagueHashtag(post.league_en)} #bettingtips #bettinganalysis #sportsbetting`;
 
   const lines = isTR
     ? [
