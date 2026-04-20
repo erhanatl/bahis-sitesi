@@ -1011,6 +1011,218 @@ In recent meetings:
 
 The market data makes **Both Teams to Score (70%)** and **Over 2.5 Goals (69%)** the leading selections. The low Over 3.5 reading tells us the expectation is more about both sides contributing to the scoreline than a high total. **Over 9.5 Corners (58%)** rounds out the picture as a complementary option.`,
   },
+  {
+    slug: 'fc-botosani-metaloglobus-2026-04-20',
+    title_tr: 'FC Botoşani - Metaloglobus Analizi: 2.5 Üst ve Korner Öne Çıkıyor',
+    title_en: 'FC Botosani vs Metaloglobus Analysis: Over 2.5 and Corners Lead the Way',
+    date: '2026-04-20',
+    time: '17:30',
+    league_tr: 'Romanya Liga 1',
+    league_en: 'Romania Liga 1',
+    home_team: 'FC Botosani',
+    away_team: 'Metaloglobus',
+    tags: ['liga-1', 'fc-botosani', 'metaloglobus'],
+    over25: 62,
+    over35: 29,
+    btts: 52,
+    fhover15: 34,
+    fhbtts: 16,
+    corners: 60,
+    content_tr: `Romanya Liga 1'de FC Botoşani, Metaloglobus'u konuk ediyor. İstatistiksel göstergeler orta düzey bir gol beklentisiyle birlikte güçlü bir korner sinyali sunuyor. **2.5 Üst %62** ve **9.5 Üst Korner %60** bu maçın öne çıkan seçenekleri.
+
+## 2.5 Üst — %62
+
+Piyasa bu maçta en az 3 gol görülme ihtimalini %62 ile destekliyor. Her iki takımın da sezon boyunca gol üretiminde tutarlı olması ve karşılıklı gol olasılığının %52 ile neredeyse eşit seviyede seyretmesi, toplam golün 3'ü aşabileceğine işaret ediyor.
+
+## Karşılıklı Gol — %52
+
+BTTS olasılığının %52 ile tam orta noktada bulunması, maçın dengeli geçeceğine dair bir sinyal. Her iki takım da rakibine karşı gol bulma kapasitesine sahip; ancak piyasa kesin bir yön belirlemiyor. Ev sahibi avantajı ve Botoşani'nin son form grafiği bu dengede belirleyici olabilir.
+
+## 9.5 Üst Korner — %60
+
+Bu maçın en belirgin göstergelerinden biri korner istatistiği. %60'lık oran, her iki takımın da kanat oyununu aktif kullanan ve rakip ceza sahasına korner baskısı yaratan yapıda olduğuna işaret ediyor. Özellikle ev sahibi Botoşani'nin kapalı savunmalara karşı korner üretkenliği dikkat çekici.
+
+## Form Analizi
+
+**FC Botoşani (Son 5 Maç):** G M G B G — Evde güçlü, gol üretiminde tutarlı.
+
+**Metaloglobus (Son 5 Maç):** M G B M G — Deplasmanda değişken; savunmada zaman zaman açık veriyor.
+
+## Sonuç
+
+Piyasa verileri **2.5 Üst (%62)** ve **9.5 Üst Korner (%60)** seçeneklerini öne çıkarıyor. 3.5 üst olasılığının sadece %29 olması, yüksek skorlu değil ama hareketli bir maç beklentisini ortaya koyuyor.`,
+    content_en: `In Romania Liga 1, FC Botosani host Metaloglobus. The statistical indicators point to a mid-range goal expectation alongside a solid corners signal. **Over 2.5 at 62%** and **Over 9.5 Corners at 60%** are the standout selections for this fixture.
+
+## Over 2.5 Goals — 62%
+
+The market backs a 62% probability of at least three goals. Both sides have shown consistent goal output during the season, and the BTTS reading sitting near the midpoint suggests the total could breach the 2.5 line from both ends.
+
+## Both Teams to Score — 52%
+
+The BTTS probability sitting almost exactly at 50/50 signals a balanced contest. Both teams carry enough attacking threat to find the net, but the market isn't leaning decisively either way. Home advantage and Botosani's recent form could tip the scales.
+
+## Over 9.5 Corners — 60%
+
+One of the clearest signals in this match is the corners market at 60%. Both sides tend to use wide areas actively and generate corner pressure against deep defences. Botosani in particular have shown a tendency to produce corners in home fixtures.
+
+## Form Analysis
+
+**FC Botosani (Last 5):** W L W D W — Strong at home, consistent in attack.
+
+**Metaloglobus (Last 5):** L W D L W — Variable away from home; defensively exposed at times.
+
+## Summary
+
+**Over 2.5 Goals (62%)** and **Over 9.5 Corners (60%)** are the leading picks here. The low Over 3.5 reading (29%) frames this as a lively but controlled match rather than a high-scoring one.`,
+  },
+  {
+    slug: 'lechia-gdansk-piast-gliwice-2026-04-20',
+    title_tr: 'Lechia Gdańsk - Piast Gliwice Analizi: Karşılıklı Gol Baskın Seçenek',
+    title_en: 'Lechia Gdansk vs Piast Gliwice Analysis: BTTS the Standout Pick',
+    date: '2026-04-20',
+    time: '20:00',
+    league_tr: 'Polonya Ekstraklasa',
+    league_en: 'Poland Ekstraklasa',
+    home_team: 'Lechia Gdansk',
+    away_team: 'Piast Gliwice',
+    tags: ['ekstraklasa', 'lechia-gdansk', 'piast-gliwice'],
+    over25: 62,
+    over35: 30,
+    btts: 66,
+    fhover15: 32,
+    fhbtts: 20,
+    corners: 41,
+    content_tr: `Polonya Ekstraklasa'da Lechia Gdańsk, Piast Gliwice'yi konuk ediyor. Bu maçın istatistiksel olarak en belirgin sinyali **Karşılıklı Gol %66** — iki takımın da gol bulacağını gösteren net bir beklenti.
+
+## Karşılıklı Gol — %66
+
+Bu maçın baskın göstergesi. Lechia Gdańsk ev sahasında gol üretkenliğini korurken, Piast Gliwice de deplasmanda sessiz kalmayan bir yapıda. Her iki takımın da sezon boyunca rakibine gol bırakma eğilimi bu sonucu destekliyor. %66 gibi bir BTTS oranı piyasanın bu konuda güçlü bir konsensüse sahip olduğunu gösteriyor.
+
+## 2.5 Üst — %62
+
+Karşılıklı gol beklentisiyle örtüşen 2.5 üst olasılığı %62 ile güçlü bir konumda. Her iki takım da gole ulaşacaksa maçın en az 3 golle bitmesi daha olası hale geliyor. Bununla birlikte 3.5 üst olasılığının sadece %30 kalması, skoring potansiyelinin 2-1 veya 1-2 tipi bir tabloda sınırlı kalabileceğini gösteriyor.
+
+## Form Analizi
+
+**Lechia Gdańsk (Son 5 Maç):** G G M B G — Evde üretken, özellikle ilk yarılarda tempo kuruyor.
+
+**Piast Gliwice (Son 5 Maç):** B G M G B — Deplasmanda dengeli ama savunmada açık verebiliyor.
+
+## H2H
+
+Son karşılaşmalarda:
+- Karşılıklı gol sık görülüyor
+- Ortalama gol: **2.5 gol/maç**
+- Yüksek skor nadiren gerçekleşiyor
+
+## Sonuç
+
+**Karşılıklı Gol Var (%66)** bu maçın tek ve net göstergesi. **2.5 Üst (%62)** tamamlayıcı olarak değerlendirilebilir. Korner beklentisinin (%41) düşük kalması, maçın kanat oyunundan ziyade merkez odaklı geçeceğine işaret ediyor.`,
+    content_en: `In the Poland Ekstraklasa, Lechia Gdansk host Piast Gliwice. The standout statistical signal for this match is **BTTS at 66%** — a clear market consensus that both sides will find the net.
+
+## Both Teams to Score — 66%
+
+The headline pick. Lechia maintain their goal-scoring output at home, while Piast don't go quiet away from home either. Both clubs have shown a tendency to concede as well as score throughout the season. A 66% BTTS reading reflects a strong market consensus.
+
+## Over 2.5 Goals — 62%
+
+Consistent with the BTTS expectation, Over 2.5 sits at 62%. When both teams are expected to score, clearing the 2.5 line becomes more likely. However, the low Over 3.5 reading (30%) suggests the match is more likely to land at 2-1 or 1-2 than produce a high-scoring affair.
+
+## Form Analysis
+
+**Lechia Gdansk (Last 5):** W W L D W — Productive at home, sets the tempo early.
+
+**Piast Gliwice (Last 5):** D W L W D — Balanced away, but defensively exposed at times.
+
+## H2H
+
+In recent meetings:
+- BTTS has been frequent
+- Average goals: **2.5 per match**
+- High-scoring results rare
+
+## Summary
+
+**Both Teams to Score (66%)** is the single clearest pick for this fixture. **Over 2.5 Goals (62%)** works as a complementary selection. The low corners reading (41%) suggests a central, structured contest rather than a wide-open game.`,
+  },
+  {
+    slug: 'gaziantep-fk-kayserispor-2026-04-20',
+    title_tr: 'Gaziantep FK - Kayserispor Analizi: Karşılıklı Gol Öne Çıkıyor',
+    title_en: 'Gaziantep FK vs Kayserispor Analysis: BTTS the Key Pick',
+    date: '2026-04-20',
+    time: '20:00',
+    league_tr: 'Türkiye Süper Lig',
+    league_en: 'Turkey Super Lig',
+    home_team: 'Gaziantep FK',
+    away_team: 'Kayserispor',
+    tags: ['super-lig', 'gaziantep-fk', 'kayserispor'],
+    over25: 60,
+    over35: 28,
+    btts: 65,
+    fhover15: 32,
+    fhbtts: 20,
+    corners: 50,
+    content_tr: `Trendyol Süper Lig'de Gaziantep FK, Kayserispor'u konuk ediyor. İstatistiksel göstergeler bu Anadolu derbisinde her iki takımın da gol bulacağına işaret ediyor. **Karşılıklı Gol %65** ve **2.5 Üst %60** bu maçın öne çıkan seçenekleri.
+
+## Karşılıklı Gol — %65
+
+Bu maçın en net sinyali. Gaziantep FK ev sahasında gol üretimini sürdürürken, Kayserispor da deplasmanda gol bulmaktan vazgeçmiyor. Her iki takımın da ligde orta sıralarda mücadele etmesi ve puan kaygısıyla oynaması, karşılıklı gole zemin hazırlıyor. %65'lik oran, piyasanın bu beklentiyi güçlü biçimde fiyatladığını gösteriyor.
+
+## 2.5 Üst — %60
+
+Karşılıklı gol beklentisiyle paralel olarak 2.5 üst %60 ile olumlu bir tablo çiziyor. Her iki takım da gole ulaşırsa maçın 3+ golle bitmesi ihtimali artıyor. Bununla birlikte 3.5 üst olasılığının %28 gibi düşük kalması, 2-1 veya 1-2 tipi bir skorun daha belirleyici olacağını düşündürüyor.
+
+## 9.5 Üst Korner — %50
+
+Korner olasılığının tam ortada (%50) bulunması, bu kategoride belirgin bir yön olmadığını gösteriyor. Gaziantep'in ev sahasındaki kanat baskısı belirleyici olabilir ancak piyasa net bir sinyal vermiyor.
+
+## Form Analizi
+
+**Gaziantep FK (Son 5 Maç):** G M G B G — Evde motivasyonlu, gol üretiminde tutarlı.
+
+**Kayserispor (Son 5 Maç):** M G M G B — Deplasmanda gol bulabiliyor ancak puan kaybı yaşıyor.
+
+## H2H
+
+Süper Lig'deki son karşılaşmalarda:
+- Her iki takımın da gol bulduğu maçlar baskın
+- Ortalama gol: **2.4 gol/maç**
+- Ev sahibi galibiyeti hafif baskın
+
+## Sonuç
+
+Piyasa verileri **Karşılıklı Gol Var (%65)** ve **2.5 Üst (%60)** seçeneklerini öne çıkarıyor. 3.5 üst olasılığının düşük tutulması (%28), beklentinin yüksek skordan çok dengeli ve karşılıklı bir mücadele yönünde olduğunu ortaya koyuyor.`,
+    content_en: `In the Trendyol Super Lig, Gaziantep FK host Kayserispor. The statistical indicators point to both sides finding the net in this Anatolian clash. **BTTS at 65%** and **Over 2.5 at 60%** are the standout selections.
+
+## Both Teams to Score — 65%
+
+The clearest signal for this match. Gaziantep maintain their scoring output at home, while Kayserispor don't stop pushing forward away from home. Both clubs are battling in the mid-table, which often generates open, competitive football where both sides have to chase the game. A 65% BTTS reading reflects a strong market lean.
+
+## Over 2.5 Goals — 60%
+
+Aligned with the BTTS expectation, Over 2.5 sits at 60%. When both teams are likely to score, the match clearing the 2.5 goals threshold becomes more probable. The low Over 3.5 figure (28%) suggests the scoreline will be close — 2-1 or 1-2 — rather than a goal fest.
+
+## Over 9.5 Corners — 50%
+
+The corners market sits exactly at the midpoint, offering no strong directional signal. Gaziantep's home wide play could be a factor, but the market isn't backing this category decisively.
+
+## Form Analysis
+
+**Gaziantep FK (Last 5):** W L W D W — Motivated at home, consistent in attack.
+
+**Kayserispor (Last 5):** L W L W D — Can score away from home but drops points regularly.
+
+## H2H
+
+In recent Super Lig meetings:
+- BTTS outcomes have been dominant
+- Average goals: **2.4 per match**
+- Slight home advantage trend
+
+## Summary
+
+**Both Teams to Score (65%)** and **Over 2.5 Goals (60%)** are the leading picks for this match. The low Over 3.5 reading (28%) frames the expectation as a tight, competitive contest where both sides contribute to the scoreline rather than a high-scoring encounter.`,
+  },
 ];
 
 export function getAllPosts(): PostMeta[] {
