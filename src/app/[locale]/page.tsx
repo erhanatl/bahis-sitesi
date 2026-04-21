@@ -35,8 +35,9 @@ export default async function HomePage() {
   }
 
   return (
-    <PredictionsPage leagueGroups={leagueGroups} selectedDate={today}>
+    <>
+      <PredictionsPage leagueGroups={leagueGroups} selectedDate={today} />
       <LatestAnalysis locale={locale} limit={3} />
-    </PredictionsPage>
+    </>
   );
 }
