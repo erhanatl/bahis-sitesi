@@ -11,6 +11,7 @@ import MatchRow from './MatchRow';
 interface PredictionsPageProps {
   leagueGroups: LeagueGroup[];
   selectedDate: string;
+  children?: React.ReactNode;
 }
 
 function spreadPercent(pct: number): number {
@@ -53,7 +54,7 @@ const categoryKeys: { key: PredictionCategory; tKey: string }[] = [
   { key: 'corners95', tKey: 'catCorners95' },
 ];
 
-export default function PredictionsPage({ leagueGroups, selectedDate }: PredictionsPageProps) {
+export default function PredictionsPage({ leagueGroups, selectedDate, children }: PredictionsPageProps) {
   const t = useTranslations();
   const locale = useLocale();
   const router = useRouter();
@@ -160,6 +161,9 @@ export default function PredictionsPage({ leagueGroups, selectedDate }: Predicti
           <DateSelector selectedDate={selectedDate} />
         </div>
       </div>
+
+      {/* Latest Analyses — between hero and match list */}
+      {children}
 
       {/* Content */}
       <div className="max-w-5xl mx-auto px-4 py-6">
