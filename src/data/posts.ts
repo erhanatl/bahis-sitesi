@@ -1223,6 +1223,491 @@ In recent Super Lig meetings:
 
 **Both Teams to Score (65%)** and **Over 2.5 Goals (60%)** are the leading picks for this match. The low Over 3.5 reading (28%) frames the expectation as a tight, competitive contest where both sides contribute to the scoreline rather than a high-scoring encounter.`,
   },
+  // ── 22 Nisan 2026 ────────────────────────────────────────────────────────
+  {
+    slug: 'barcelona-celta-vigo-2026-04-22',
+    title_tr: 'Barcelona - Celta Vigo Analizi: 2.5 Üst ve Karşılıklı Gol Güçlü Seçenekler',
+    title_en: 'Barcelona vs Celta Vigo Analysis: Over 2.5 and BTTS the Strong Picks',
+    date: '2026-04-22',
+    time: '22:30',
+    league_tr: 'İspanya La Liga',
+    league_en: 'Spain La Liga',
+    home_team: 'Barcelona',
+    away_team: 'Celta Vigo',
+    tags: ['la-liga', 'barcelona', 'celta-vigo'],
+    over25: 79,
+    over35: 59,
+    btts: 66,
+    fhover15: 56,
+    fhbtts: 23,
+    corners: 41,
+    content_tr: `La Liga'nın zirvesini hedefleyen Barcelona, Nou Camp'ta Celta Vigo'yu ağırlıyor. İstatistiksel göstergeler bu maçı sezonun en yüksek gol beklentili karşılaşmalarından biri olarak işaret ediyor.
+
+## 2.5 Üst — %79
+
+Bu sezonun en güçlü 2.5 üst göstergelerinden biri. Barcelona'nın yoğun hücum baskısı ve Celta Vigo'nun açık savunma anlayışı, Camp Nou'da gol yağmurunu neredeyse kaçınılmaz kılıyor.
+
+## Karşılıklı Gol — %66
+
+Celta Vigo, lig genelinde en sık gol bulan deplasman takımlarından biri. Barcelona'nın saldırgan oyun anlayışı karşı ataklar için alan açıyor; bu da Celta'ya gol fırsatı tanıyor. %66'lık BTTS oranı güçlü bir piyasa konsensüsünü yansıtıyor.
+
+## 3.5 Üst — %59
+
+3.5 üst olasılığının %59'a ulaşması, bu maçın 4+ golle bitme ihtimalinin de ciddi boyutta olduğunu gösteriyor. Barcelona'nın son ev maçlarındaki gol ortalaması bu beklentiyi destekliyor.
+
+## İlk Yarı 1.5 Üst — %56
+
+İlk yarıda 2 veya daha fazla gol görülme ihtimali %56 ile orta-yüksek seviyede. Barcelona genellikle ilk yarıda baskı kurarak skora ilk ulaşıyor.
+
+## Sonuç
+
+**2.5 Üst (%79)** bu maçın tartışmasız en güçlü göstergesi. **Karşılıklı Gol (%66)** ve **3.5 Üst (%59)** tamamlayıcı seçenekler olarak öne çıkıyor.`,
+    content_en: `Barcelona host Celta Vigo at Camp Nou in a La Liga fixture that ranks among the highest goal-expectation matches of the season.
+
+## Over 2.5 Goals — 79%
+
+One of the strongest over 2.5 readings of the season. Barcelona's relentless attacking pressure combined with Celta Vigo's open defensive style makes a high-scoring encounter at Camp Nou almost inevitable.
+
+## Both Teams to Score — 66%
+
+Celta Vigo are one of the most productive away sides in the league in terms of scoring. Barcelona's attacking approach creates space for counter-attacks, giving Celta their own chances. The 66% BTTS reading reflects a strong market consensus.
+
+## Over 3.5 Goals — 59%
+
+A 59% probability for Over 3.5 is significant — the market rates a 4+ goal outcome as roughly a coin flip. Barcelona's home goal average this season supports this expectation.
+
+## First Half Over 1.5 — 56%
+
+A 56% reading for two or more first-half goals is solid. Barcelona tend to press early and take the lead quickly at home.
+
+## Summary
+
+**Over 2.5 Goals (79%)** is the standout pick. **BTTS (66%)** and **Over 3.5 Goals (59%)** are strong complementary selections.`,
+  },
+  {
+    slug: 'paris-saint-germain-nantes-2026-04-22',
+    title_tr: 'PSG - Nantes Analizi: 2.5 Üst Baskın, İlk Yarı da Hareketli',
+    title_en: 'PSG vs Nantes Analysis: Over 2.5 Dominant, First Half Active Too',
+    date: '2026-04-22',
+    time: '20:00',
+    league_tr: 'Fransa Ligue 1',
+    league_en: 'France Ligue 1',
+    home_team: 'Paris Saint Germain',
+    away_team: 'Nantes',
+    tags: ['ligue-1', 'psg', 'nantes'],
+    over25: 78,
+    over35: 58,
+    btts: 56,
+    fhover15: 54,
+    fhbtts: 18,
+    corners: 54,
+    content_tr: `Ligue 1'de PSG, Parc des Princes'ta Nantes'ı konuk ediyor. İstatistiksel göstergeler ev sahibi lehine yüksek tempolu ve gol dolu bir maça işaret ediyor.
+
+## 2.5 Üst — %78
+
+Bu sezonun en güçlü 2.5 üst göstergelerinden biri. PSG'nin yıldız kadrosu ve Nantes'ın savunmadaki kırılganlığı, bu oran için yeterli zemin sağlıyor.
+
+## 3.5 Üst — %58
+
+Ligde rakiplerine kıyasla çok daha fazla gol üreten PSG için 3.5 üst olasılığının %58'e ulaşması şaşırtıcı değil. Parc des Princes'ta Nantes'ın direnç göstermesi zor.
+
+## İlk Yarı 1.5 Üst — %54
+
+İlk yarıda 2+ gol beklentisinin %54'e ulaşması dikkat çekici. PSG maçları genellikle erken gollerle başlar; devre arası öncesinde skor çoğunlukla açılmış olur.
+
+## Karşılıklı Gol — %56
+
+%56'lık BTTS oranı, Nantes'ın da deplas­manda gol bulabileceğini gösteriyor. PSG'nin yüksek savunma hattı ve hızlı Nantes hücumları bu ihtimali canlı tutuyor.
+
+## Sonuç
+
+**2.5 Üst (%78)** ve **3.5 Üst (%58)** bu maçın öne çıkan seçenekleri. **İlk Yarı 1.5 Üst (%54)** güçlü bir tamamlayıcı gösterge sunuyor.`,
+    content_en: `PSG host Nantes at Parc des Princes in a Ligue 1 fixture where the statistical indicators point decisively toward a high-scoring home performance.
+
+## Over 2.5 Goals — 78%
+
+One of the season's strongest Over 2.5 signals. PSG's star-studded attack and Nantes' defensive vulnerability provide ample foundation for this reading.
+
+## Over 3.5 Goals — 58%
+
+PSG are prolific against most sides in Ligue 1, and a 58% Over 3.5 probability reflects how one-sided the expected scoring could be at Parc des Princes.
+
+## First Half Over 1.5 — 54%
+
+A 54% probability for two or more first-half goals is noteworthy. PSG matches at home regularly see early goals, with the score often already open before half-time.
+
+## Both Teams to Score — 56%
+
+Nantes have shown they can score away from home, and PSG's high defensive line leaves space for quick counter-attacks. The 56% BTTS reading keeps this option live.
+
+## Summary
+
+**Over 2.5 Goals (78%)** and **Over 3.5 Goals (58%)** are the headline picks. **First Half Over 1.5 (54%)** provides a strong complementary selection.`,
+  },
+  {
+    slug: 'burnley-manchester-city-2026-04-22',
+    title_tr: 'Burnley - Manchester City Analizi: 2.5 Üst Güçlü, Korner de Dikkat Çekiyor',
+    title_en: 'Burnley vs Manchester City Analysis: Over 2.5 Strong, Corners Notable Too',
+    date: '2026-04-22',
+    time: '22:00',
+    league_tr: 'İngiltere Premier League',
+    league_en: 'England Premier League',
+    home_team: 'Burnley',
+    away_team: 'Manchester City',
+    tags: ['premier-league', 'burnley', 'manchester-city'],
+    over25: 77,
+    over35: 54,
+    btts: 45,
+    fhover15: 50,
+    fhbtts: 16,
+    corners: 59,
+    content_tr: `Premier League'de Burnley, Turf Moor'da Manchester City'yi ağırlıyor. Piyasa verileri City'nin baskın bir üstünlük sergileyeceğini ve maçın gol dolu geçeceğini işaret ediyor.
+
+## 2.5 Üst — %77
+
+%77 ile çok güçlü bir 2.5 üst sinyali. Manchester City bu sezon deplasmanda sürekli gol üretiyor; Burnley'nin savunması ise ligin en çok gol yiyen hatlarından biri olmaya devam ediyor.
+
+## 3.5 Üst — %54
+
+3.5 üst olasılığının %54'e ulaşması, City'nin Burnley'ye karşı büyük skor yapma potansiyelinin piyasa tarafından ciddi biçimde fiyatlandığını gösteriyor.
+
+## 9.5 Üst Korner — %59
+
+City'nin top kontrolüne dayanan oyun anlayışı, rakip ceza sahasına yoğun baskı ve dolayısıyla yüksek korner üretimi yaratıyor. %59'luk oran bu beklentiyi destekliyor.
+
+## Karşılıklı Gol — %45
+
+BTTS olasılığının %45'te kalması, golün ağırlıklı olarak tek taraftan — yani City'den — geleceğine işaret ediyor. Burnley'nin deplasman olarak zorlu rakibine karşı gol bulması zor.
+
+## Sonuç
+
+**2.5 Üst (%77)** bu maçın net göstergesi. **3.5 Üst (%54)** ve **9.5 Üst Korner (%59)** tamamlayıcı seçenekler olarak değerlendirilebilir.`,
+    content_en: `In the Premier League, Burnley host Manchester City at Turf Moor. Market data points to City dominance and a goal-laden encounter.
+
+## Over 2.5 Goals — 77%
+
+A very strong 77% Over 2.5 signal. Manchester City have been prolific on the road this season while Burnley remain one of the league's most porous defences.
+
+## Over 3.5 Goals — 54%
+
+A 54% probability for Over 3.5 reflects how seriously the market takes City's potential to run up a big score against Burnley.
+
+## Over 9.5 Corners — 59%
+
+City's possession-based style generates intense pressure in the opposition box and, consequently, high corner counts. The 59% reading supports this expectation.
+
+## Both Teams to Score — 45%
+
+The lower BTTS reading of 45% signals that the bulk of goals are expected from one side — City. Burnley will find it hard to break down City's organised defensive shape.
+
+## Summary
+
+**Over 2.5 Goals (77%)** is the clear headline pick. **Over 3.5 Goals (54%)** and **Over 9.5 Corners (59%)** are solid complementary selections.`,
+  },
+  {
+    slug: 'middlesbrough-sheffield-wednesday-2026-04-22',
+    title_tr: 'Middlesbrough - Sheffield Wednesday Analizi: 2.5 Üst Baskın Seçenek',
+    title_en: 'Middlesbrough vs Sheffield Wednesday Analysis: Over 2.5 the Dominant Pick',
+    date: '2026-04-22',
+    time: '21:45',
+    league_tr: 'İngiltere Championship',
+    league_en: 'England Championship',
+    home_team: 'Middlesbrough',
+    away_team: 'Sheffield Wednesday',
+    tags: ['championship', 'middlesbrough', 'sheffield-wednesday'],
+    over25: 75,
+    over35: 46,
+    btts: 43,
+    fhover15: 44,
+    fhbtts: 15,
+    corners: 54,
+    content_tr: `Championship'te Middlesbrough, Sheffield Wednesday'yi Riverside'da ağırlıyor. Piyasa bu karşılaşmada ev sahibinin baskın olduğu ve golün tek taraflı üretildiği bir tablo çiziyor.
+
+## 2.5 Üst — %75
+
+%75 ile Championship için oldukça yüksek bir 2.5 üst göstergesi. Middlesbrough bu sezon ev sahasında yüksek tempolu maçlara imza atıyor. Sheffield Wednesday ise deplasmanda savunmada açık veriyor.
+
+## 9.5 Üst Korner — %54
+
+%54 ile orta-yüksek seviyede bir korner beklentisi. Middlesbrough'un kanat baskısı ve Sheffield Wednesday'nin geri çekilmesi, ev sahibi lehine yoğun korner üretimine zemin hazırlıyor.
+
+## 3.5 Üst — %46
+
+3.5 üst olasılığı %46 ile tam ortaya yakın; net bir sinyal vermiyor. Maçın yüksek skorlu olabileceğini gösteriyor ancak kesin değil.
+
+## Karşılıklı Gol — %43
+
+BTTS'nin %43 ile düşük kalması, golün büyük kısmının Middlesbrough'dan geleceğini düşündürüyor. Sheffield Wednesday deplasmanda gol üretiminde zorlanıyor.
+
+## Sonuç
+
+**2.5 Üst (%75)** bu maçın tek net sinyali. **9.5 Üst Korner (%54)** tamamlayıcı bir seçenek olarak değerlendirilebilir.`,
+    content_en: `In the Championship, Middlesbrough host Sheffield Wednesday at the Riverside. The market paints a picture of home dominance with goals largely from one side.
+
+## Over 2.5 Goals — 75%
+
+A high reading for Championship standards at 75%. Middlesbrough are producing high-tempo matches at home this season while Sheffield Wednesday's defensive record away from home remains poor.
+
+## Over 9.5 Corners — 54%
+
+A mid-to-high corners reading. Middlesbrough's wide play and Sheffield Wednesday's tendency to sit deep should generate a steady flow of corners for the home side.
+
+## Over 3.5 Goals — 46%
+
+The 46% Over 3.5 probability sits just below the midpoint — not a decisive signal, but it keeps a higher-scoring outcome in the picture.
+
+## Both Teams to Score — 43%
+
+The 43% BTTS reading suggests the majority of goals will come from Middlesbrough. Sheffield Wednesday are struggling to find the net on the road.
+
+## Summary
+
+**Over 2.5 Goals (75%)** is the clear standalone pick for this fixture. **Over 9.5 Corners (54%)** can serve as a complementary selection.`,
+  },
+  {
+    slug: 'istra-1961-dinamo-zagreb-2026-04-22',
+    title_tr: 'Istra 1961 - Dinamo Zagreb Analizi: 2.5 Üst ve Korner Öne Çıkıyor',
+    title_en: 'Istra 1961 vs Dinamo Zagreb Analysis: Over 2.5 and Corners Stand Out',
+    date: '2026-04-22',
+    time: '21:15',
+    league_tr: 'Hırvatistan HNL',
+    league_en: 'Croatia HNL',
+    home_team: 'Istra 1961',
+    away_team: 'Dinamo Zagreb',
+    tags: ['hnl', 'istra-1961', 'dinamo-zagreb'],
+    over25: 69,
+    over35: 38,
+    btts: 48,
+    fhover15: 41,
+    fhbtts: 16,
+    corners: 60,
+    content_tr: `Hırvatistan HNL'de Istra 1961, ligin tartışmasız favorisi Dinamo Zagreb'i konuk ediyor. Piyasa verileri deplasman ekibinin üstünlüğünü ve maçın gol üretimini net biçimde işaret ediyor.
+
+## 2.5 Üst — %69
+
+%69 ile güçlü bir 2.5 üst sinyali. Dinamo Zagreb bu sezon deplasmanda tutarlı gol üretiyor; Istra'nın savunması ise güçlü rakiplere karşı genellikle kırılgan kalıyor.
+
+## 9.5 Üst Korner — %60
+
+Bu maçın en dikkat çekici ikinci göstergesi. %60 ile güçlü bir korner beklentisi var. Dinamo Zagreb'in topa sahip olduğu, baskı kurduğu maçlarda korner sayısı önemli ölçüde artıyor.
+
+## Karşılıklı Gol — %48
+
+BTTS neredeyse eşit (%48), ancak hafif negatif. Istra'nın Dinamo'ya karşı gol bulması zor; piyasa golün ağırlıklı olarak misafir takımdan geleceğini düşünüyor.
+
+## Sonuç
+
+**2.5 Üst (%69)** ve **9.5 Üst Korner (%60)** bu maçın öne çıkan seçenekleri. Dinamo Zagreb'in kalitesi ve baskın oyun anlayışı her iki kategoriyi de destekliyor.`,
+    content_en: `In the Croatian HNL, Istra 1961 host the league's dominant force, Dinamo Zagreb. Market data clearly signals away superiority and a productive goal count.
+
+## Over 2.5 Goals — 69%
+
+A strong 69% Over 2.5 reading. Dinamo Zagreb produce consistent goal output on the road this season while Istra's defence tends to be fragile against quality opposition.
+
+## Over 9.5 Corners — 60%
+
+The second standout indicator for this match. Dinamo's possession-heavy, pressure-based style naturally generates high corner counts — especially against sides that sit deep.
+
+## Both Teams to Score — 48%
+
+BTTS sits just below 50%, slightly negative. Istra will find it difficult to score against Dinamo's organised defence; the market expects most goals to come from the away side.
+
+## Summary
+
+**Over 2.5 Goals (69%)** and **Over 9.5 Corners (60%)** are the leading picks for this fixture, both supported by Dinamo Zagreb's quality and dominant playing style.`,
+  },
+  {
+    slug: 'cardiff-port-vale-2026-04-22',
+    title_tr: 'Cardiff - Port Vale Analizi: 2.5 Üst ve Korner Dikkat Çekiyor',
+    title_en: 'Cardiff vs Port Vale Analysis: Over 2.5 and Corners the Picks',
+    date: '2026-04-22',
+    time: '21:45',
+    league_tr: 'İngiltere League One',
+    league_en: 'England League One',
+    home_team: 'Cardiff',
+    away_team: 'Port Vale',
+    tags: ['league-one', 'cardiff', 'port-vale'],
+    over25: 67,
+    over35: 34,
+    btts: 49,
+    fhover15: 37,
+    fhbtts: 16,
+    corners: 59,
+    content_tr: `League One'da Cardiff, Port Vale'i konuk ediyor. İstatistiksel göstergeler ev sahibi üstünlüğüne dayanan hareketli ancak tek taraflı bir maç tablosu çiziyor.
+
+## 2.5 Üst — %67
+
+%67 ile güçlü bir 2.5 üst göstergesi. Cardiff bu sezon ev sahasında yüksek gol üretiyor. Port Vale'in deplasman savunması ise rakip takımlara gol fırsatı tanıyor.
+
+## 9.5 Üst Korner — %59
+
+Cardiff'in baskı oyunu ve Port Vale'in geri çekilmesi, yoğun korner üretimine zemin hazırlıyor. %59 ile bu kategori de değerlendirilebilir seviyede.
+
+## Karşılıklı Gol — %49
+
+BTTS neredeyse tam ortada (%49). Port Vale'in Cardiff'e karşı gol bulup bulmayacağı belirsiz; piyasa net bir yön vermiyor.
+
+## Sonuç
+
+**2.5 Üst (%67)** bu maçın ana seçeneği. **9.5 Üst Korner (%59)** iyi bir tamamlayıcı gösterge.`,
+    content_en: `In League One, Cardiff host Port Vale in a fixture where the statistics point to a lively but largely one-sided encounter.
+
+## Over 2.5 Goals — 67%
+
+A solid 67% Over 2.5 reading. Cardiff are productive at home this season while Port Vale's away defensive record leaves space for the hosts to score freely.
+
+## Over 9.5 Corners — 59%
+
+Cardiff's pressing style and Port Vale's expected deep defensive shape should generate plenty of corners for the home side. The 59% reading makes this a worthwhile complementary pick.
+
+## Both Teams to Score — 49%
+
+BTTS is almost exactly 50/50. Whether Port Vale can find the net against Cardiff is unclear — the market offers no clear directional signal here.
+
+## Summary
+
+**Over 2.5 Goals (67%)** is the main pick for this fixture. **Over 9.5 Corners (59%)** works well as a complementary selection.`,
+  },
+  {
+    slug: 'telstar-sparta-rotterdam-2026-04-22',
+    title_tr: 'Telstar - Sparta Rotterdam Analizi: Karşılıklı Gol Baskın Seçenek',
+    title_en: 'Telstar vs Sparta Rotterdam Analysis: BTTS the Standout Pick',
+    date: '2026-04-22',
+    time: '21:00',
+    league_tr: 'Hollanda Eerste Divisie',
+    league_en: 'Netherlands Eerste Divisie',
+    home_team: 'Telstar',
+    away_team: 'Sparta Rotterdam',
+    tags: ['eerste-divisie', 'telstar', 'sparta-rotterdam'],
+    over25: 66,
+    over35: 33,
+    btts: 69,
+    fhover15: 37,
+    fhbtts: 23,
+    corners: 59,
+    content_tr: `Hollanda Eerste Divisie'de Telstar, Sparta Rotterdam'ı konuk ediyor. Bu maçın istatistiksel olarak en güçlü sinyali **Karşılıklı Gol %69** — her iki takımın da gol bulacağı beklentisi baskın.
+
+## Karşılıklı Gol — %69
+
+Bu maçın en net göstergesi. Telstar ev sahasında gol üretimini sürdürürken, Sparta Rotterdam da deplasmanda gol bulmaktan vazgeçmez bir karakter taşıyor. Her iki takımın savunmasındaki açıklar bu oranı güçlendiriyor.
+
+## 2.5 Üst — %66
+
+Karşılıklı gol beklentisiyle örtüşen 2.5 üst %66 ile güçlü bir konumda. İki taraf da gol bulursa 3+ gol beklentisi doğal olarak yükseliyor. Bununla birlikte 3.5 üst %33'te kalıyor; yüksek skorlu bir maçtan ziyade 2-1 ya da 1-2 tipi bir sonuç daha olası.
+
+## 9.5 Üst Korner — %59
+
+Her iki takımın da atak odaklı yaklaşımı, karşılıklı baskı ve korner üretimini artırıyor. %59 bu kategori için cazip bir seviye.
+
+## Sonuç
+
+**Karşılıklı Gol (%69)** ve **2.5 Üst (%66)** bu maçın öne çıkan seçenekleri. **9.5 Üst Korner (%59)** ek gösterge olarak değerlendirilebilir.`,
+    content_en: `In the Netherlands Eerste Divisie, Telstar host Sparta Rotterdam. The strongest statistical signal here is **BTTS at 69%** — a clear market lean toward both teams finding the net.
+
+## Both Teams to Score — 69%
+
+The standout pick for this fixture. Telstar score regularly at home while Sparta Rotterdam carry an attacking threat even away from home. Defensive gaps on both sides reinforce this reading.
+
+## Over 2.5 Goals — 66%
+
+Aligned with the BTTS expectation, Over 2.5 sits at 66%. When both teams are expected to score, clearing the 2.5 line becomes more likely. That said, the Over 3.5 probability is just 33%, pointing toward a tight 2-1 or 1-2 rather than a high-scoring affair.
+
+## Over 9.5 Corners — 59%
+
+Both sides' attacking approach generates mutual pressure and, consequently, corner volume. The 59% reading makes this a worthwhile complementary selection.
+
+## Summary
+
+**BTTS (69%)** and **Over 2.5 Goals (66%)** are the headline picks. **Over 9.5 Corners (59%)** adds a solid complementary option.`,
+  },
+  {
+    slug: 'bournemouth-leeds-2026-04-22',
+    title_tr: 'Bournemouth - Leeds Analizi: Karşılıklı Gol ve 2.5 Üst Öne Çıkıyor',
+    title_en: 'Bournemouth vs Leeds Analysis: BTTS and Over 2.5 Lead the Way',
+    date: '2026-04-22',
+    time: '22:00',
+    league_tr: 'İngiltere Premier League',
+    league_en: 'England Premier League',
+    home_team: 'Bournemouth',
+    away_team: 'Leeds',
+    tags: ['premier-league', 'bournemouth', 'leeds'],
+    over25: 62,
+    over35: 30,
+    btts: 66,
+    fhover15: 34,
+    fhbtts: 20,
+    corners: 41,
+    content_tr: `Premier League'de Bournemouth, Vitality Stadium'da Leeds'i ağırlıyor. Piyasa verileri her iki takımın da gol bulacağına güçlü biçimde işaret ediyor.
+
+## Karşılıklı Gol — %66
+
+Bu maçın öne çıkan göstergesi. Bournemouth ev sahasında saldırgan futbol oynuyor ve gol üretimini sürdürüyor. Leeds ise deplasmanda gol bulmaktan kaçınmayan, açık savunmasıyla bilinen bir takım. Her iki taraf da gole ulaşabilir.
+
+## 2.5 Üst — %62
+
+Karşılıklı gol beklentisiyle paralel olarak 2.5 üst %62 ile destekli. İki taraf da gol bulursa 3+ gol beklentisi güçleniyor. 3.5 üst %30 ile düşük kalıyor — yani 2-1 tipi dengeli bir skor daha olası.
+
+## Sonuç
+
+**Karşılıklı Gol (%66)** ve **2.5 Üst (%62)** bu maçın iki ana seçeneği. Düşük 3.5 üst oranı, beklentinin yüksek skor değil karşılıklı gollü dengeli bir maç yönünde olduğunu gösteriyor.`,
+    content_en: `In the Premier League, Bournemouth host Leeds at Vitality Stadium. Market data points strongly toward both teams finding the net.
+
+## Both Teams to Score — 66%
+
+The standout indicator for this match. Bournemouth play attacking football at home and maintain their scoring output. Leeds are a side that rarely shuts up shop away from home and carry their own goal threat. Both teams have the tools to score.
+
+## Over 2.5 Goals — 62%
+
+Aligned with the BTTS reading, Over 2.5 sits at 62%. When both teams are expected to score, exceeding the 2.5 line becomes more probable. The Over 3.5 reading of just 30% suggests a tight 2-1 scoreline rather than a high-scoring match.
+
+## Summary
+
+**BTTS (66%)** and **Over 2.5 Goals (62%)** are the two main picks for this fixture. The low Over 3.5 reading frames expectations toward a competitive, mutually productive match rather than a goal fest.`,
+  },
+  {
+    slug: 'elche-atletico-madrid-2026-04-22',
+    title_tr: 'Elche - Atletico Madrid Analizi: Karşılıklı Gol Öne Çıkıyor',
+    title_en: 'Elche vs Atletico Madrid Analysis: BTTS the Key Pick',
+    date: '2026-04-22',
+    time: '20:00',
+    league_tr: 'İspanya La Liga',
+    league_en: 'Spain La Liga',
+    home_team: 'Elche',
+    away_team: 'Atletico Madrid',
+    tags: ['la-liga', 'elche', 'atletico-madrid'],
+    over25: 61,
+    over35: 29,
+    btts: 66,
+    fhover15: 32,
+    fhbtts: 19,
+    corners: 41,
+    content_tr: `La Liga'da Elche, Atletico Madrid'i konuk ediyor. Piyasanın en ilgi çekici bulgusu: her iki takımın da gol bulacağı beklentisinin %66 ile güçlü olması, ancak toplam gol sayısının düşük kalması.
+
+## Karşılıklı Gol — %66
+
+Bu maçın en net sinyali. Atletico Madrid güçlü bir deplasman saldırısına sahipken, Elche de ev sahasında zaman zaman gol bulmayı başarıyor. Atletico'nun yüksek baskısı Elche için kontr atak imkânı yaratıyor.
+
+## 2.5 Üst — %61
+
+%61 ile 2.5 üst makul bir seviyede. Her iki takım da gol bulursa 3+ gol beklentisi doğal olarak artıyor. Ancak 3.5 üst %29 ile düşük kalıyor — Atletico Madrid'in disiplinli oyun anlayışı yüksek gol sayısını engelleyebilir.
+
+## Sonuç
+
+**Karşılıklı Gol (%66)** bu maçın ana seçeneği. **2.5 Üst (%61)** iyi bir tamamlayıcı gösterge. Atletico'nun savunma anlayışı yüksek skor ihtimalini sınırlıyor.`,
+    content_en: `In La Liga, Elche host Atletico Madrid. The most interesting market finding is the disconnect between the strong BTTS reading and the modest total goals expectation.
+
+## Both Teams to Score — 66%
+
+The clearest signal for this match. Atletico Madrid carry a strong away attacking threat while Elche have shown they can find the net at home. Atletico's high press creates counter-attacking opportunities for Elche.
+
+## Over 2.5 Goals — 61%
+
+A reasonable 61% Over 2.5 reading. When both teams are likely to score, exceeding 2.5 goals becomes more probable. However, the Over 3.5 probability of just 29% shows Atletico's disciplined defensive organisation limits the high-end scoring potential.
+
+## Summary
+
+**BTTS (66%)** is the main pick for this fixture. **Over 2.5 Goals (61%)** works well as a complementary selection. Atletico's defensive discipline caps the high-scoring scenario.`,
+  },
 ];
 
 export function getAllPosts(): PostMeta[] {
