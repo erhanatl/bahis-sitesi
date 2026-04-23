@@ -4,6 +4,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { Fixture, FixtureStatistics, FixtureLineup, Prediction } from '@/lib/types';
+import { formatDate, isToday } from '@/lib/utils';
 
 interface MatchDetailClientProps {
   fixture: Fixture;
@@ -19,6 +20,8 @@ export default function MatchDetailClient({ fixture, statistics, lineups, h2h, p
 
   const tz = locale === 'tr' ? 'Europe/Istanbul' : 'UTC';
   const matchDate = new Date(fixture.fixture.date);
+  const matchDateStr = formatDate(matchDate); // YYYY-MM-DD (UTC)
+  const backHref = isToday(matchDate) ? '/' : `/predictions/${matchDateStr}`;
   const dateStr = matchDate.toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-GB', {
     day: '2-digit', month: '2-digit', year: 'numeric', timeZone: tz,
   });
@@ -34,7 +37,7 @@ export default function MatchDetailClient({ fixture, statistics, lineups, h2h, p
     <div className="max-w-3xl mx-auto px-4 py-6">
       {/* Back link */}
       <Link
-        href="/"
+        href={backHref}
         className="inline-flex items-center gap-1 text-sm text-green-700 hover:text-green-900 mb-6"
       >
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
