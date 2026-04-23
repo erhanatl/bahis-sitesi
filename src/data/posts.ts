@@ -1708,6 +1708,411 @@ A reasonable 61% Over 2.5 reading. When both teams are likely to score, exceedin
 
 **BTTS (66%)** is the main pick for this fixture. **Over 2.5 Goals (61%)** works well as a complementary selection. Atletico's defensive discipline caps the high-scoring scenario.`,
   },
+  // ── 23 Nisan 2026 ────────────────────────────────────────────────────────
+  {
+    slug: 'psv-eindhoven-pec-zwolle-2026-04-23',
+    title_tr: 'PSV Eindhoven - PEC Zwolle Analizi: 2.5 Üst ve 3.5 Üst Sezonun En Güçlü Sinyalleri',
+    title_en: 'PSV Eindhoven vs PEC Zwolle Analysis: Over 2.5 and Over 3.5 Among Season\'s Strongest',
+    date: '2026-04-23',
+    time: '22:00',
+    league_tr: 'Hollanda Eredivisie',
+    league_en: 'Netherlands Eredivisie',
+    home_team: 'PSV Eindhoven',
+    away_team: 'PEC Zwolle',
+    tags: ['eredivisie', 'psv-eindhoven', 'pec-zwolle'],
+    over25: 83,
+    over35: 67,
+    btts: 67,
+    fhover15: 62,
+    fhbtts: 25,
+    corners: 50,
+    content_tr: `Hollanda Eredivisie'de PSV Eindhoven, Philips Stadion'da PEC Zwolle'yi konuk ediyor. Bu maç istatistiksel olarak günün en dikkat çekici karşılaşması: **2.5 Üst %83**, **3.5 Üst %67** ve **Karşılıklı Gol %67** ile üç güçlü sinyal bir arada.
+
+## 2.5 Üst — %83
+
+Sezonun en güçlü 2.5 üst göstergelerinden biri. PSV bu sezon evinde inanılmaz gol üretimi sergiledi; PEC Zwolle'nin ligin en zayıf savunmalarından biri olması bu beklentiyi daha da güçlendiriyor.
+
+## 3.5 Üst — %67
+
+%67 ile 3.5 üst oranı bu maçın sıradan bir karşılaşma olmadığını açıkça ortaya koyuyor. Piyasa 4+ gol görülme ihtimalini oldukça yüksek buluyor; PSV'nin son ev maçlarındaki gol ortalaması bu beklentiyi destekliyor.
+
+## Karşılıklı Gol — %67
+
+PEC Zwolle, lig genelinde en sık gol bulan deplasman takımlarından biri olmasa da PSV'nin yüksek savunma hattı zaman zaman kontr atak imkânı tanıyor. %67'lik BTTS oranı piyasanın bu ihtimali ciddiye aldığını gösteriyor.
+
+## İlk Yarı 1.5 Üst — %62
+
+İlk yarıda 2+ gol beklentisinin %62'ye ulaşması maçın baştan sona yüksek tempoda geçeceğine işaret ediyor. PSV erken baskı ve erken gol konusunda ligin en tutarlı takımlarından biri.
+
+## Sonuç
+
+**2.5 Üst (%83)**, **3.5 Üst (%67)** ve **Karşılıklı Gol (%67)** bu maçın üç güçlü göstergesi. **İlk Yarı 1.5 Üst (%62)** de cazip bir tamamlayıcı seçenek.`,
+    content_en: `In the Dutch Eredivisie, PSV Eindhoven host PEC Zwolle at the Philips Stadion. This is statistically the most eye-catching fixture of the day: **Over 2.5 at 83%**, **Over 3.5 at 67%** and **BTTS at 67%** — three strong signals in one match.
+
+## Over 2.5 Goals — 83%
+
+One of the strongest Over 2.5 readings of the season. PSV have been phenomenal in front of goal at home this campaign, and PEC Zwolle boast one of the league's most porous defences. The combination makes high scoring almost inevitable.
+
+## Over 3.5 Goals — 67%
+
+A 67% Over 3.5 probability makes clear this is no ordinary fixture. The market rates a 4+ goal outcome as genuinely likely — PSV's home goal average this season backs this up emphatically.
+
+## Both Teams to Score — 67%
+
+PEC Zwolle may not be prolific away from home, but PSV's high defensive line leaves space for counter-attacks. The 67% BTTS reading shows the market takes this possibility seriously.
+
+## First Half Over 1.5 — 62%
+
+A 62% probability for two or more first-half goals signals a fast-paced match from the off. PSV are one of the league's most consistent sides for scoring early and setting the tempo.
+
+## Summary
+
+**Over 2.5 Goals (83%)**, **Over 3.5 Goals (67%)** and **BTTS (67%)** are three strong picks for this match. **First Half Over 1.5 (62%)** provides a compelling complementary selection.`,
+  },
+  {
+    slug: 'palmeiras-jacuipense-2026-04-23',
+    title_tr: 'Palmeiras - Jacuipense Analizi: Tek Taraflı Yüksek Gol Beklentisi',
+    title_en: 'Palmeiras vs Jacuipense Analysis: One-Sided High Goal Expectation',
+    date: '2026-04-23',
+    time: '01:30',
+    league_tr: 'Brezilya Copa do Brasil',
+    league_en: 'Brazil Copa do Brasil',
+    home_team: 'Palmeiras',
+    away_team: 'Jacuipense',
+    tags: ['copa-do-brasil', 'palmeiras', 'jacuipense'],
+    over25: 70,
+    over35: 38,
+    btts: 15,
+    fhover15: 38,
+    fhbtts: 8,
+    corners: 50,
+    content_tr: `Copa do Brasil'de Palmeiras, Jacuipense'yi konuk ediyor. Bu maçın istatistiksel tablosu son derece ilgi çekici: **2.5 Üst %70** ile yüksek gol beklentisi varken **Karşılıklı Gol yalnızca %15** — golün neredeyse tamamının Palmeiras'tan geleceği kesinleşmiş gibi.
+
+## 2.5 Üst — %70
+
+%70 ile güçlü bir 2.5 üst sinyali. Palmeiras bu sezon yurt içi kupada rakiplerine karşı büyük skorlar üretiyor. Jacuipense ise Brezilya'nın alt liglerinden gelen ve kalite farkının çok belirgin olduğu bir rakip.
+
+## Karşılıklı Gol — %15
+
+Bu maçın en dikkat çekici verisi. %15 gibi son derece düşük bir BTTS oranı, Palmeiras'ın Jacuipense'ye karşı gol yemeden galip gelme ihtimalinin piyasa tarafından çok güçlü biçimde fiyatlandığını gösteriyor. Bir nevi "temiz galibiyet" beklentisi söz konusu.
+
+## Sonuç
+
+**2.5 Üst (%70)** ve **Karşılıklı Gol Yok** (BTTS %15 tersine okunduğunda) bu maçın ana göstergeleri. Piyasa Palmeiras'ın gol yemeden 3+ golle sahadan çıkmasını bekliyor.`,
+    content_en: `In the Copa do Brasil, Palmeiras host Jacuipense. The statistical picture here is highly distinctive: **Over 2.5 at 70%** alongside a **BTTS of just 15%** — the market is pricing in a dominant Palmeiras performance with virtually no chance of the visitors scoring.
+
+## Over 2.5 Goals — 70%
+
+A strong 70% Over 2.5 reading. Palmeiras have been producing big scores in domestic cup competition this season. Jacuipense are a lower-division side and the quality gap is significant.
+
+## Both Teams to Score — 15%
+
+The most striking data point for this match. A 15% BTTS probability is exceptionally low, reflecting the market's near-certainty that Palmeiras will keep a clean sheet. This is essentially a "comfortable home win without conceding" expectation.
+
+## Summary
+
+**Over 2.5 Goals (70%)** combined with the very low **BTTS (15%)** tells a clear story: the market expects Palmeiras to score three or more goals while keeping Jacuipense off the scoresheet entirely.`,
+  },
+  {
+    slug: 'go-ahead-eagles-az-alkmaar-2026-04-23',
+    title_tr: 'Go Ahead Eagles - AZ Alkmaar Analizi: Karşılıklı Gol Baskın Seçenek',
+    title_en: 'Go Ahead Eagles vs AZ Alkmaar Analysis: BTTS the Standout Pick',
+    date: '2026-04-23',
+    time: '19:45',
+    league_tr: 'Hollanda Eredivisie',
+    league_en: 'Netherlands Eredivisie',
+    home_team: 'Go Ahead Eagles',
+    away_team: 'AZ Alkmaar',
+    tags: ['eredivisie', 'go-ahead-eagles', 'az-alkmaar'],
+    over25: 69,
+    over35: 36,
+    btts: 71,
+    fhover15: 38,
+    fhbtts: 23,
+    corners: 44,
+    content_tr: `Eredivisie'de Go Ahead Eagles, AZ Alkmaar'ı konuk ediyor. Bu maçın istatistiksel öne çıkanı **Karşılıklı Gol %71** — her iki takımın da gol bulacağına dair güçlü bir piyasa konsensüsü var.
+
+## Karşılıklı Gol — %71
+
+Bu maçın baskın sinyali. Go Ahead Eagles ev sahasında üretken bir yapıya sahipken, AZ Alkmaar Avrupa kupalarındaki deneyimiyle deplasmanda da gol arayan bir takım. Her iki taraf da birbirine karşı gol bulma kapasitesine sahip.
+
+## 2.5 Üst — %69
+
+Karşılıklı gol beklentisiyle örtüşen 2.5 üst %69 ile güçlü bir konumda. İki taraf da gol bulursa 3+ gol beklentisi doğal olarak yükseliyor. 3.5 üst %36'da kalıyor — yüksek skor değil, 2-1 tipi dengeli bir maç daha olası.
+
+## Sonuç
+
+**Karşılıklı Gol (%71)** ve **2.5 Üst (%69)** bu maçın ana seçenekleri. Düşük 3.5 üst oranı, her iki tarafın da gol bulacağı ama sonucun yakın olacağı bir tablo çiziyor.`,
+    content_en: `In the Eredivisie, Go Ahead Eagles host AZ Alkmaar. The statistical highlight is **BTTS at 71%** — a strong market consensus that both sides will find the net.
+
+## Both Teams to Score — 71%
+
+The standout pick. Go Ahead Eagles are productive at home, while AZ Alkmaar's European experience has made them an attacking threat even away from home. Both sides have the tools to score against each other.
+
+## Over 2.5 Goals — 69%
+
+Consistent with the BTTS reading, Over 2.5 sits at a strong 69%. When both teams are likely to score, exceeding the 2.5 line becomes more probable. The Over 3.5 reading of 36% keeps expectations realistic — a tight 2-1 is more likely than a high-scoring affair.
+
+## Summary
+
+**BTTS (71%)** and **Over 2.5 Goals (69%)** are the headline picks for this match — pointing toward a competitive, mutually productive fixture rather than a one-sided result.`,
+  },
+  {
+    slug: 'fc-nordsjaelland-aarhus-2026-04-23',
+    title_tr: 'FC Nordsjaelland - Aarhus Analizi: Karşılıklı Gol Öne Çıkıyor',
+    title_en: 'FC Nordsjaelland vs Aarhus Analysis: BTTS the Key Pick',
+    date: '2026-04-23',
+    time: '19:00',
+    league_tr: 'Danimarka Superliga',
+    league_en: 'Denmark Superliga',
+    home_team: 'FC Nordsjaelland',
+    away_team: 'Aarhus',
+    tags: ['superliga', 'fc-nordsjaelland', 'aarhus'],
+    over25: 67,
+    over35: 34,
+    btts: 69,
+    fhover15: 38,
+    fhbtts: 23,
+    corners: 41,
+    content_tr: `Danimarka Superliga'da FC Nordsjaelland, Aarhus'u konuk ediyor. Piyasa bu karşılaşmada her iki takımın da gol bulacağına güçlü biçimde işaret ediyor.
+
+## Karşılıklı Gol — %69
+
+Bu maçın ana sinyali. FC Nordsjaelland, yıllardır sürdürdüğü hücum odaklı ve topa sahip olan oyun anlayışıyla Danimarka'nın en üretken ev sahibi takımlarından biri. Aarhus ise deplasmanda da gol bulmaktan kaçınmıyor.
+
+## 2.5 Üst — %67
+
+Karşılıklı gol beklentisiyle örtüşen güçlü bir 2.5 üst sinyali. 3.5 üst %34 ile düşük kalıyor — maçın 2-1 ya da benzer dengeli bir skorla bitmesi daha olası.
+
+## Sonuç
+
+**Karşılıklı Gol (%69)** ve **2.5 Üst (%67)** bu maçın öne çıkan seçenekleri. FC Nordsjaelland'ın hücum kimliği her iki kategoriyi de destekliyor.`,
+    content_en: `In the Danish Superliga, FC Nordsjaelland host Aarhus. The market points strongly toward both teams scoring in this fixture.
+
+## Both Teams to Score — 69%
+
+The key pick. FC Nordsjaelland have long been one of Denmark's most attack-minded sides, consistently producing goals at home. Aarhus don't park the bus away from home and carry their own goal threat.
+
+## Over 2.5 Goals — 67%
+
+A strong Over 2.5 reading that aligns with the BTTS expectation. The Over 3.5 probability of 34% keeps the scoring expectations in check — a 2-1 or similar balanced scoreline is more likely than a high-scoring affair.
+
+## Summary
+
+**BTTS (69%)** and **Over 2.5 Goals (67%)** are the clear picks for this fixture, supported by FC Nordsjaelland's attacking identity.`,
+  },
+  {
+    slug: 'sonderjyske-fc-midtjylland-2026-04-23',
+    title_tr: 'Sonderjyske - FC Midtjylland Analizi: Karşılıklı Gol ve Korner Dikkat Çekiyor',
+    title_en: 'Sonderjyske vs FC Midtjylland Analysis: BTTS and Corners Stand Out',
+    date: '2026-04-23',
+    time: '21:00',
+    league_tr: 'Danimarka Superliga',
+    league_en: 'Denmark Superliga',
+    home_team: 'Sonderjyske',
+    away_team: 'FC Midtjylland',
+    tags: ['superliga', 'sonderjyske', 'fc-midtjylland'],
+    over25: 67,
+    over35: 34,
+    btts: 64,
+    fhover15: 38,
+    fhbtts: 22,
+    corners: 59,
+    content_tr: `Danimarka Superliga'da Sonderjyske, güçlü rakibi FC Midtjylland'ı konuk ediyor. Piyasa hem karşılıklı gol hem de yüksek korner beklentisiyle öne çıkan bir tablo sunuyor.
+
+## 2.5 Üst — %67 & Karşılıklı Gol — %64
+
+Her iki kategori de güçlü seviyede. FC Midtjylland, Danimarka'nın en tutarlı ve en sık gol üreten takımlarından biri. Sonderjyske ise ev sahasında puan mücadelesi verirken rakibine gol fırsatı tanıyabiliyor.
+
+## 9.5 Üst Korner — %59
+
+Bu maçın ayırt edici ikinci sinyali. FC Midtjylland'ın kanat odaklı, baskı oyunu korner sayısını yukarı çekiyor. %59'luk oran bu kategoriyi cazip kılıyor.
+
+## Sonuç
+
+**2.5 Üst (%67)**, **Karşılıklı Gol (%64)** ve **9.5 Üst Korner (%59)** bu maçın üç değerlendirilebilir seçeneği.`,
+    content_en: `In the Danish Superliga, Sonderjyske host FC Midtjylland. The market highlights both a mutual scoring expectation and an elevated corners reading.
+
+## Over 2.5 Goals — 67% & BTTS — 64%
+
+Both categories sit at strong levels. FC Midtjylland are one of Denmark's most consistent and prolific sides. Sonderjyske, battling for points at home, can leave space that allows the visitors to score — while still creating chances themselves.
+
+## Over 9.5 Corners — 59%
+
+The second standout signal. FC Midtjylland's wide, pressing style naturally generates corner volume. The 59% reading makes this a worthwhile complementary pick.
+
+## Summary
+
+**Over 2.5 Goals (67%)**, **BTTS (64%)** and **Over 9.5 Corners (59%)** are three viable selections for this fixture.`,
+  },
+  {
+    slug: 'randers-fc-fc-fredericia-2026-04-23',
+    title_tr: 'Randers FC - FC Fredericia Analizi: Karşılıklı Gol ve 2.5 Üst Eşit Güçte',
+    title_en: 'Randers FC vs FC Fredericia Analysis: BTTS and Over 2.5 at Equal Strength',
+    date: '2026-04-23',
+    time: '19:00',
+    league_tr: 'Danimarka Superliga',
+    league_en: 'Denmark Superliga',
+    home_team: 'Randers FC',
+    away_team: 'FC Fredericia',
+    tags: ['superliga', 'randers-fc', 'fc-fredericia'],
+    over25: 66,
+    over35: 33,
+    btts: 66,
+    fhover15: 37,
+    fhbtts: 22,
+    corners: 50,
+    content_tr: `Danimarka Superliga'da Randers FC, FC Fredericia'yı konuk ediyor. Bu maçta **2.5 Üst ve Karşılıklı Gol her ikisi de %66** ile tam anlamıyla eşit güçte seyrediyor — iki kategori de birbirini destekliyor.
+
+## Karşılıklı Gol — %66 & 2.5 Üst — %66
+
+İki kategorinin aynı orana sahip olması, bu maçın analizini kolaylaştırıyor. Her iki takım da gol bulacaksa en az 3 gol beklentisi zaten karşılıklı gol + ekstra gol formülüyle destekleniyor. 3.5 üst %33'te kalıyor — skor dengeli seyredecek, 2-1 tipi bir sonuç olası.
+
+## Sonuç
+
+**Karşılıklı Gol (%66)** ve **2.5 Üst (%66)** birbirini destekleyen güçlü ikili. 3.5 üst düşük kaldığı için yüksek skor beklentisi oluşturmak doğru olmaz.`,
+    content_en: `In the Danish Superliga, Randers FC host FC Fredericia. What stands out here is that **Over 2.5 and BTTS are both exactly 66%** — two aligned signals that reinforce each other perfectly.
+
+## BTTS — 66% & Over 2.5 — 66%
+
+When both categories share the same probability, the analysis becomes straightforward. If both teams score, the 2.5 line is more likely to be exceeded — the BTTS + extra goal formula covers the Over 2.5 outcome naturally. The Over 3.5 probability of just 33% keeps scoring expectations realistic — a close 2-1 remains the most probable outcome.
+
+## Summary
+
+**BTTS (66%)** and **Over 2.5 Goals (66%)** form a mutually reinforcing pair. The low Over 3.5 reading means this should be treated as a tight, competitive match rather than a high-scoring one.`,
+  },
+  {
+    slug: 'besiktas-alanyaspor-2026-04-23',
+    title_tr: 'Beşiktaş - Alanyaspor Analizi: 2.5 Üst ve Karşılıklı Gol Öne Çıkıyor',
+    title_en: 'Besiktas vs Alanyaspor Analysis: Over 2.5 and BTTS the Key Picks',
+    date: '2026-04-23',
+    time: '20:45',
+    league_tr: 'Türkiye Süper Lig',
+    league_en: 'Turkey Super Lig',
+    home_team: 'Beşiktaş',
+    away_team: 'Alanyaspor',
+    tags: ['super-lig', 'besiktas', 'alanyaspor'],
+    over25: 66,
+    over35: 33,
+    btts: 62,
+    fhover15: 37,
+    fhbtts: 18,
+    corners: 44,
+    content_tr: `Trendyol Süper Lig'de Beşiktaş, Alanyaspor'u Tüpraş Stadyumu'nda ağırlıyor. İstatistiksel göstergeler hareketli ve karşılıklı gol içeren bir maçı işaret ediyor.
+
+## 2.5 Üst — %66
+
+%66 ile güçlü bir 2.5 üst sinyali. Beşiktaş bu sezon evinde üretken bir oyun sergilemekte, Alanyaspor ise deplasmanda hücum etmekten vazgeçmeyen bir yapıda. İki tarafın da gol arayışı toplam gol sayısını yukarı çekiyor.
+
+## Karşılıklı Gol — %62
+
+%62'lik BTTS oranı, Alanyaspor'un Beşiktaş'a karşı gol bulabileceğini piyasanın ciddiye aldığını gösteriyor. Beşiktaş'ın zaman zaman savunmada açık vermesi Alanyaspor için fırsat yaratıyor.
+
+## Sonuç
+
+**2.5 Üst (%66)** ve **Karşılıklı Gol (%62)** bu Süper Lig maçının öne çıkan seçenekleri. 3.5 üst %33 ile düşük kalıyor — dengeli ve karşılıklı gollü bir maç beklentisi baskın.`,
+    content_en: `In the Trendyol Super Lig, Besiktas host Alanyaspor at Tüpraş Stadium. The statistical indicators point toward a lively match with goals at both ends.
+
+## Over 2.5 Goals — 66%
+
+A strong 66% Over 2.5 reading. Besiktas have been productive at home this season while Alanyaspor don't abandon their attacking instincts on the road. Both sides' goal-seeking approach pushes the total upward.
+
+## Both Teams to Score — 62%
+
+The 62% BTTS probability shows the market takes seriously Alanyaspor's ability to score against Besiktas. The home side's occasional defensive lapses create openings for the visitors.
+
+## Summary
+
+**Over 2.5 Goals (66%)** and **BTTS (62%)** are the standout picks for this Super Lig fixture. The low Over 3.5 reading (33%) frames this as a balanced, mutually productive match rather than a high-scoring one.`,
+  },
+  {
+    slug: 'vfb-stuttgart-sc-freiburg-2026-04-23',
+    title_tr: 'VfB Stuttgart - SC Freiburg Analizi: 2.5 Üst ve Karşılıklı Gol Birbirini Destekliyor',
+    title_en: 'VfB Stuttgart vs SC Freiburg Analysis: Over 2.5 and BTTS Reinforce Each Other',
+    date: '2026-04-23',
+    time: '21:45',
+    league_tr: 'Almanya Bundesliga',
+    league_en: 'Germany Bundesliga',
+    home_team: 'VfB Stuttgart',
+    away_team: 'SC Freiburg',
+    tags: ['bundesliga', 'vfb-stuttgart', 'sc-freiburg'],
+    over25: 66,
+    over35: 33,
+    btts: 64,
+    fhover15: 37,
+    fhbtts: 20,
+    corners: 44,
+    content_tr: `Bundesliga'da VfB Stuttgart, MHPArena'da SC Freiburg'u konuk ediyor. Güneybatı Almanya derbisi olarak değerlendirilen bu karşılaşmada piyasa dengeli ve karşılıklı gollü bir mücadeleye işaret ediyor.
+
+## 2.5 Üst — %66 & Karşılıklı Gol — %64
+
+Her iki kategori de birbirini destekler nitelikte. Stuttgart bu sezon evinde tutarlı gol üretiyor. SC Freiburg ise Bundesliga'nın en disiplinli takımlarından biri olmakla birlikte deplasmanda da gol arayışına girmekten vazgeçmiyor. İki takımın birbirine yakın güç dengesi karşılıklı golü destekliyor.
+
+## Sonuç
+
+**2.5 Üst (%66)** ve **Karşılıklı Gol (%64)** bu Bundesliga derbisinin ana seçenekleri. 3.5 üst %33 ile düşük kalıyor — skorda denge ve karşılıklı gol beklentisi baskın.`,
+    content_en: `In the Bundesliga, VfB Stuttgart host SC Freiburg at the MHPArena in a southwestern German derby. The market points toward a balanced, mutually productive contest.
+
+## Over 2.5 Goals — 66% & BTTS — 64%
+
+Both categories sit at aligned levels, reinforcing each other. Stuttgart have been consistent goal-scorers at home this season. SC Freiburg, while one of the Bundesliga's most organised sides, don't abandon their attacking intent away from home. The even power balance between the two sides supports the BTTS reading.
+
+## Summary
+
+**Over 2.5 Goals (66%)** and **BTTS (64%)** are the main picks for this Bundesliga derby. The low Over 3.5 reading (33%) keeps expectations balanced — a tight, mutually productive match is the most likely outcome.`,
+  },
+  {
+    slug: 'st-truiden-anderlecht-2026-04-23',
+    title_tr: 'St. Truiden - Anderlecht Analizi: Karşılıklı Gol Baskın, Korner de Dikkat Çekiyor',
+    title_en: 'St. Truiden vs Anderlecht Analysis: BTTS Dominant, Corners Also Notable',
+    date: '2026-04-23',
+    time: '21:30',
+    league_tr: 'Belçika Pro League',
+    league_en: 'Belgium Pro League',
+    home_team: 'St. Truiden',
+    away_team: 'Anderlecht',
+    tags: ['pro-league', 'st-truiden', 'anderlecht'],
+    over25: 65,
+    over35: 31,
+    btts: 68,
+    fhover15: 37,
+    fhbtts: 22,
+    corners: 56,
+    content_tr: `Belçika Pro League'de St. Truiden, güçlü rakibi Anderlecht'i konuk ediyor. Bu maçın istatistiksel öne çıkanı **Karşılıklı Gol %68** ile birlikte güçlü bir korner sinyali.
+
+## Karşılıklı Gol — %68
+
+Bu maçın en net göstergesi. Anderlecht deplasmanda da gol üretimi açısından tutarlı bir takım; St. Truiden ise ev sahasında Belçika'nın en üretken ev sahibi takımlarından biri. Her iki taraf da gol bulma kapasitesine sahip.
+
+## 2.5 Üst — %65
+
+Karşılıklı gol beklentisiyle örtüşen 2.5 üst %65 ile destekleniyor. İki taraf da gol bulursa 3+ gol beklentisi güçleniyor. 3.5 üst %31 ile düşük — yüksek skor değil, dengeli bir maç tablosu.
+
+## 9.5 Üst Korner — %56
+
+Anderlecht'in topa sahip olan ve kanat kullanan oyun anlayışı, St. Truiden ceza sahasında yoğun baskı yaratıyor. %56'lık oran bu kategoriyi cazip kılıyor.
+
+## Sonuç
+
+**Karşılıklı Gol (%68)** bu maçın ana sinyali. **2.5 Üst (%65)** ve **9.5 Üst Korner (%56)** güçlü tamamlayıcı seçenekler.`,
+    content_en: `In the Belgian Pro League, St. Truiden host Anderlecht. The statistical highlight is **BTTS at 68%** alongside a notable corners reading.
+
+## Both Teams to Score — 68%
+
+The clearest signal for this match. Anderlecht are consistently productive on the road, while St. Truiden are one of Belgium's more prolific home sides. Both teams carry real goal-scoring threat.
+
+## Over 2.5 Goals — 65%
+
+Aligned with the BTTS reading, Over 2.5 sits at a solid 65%. When both teams are expected to score, clearing the 2.5 line becomes more probable. The Over 3.5 probability of 31% keeps scoring expectations in check.
+
+## Over 9.5 Corners — 56%
+
+Anderlecht's possession-based, wide-play style generates pressure in the opposition box and, consequently, corner volume against St. Truiden. The 56% reading makes this a worthwhile complementary pick.
+
+## Summary
+
+**BTTS (68%)** is the headline pick. **Over 2.5 Goals (65%)** and **Over 9.5 Corners (56%)** serve as strong complementary selections.`,
+  },
 ];
 
 export function getAllPosts(): PostMeta[] {
