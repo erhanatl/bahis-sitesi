@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { PostMeta } from '@/data/posts';
 
 interface Props {
@@ -33,8 +34,30 @@ function leagueHashtag(league: string): string {
   return `#${tag}`;
 }
 
+const STORAGE_KEY = 'pandatips_shared';
+
+function getShared(): Set<string> {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return new Set(raw ? JSON.parse(raw) : []);
+  } catch { return new Set(); }
+}
+
+function markShared(slug: string) {
+  try {
+    const set = getShared();
+    set.add(slug);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify([...set]));
+  } catch { /* ignore */ }
+}
+
 export default function TwitterShareButton({ post, locale }: Props) {
   const isTR = locale === 'tr';
+  const [shared, setShared] = useState(false);
+
+  useEffect(() => {
+    setShared(getShared().has(post.slug));
+  }, [post.slug]);
 
   const dateStr = new Date(post.date).toLocaleDateString(
     isTR ? 'tr-TR' : 'en-GB',
@@ -81,19 +104,34 @@ export default function TwitterShareButton({ post, locale }: Props) {
   const tweetText = lines.join('\n');
   const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
 
+  const handleClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    markShared(post.slug);
+    setShared(true);
+  };
+
   return (
     <a
       href={tweetUrl}
       target="_blank"
       rel="noopener noreferrer"
-      onClick={(e) => e.stopPropagation()}
-      className="inline-flex items-center gap-1.5 text-xs font-semibold text-gray-400 hover:text-sky-500 transition-colors"
-      title={isTR ? "X'te paylaş" : 'Share on X'}
+      onClick={handleClick}
+      className={`inline-flex items-center gap-1.5 text-xs font-semibold transition-colors ${
+        shared
+          ? 'text-sky-400 hover:text-sky-500'
+          : 'text-gray-400 hover:text-sky-500'
+      }`}
+      title={shared
+        ? (isTR ? 'Daha önce paylaşıldı' : 'Already shared')
+        : (isTR ? "X'te paylaş" : 'Share on X')}
     >
       <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
         <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.261 5.635 5.902-5.635zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
       </svg>
-      <span>{isTR ? "X'te Paylaş" : 'Share on X'}</span>
+      <span>{shared
+        ? (isTR ? 'Paylaşıldı' : 'Shared')
+        : (isTR ? "X'te Paylaş" : 'Share on X')}
+      </span>
     </a>
   );
 }
