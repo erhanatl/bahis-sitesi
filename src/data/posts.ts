@@ -2113,6 +2113,647 @@ Anderlecht's possession-based, wide-play style generates pressure in the opposit
 
 **BTTS (68%)** is the headline pick. **Over 2.5 Goals (65%)** and **Over 9.5 Corners (56%)** serve as strong complementary selections.`,
   },
+  // ── 2026-04-24 ────────────────────────────────────────────────────────────
+  {
+    slug: 'karacabey-belediyespor-bucaspor-1928-2026-04-24',
+    title_tr: 'Karacabey Belediyespor - Bucaspor 1928 Analizi: 2.5 Üst Güçlü Sinyal',
+    title_en: 'Karacabey Belediyespor vs Bucaspor 1928 Analysis: Over 2.5 Strong Signal',
+    date: '2026-04-24', time: '12:00',
+    league_tr: 'Türkiye 2. Lig', league_en: 'Turkey 2. Lig',
+    home_team: 'Karacabey Belediyespor', away_team: 'Bucaspor 1928',
+    tags: ['2-lig', 'karacabey', 'bucaspor'],
+    over25: 77, over35: 39, btts: 62, fhover15: 42, fhbtts: 19, corners: 56,
+    content_tr: `Türkiye 2. Lig'de Karacabey Belediyespor, Bucaspor 1928'i konuk ediyor. Piyasa bu maç için **2.5 Üst %77** ve **Karşılıklı Gol %62** ile güçlü bir gol beklentisi oluşturmuş.
+
+## 2.5 Üst — %77
+
+Sezonun öne çıkan 2.5 üst göstergelerinden biri. Karacabey ev sahasında üretken bir saldırı oyunu oynarken Bucaspor 1928 de deplasmanda gol bulmaktan kaçınmıyor. Piyasanın bu denli yüksek bir 2.5 üst oranı vermesi, her iki takımın da savunmada açık bırakma eğilimini yansıtıyor.
+
+## Karşılıklı Gol — %62
+
+BTTS %62 ile iyi bir seviyede. Her iki takımın da sezon boyunca karşılıklı gol istatistiği yüksek; ev sahibinin yoğun baskısı ve konuk takımın hızlı kontra atakları karşılıklı gole zemin hazırlıyor.
+
+## Sonuç
+
+**2.5 Üst (%77)** bu maçın baskın göstergesi. **Karşılıklı Gol (%62)** tamamlayıcı seçenek olarak değerlendirilebilir.`,
+    content_en: `In Turkey's 2. Lig, Karacabey Belediyespor host Bucaspor 1928. The market offers a strong goal signal: **Over 2.5 at 77%** and **BTTS at 62%**.
+
+## Over 2.5 Goals — 77%
+
+One of the standout over 2.5 readings of the day. Karacabey are productive at home while Bucaspor 1928 carry an attacking threat away from home. The high reading reflects both sides' tendency to leave defensive gaps.
+
+## Both Teams to Score — 62%
+
+A 62% BTTS reading supports the high-goals narrative. Both clubs have posted elevated BTTS figures across the season; the home side's pressing and the visitors' counter-attack ability create chances at both ends.
+
+## Summary
+
+**Over 2.5 Goals (77%)** is the headline pick. **BTTS (62%)** works as a complementary selection.`,
+  },
+  {
+    slug: 'basaksehir-kasimpasa-2026-04-24',
+    title_tr: 'Başakşehir - Kasımpaşa Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Başakşehir vs Kasımpaşa Analysis: BTTS and Over 2.5',
+    date: '2026-04-24', time: '17:00',
+    league_tr: 'Türkiye Süper Lig', league_en: 'Turkey Super Lig',
+    home_team: 'Başakşehir', away_team: 'Kasımpaşa',
+    tags: ['super-lig', 'basaksehir', 'kasimpasa'],
+    over25: 62, over35: 30, btts: 62, fhover15: 32, fhbtts: 19, corners: 41,
+    content_tr: `Trendyol Süper Lig'de Başakşehir, Kasımpaşa'yı ağırlıyor. **2.5 Üst %62** ve **Karşılıklı Gol %62** ile her iki kategori de eşit güçte işaret ediyor.
+
+## 2.5 Üst ve Karşılıklı Gol — %62
+
+Her iki göstergede de aynı olasılık ilginç bir tablo. Başakşehir ev sahasında organize hücumlarla gol üretirken Kasımpaşa da deplasmanda gol bulabilen bir yapıya sahip. Piyasa iki takımın da katkıda bulunduğu, 3 veya daha fazla gollü bir mücadele bekliyor.
+
+## Sonuç
+
+**2.5 Üst (%62)** ve **Karşılıklı Gol (%62)** bu maçın ikiz göstergesi.`,
+    content_en: `In the Trendyol Super Lig, Başakşehir host Kasımpaşa. **Over 2.5 at 62%** and **BTTS at 62%** point equally strongly to a goal-filled contest.
+
+## Over 2.5 and BTTS — 62%
+
+Both readings at the same level is telling. Başakşehir produce through organised attacking play at home, while Kasımpaşa carry enough threat to score away from home. The market expects both sides to contribute to a total of three or more goals.
+
+## Summary
+
+**Over 2.5 Goals (62%)** and **BTTS (62%)** are the co-equal picks for this fixture.`,
+  },
+  {
+    slug: 'fortuna-dusseldorf-dynamo-dresden-2026-04-24',
+    title_tr: 'Fortuna Düsseldorf - Dynamo Dresden Analizi: Karşılıklı Gol Öne Çıkıyor',
+    title_en: 'Fortuna Düsseldorf vs Dynamo Dresden Analysis: BTTS the Key Pick',
+    date: '2026-04-24', time: '16:30',
+    league_tr: 'Almanya 2. Bundesliga', league_en: 'Germany 2. Bundesliga',
+    home_team: 'Fortuna Düsseldorf', away_team: 'Dynamo Dresden',
+    tags: ['2-bundesliga', 'fortuna-dusseldorf', 'dynamo-dresden'],
+    over25: 60, over35: 29, btts: 65, fhover15: 32, fhbtts: 19, corners: 58,
+    content_tr: `2. Bundesliga'da Fortuna Düsseldorf, Dynamo Dresden'i konuk ediyor. **Karşılıklı Gol %65** bu maçın baskın göstergesi.
+
+## Karşılıklı Gol — %65
+
+Düsseldorf ev sahasında tutarlı bir gol üretimi sergiledi bu sezon. Dresden de 2. Bundesliga'da deplasmanda sessiz kalmayan bir oyun anlayışına sahip. %65'lik BTTS oranı, piyasanın iki takımın da gol bulacağına güçlü biçimde inandığını gösteriyor.
+
+## 2.5 Üst — %60 · 9.5 Üst Korner — %58
+
+2.5 üst ve korner istatistikleri tamamlayıcı nitelikte. Düsseldorf'un organize hücum oyunu ve Dresden'in yoğun baskısı maçı aktif kılacak.
+
+## Sonuç
+
+**Karşılıklı Gol (%65)** başlıca gösterge. **2.5 Üst (%60)** tamamlayıcı seçenek.`,
+    content_en: `In the 2. Bundesliga, Fortuna Düsseldorf host Dynamo Dresden. **BTTS at 65%** is the headline indicator.
+
+## Both Teams to Score — 65%
+
+Düsseldorf have been consistent scorers at home this season. Dresden don't go quiet on their travels in the 2. Bundesliga either. A 65% BTTS reading signals strong market conviction that both sides will find the net.
+
+## Over 2.5 Goals — 60% · Over 9.5 Corners — 58%
+
+Both serve as supporting picks. Düsseldorf's organised attack and Dresden's high-pressing style should keep the match active throughout.
+
+## Summary
+
+**BTTS (65%)** is the headline pick. **Over 2.5 Goals (60%)** works as a complementary selection.`,
+  },
+  {
+    slug: '1-fc-kaiserslautern-eintracht-braunschweig-2026-04-24',
+    title_tr: 'Kaiserslautern - Eintracht Braunschweig Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Kaiserslautern vs Eintracht Braunschweig Analysis: BTTS and Over 2.5',
+    date: '2026-04-24', time: '16:30',
+    league_tr: 'Almanya 2. Bundesliga', league_en: 'Germany 2. Bundesliga',
+    home_team: '1. FC Kaiserslautern', away_team: 'Eintracht Braunschweig',
+    tags: ['2-bundesliga', 'kaiserslautern', 'eintracht-braunschweig'],
+    over25: 66, over35: 33, btts: 69, fhover15: 34, fhbtts: 22, corners: 42,
+    content_tr: `2. Bundesliga'da 1. FC Kaiserslautern, Eintracht Braunschweig'i karşılıyor. **Karşılıklı Gol %69** ve **2.5 Üst %66** bu maçın iki güçlü göstergesi.
+
+## Karşılıklı Gol — %69
+
+Bu maçın en belirgin sinyali. Kaiserslautern ev sahasında güçlü bir hücum kimliğine sahipken, Braunschweig deplasmanda da gol üretimini sürdürüyor. %69'luk BTTS oranı, piyasanın iki takımın da katkısına güvendiğini açıkça yansıtıyor.
+
+## 2.5 Üst — %66
+
+BTTS beklentisiyle örtüşen 2.5 üst olasılığı %66 ile güçlü bir konumda. Her iki takım da gol bulacaksa toplam 3+ gol olasılığı yükseliyor.
+
+## Sonuç
+
+**Karşılıklı Gol (%69)** ve **2.5 Üst (%66)** bu maçın öne çıkan seçenekleri.`,
+    content_en: `In the 2. Bundesliga, 1. FC Kaiserslautern host Eintracht Braunschweig. **BTTS at 69%** and **Over 2.5 at 66%** are the two strongest indicators.
+
+## Both Teams to Score — 69%
+
+The clearest signal. Kaiserslautern carry a strong attacking identity at home, while Braunschweig maintain their scoring output on the road. A 69% BTTS reading reflects clear market confidence in both sides contributing.
+
+## Over 2.5 Goals — 66%
+
+Consistent with the BTTS expectation. When both teams are expected to score, clearing the 2.5 line becomes significantly more likely.
+
+## Summary
+
+**BTTS (69%)** and **Over 2.5 Goals (66%)** are the co-leading picks for this fixture.`,
+  },
+  {
+    slug: 'rb-leipzig-union-berlin-2026-04-24',
+    title_tr: 'RB Leipzig - Union Berlin Analizi: 2.5 Üst ve Karşılıklı Gol',
+    title_en: 'RB Leipzig vs Union Berlin Analysis: Over 2.5 and BTTS',
+    date: '2026-04-24', time: '18:30',
+    league_tr: 'Almanya Bundesliga', league_en: 'Germany Bundesliga',
+    home_team: 'RB Leipzig', away_team: 'Union Berlin',
+    tags: ['bundesliga', 'rb-leipzig', 'union-berlin'],
+    over25: 69, over35: 36, btts: 63, fhover15: 38, fhbtts: 19, corners: 56,
+    content_tr: `Bundesliga'da RB Leipzig, Union Berlin'i ağırlıyor. **2.5 Üst %69** ve **Karşılıklı Gol %63** ile gol dolu bir karşılaşmaya işaret eden istatistiksel tablo.
+
+## 2.5 Üst — %69
+
+Leipzig bu sezon Red Bull Arena'da yüksek tempolu, saldırgan bir futbol oynuyor. Union Berlin ise deplasmanda savunma odaklı yaklaşmasına karşın gol bulmayı bırakmıyor. %69'luk 2.5 üst oranı güçlü bir sinyal.
+
+## Karşılıklı Gol — %63
+
+Leipzig'in dominant ev sahibi oyununa rağmen Union'ın gol üretim kapasitesi BTTS olasılığını %63'e taşıyor. Union'ın kontra atak futbolu ev sahibi savunmasını zorlayabilir.
+
+## Sonuç
+
+**2.5 Üst (%69)** ve **Karşılıklı Gol (%63)** öne çıkan seçenekler.`,
+    content_en: `In the Bundesliga, RB Leipzig host Union Berlin. **Over 2.5 at 69%** and **BTTS at 63%** point to a goal-filled match.
+
+## Over 2.5 Goals — 69%
+
+Leipzig play high-tempo, attacking football at the Red Bull Arena this season. Union Berlin, despite their defensive approach on the road, still find ways to score. A 69% reading is a strong signal.
+
+## Both Teams to Score — 63%
+
+Even against Leipzig's dominance at home, Union's counter-attacking ability pushes BTTS to 63%. Their clinical finishing on the break can trouble any home defence.
+
+## Summary
+
+**Over 2.5 Goals (69%)** and **BTTS (63%)** are the headline picks.`,
+  },
+  {
+    slug: 'stade-brestois-29-lens-2026-04-24',
+    title_tr: 'Brest - Lens Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Brest vs Lens Analysis: BTTS and Over 2.5',
+    date: '2026-04-24', time: '18:45',
+    league_tr: 'Fransa Ligue 1', league_en: 'France Ligue 1',
+    home_team: 'Stade Brestois 29', away_team: 'Lens',
+    tags: ['ligue-1', 'brest', 'lens'],
+    over25: 64, over35: 31, btts: 61, fhover15: 34, fhbtts: 19, corners: 44,
+    content_tr: `Ligue 1'de Brest, Lens'i konuk ediyor. **2.5 Üst %64** ve **Karşılıklı Gol %61** ile dengeli bir gol beklentisi var.
+
+## 2.5 Üst — %64
+
+Brest bu sezon ev sahasında hücum etkili bir oyun sergiliyor. Lens ise Ligue 1'in en tutarlı deplasman takımlarından biri. İki takımın da gol arayışındaki ısrarcı tutumu 2.5 üst olasılığını destekliyor.
+
+## Karşılıklı Gol — %61
+
+Lens deplasmanda gol bulma konusunda ısrarcı; %61'lik BTTS oranı, her iki takımın da katkı sağlayacağına dair piyasa beklentisini gösteriyor.
+
+## Sonuç
+
+**2.5 Üst (%64)** ve **Karşılıklı Gol (%61)** bu maçın öne çıkan seçenekleri.`,
+    content_en: `In Ligue 1, Brest host Lens. **Over 2.5 at 64%** and **BTTS at 61%** paint a balanced goal expectation.
+
+## Over 2.5 Goals — 64%
+
+Brest have been effective in attack at home this season. Lens are one of the more consistent away-scoring sides in Ligue 1. Both sides' persistence in front of goal supports the over 2.5 reading.
+
+## Both Teams to Score — 61%
+
+Lens's determination to score on the road pushes BTTS to 61%. The market leans towards both sides contributing to the tally.
+
+## Summary
+
+**Over 2.5 Goals (64%)** and **BTTS (61%)** are the key picks for this fixture.`,
+  },
+  {
+    slug: 'amiens-montpellier-2026-04-24',
+    title_tr: 'Amiens - Montpellier Analizi: Karşılıklı Gol Öne Çıkıyor',
+    title_en: 'Amiens vs Montpellier Analysis: BTTS Leads the Way',
+    date: '2026-04-24', time: '18:00',
+    league_tr: 'Fransa Ligue 2', league_en: 'France Ligue 2',
+    home_team: 'Amiens', away_team: 'Montpellier',
+    tags: ['ligue-2', 'amiens', 'montpellier'],
+    over25: 62, over35: 30, btts: 65, fhover15: 32, fhbtts: 19, corners: 54,
+    content_tr: `Ligue 2'de Amiens, düşen Montpellier'i konuk ediyor. **Karşılıklı Gol %65** bu maçın öne çıkan göstergesi.
+
+## Karşılıklı Gol — %65
+
+Montpellier, Ligue 2'ye düşmesine rağmen kadro kalitesiyle gol üretimini sürdürüyor. Amiens de ev sahasında gol bulmakta güçlü. %65'lik BTTS oranı bu iki takımın karşılıklı gol geçmişini yansıtıyor.
+
+## 2.5 Üst — %62
+
+BTTS beklentisiyle örtüşen 2.5 üst %62 ile destekleyici bir seçenek sunuyor.
+
+## Sonuç
+
+**Karşılıklı Gol (%65)** başlıca gösterge, **2.5 Üst (%62)** tamamlayıcı seçenek.`,
+    content_en: `In Ligue 2, Amiens host a recently relegated Montpellier. **BTTS at 65%** is the headline signal.
+
+## Both Teams to Score — 65%
+
+Montpellier retain quality despite their Ligue 2 drop and continue to score. Amiens are productive at home. The 65% BTTS reading reflects both sides' consistent goal-scoring records against each other.
+
+## Over 2.5 Goals — 62%
+
+Supportive of the BTTS expectation, Over 2.5 at 62% is a natural companion pick.
+
+## Summary
+
+**BTTS (65%)** leads, with **Over 2.5 Goals (62%)** as the complementary selection.`,
+  },
+  {
+    slug: 'real-betis-real-madrid-2026-04-24',
+    title_tr: 'Real Betis - Real Madrid Analizi: 2.5 Üst ve Karşılıklı Gol',
+    title_en: 'Real Betis vs Real Madrid Analysis: Over 2.5 and BTTS',
+    date: '2026-04-24', time: '19:00',
+    league_tr: 'İspanya La Liga', league_en: 'Spain La Liga',
+    home_team: 'Real Betis', away_team: 'Real Madrid',
+    tags: ['la-liga', 'real-betis', 'real-madrid'],
+    over25: 69, over35: 36, btts: 69, fhover15: 38, fhbtts: 22, corners: 50,
+    content_tr: `La Liga'nın en prestijli karşılaşmalarından biri: Real Betis, Real Madrid'i Benito Villamarín'de ağırlıyor. **2.5 Üst %69** ve **Karşılıklı Gol %69** ile eşit güçte iki güçlü gösterge.
+
+## 2.5 Üst — %69
+
+Real Madrid bu sezon deplasmanda yüksek gol sayıları üretiyor. Betis ise Sevilla'daki ev sahipliğinde saldırgan ve cesur bir futbol sergiliyor. İki büyük takımın karşılaşması piyasanın 3+ gol beklentisini haklı kılıyor.
+
+## Karşılıklı Gol — %69
+
+%69'luk BTTS oranı dikkat çekici. Betis kaliteli hücum oyuncularıyla Madrid savunmasına zorluk çıkarabilecek kapasitede. Madrid'in ofansif baskısı altında Betis'in de gol bulma ihtimali piyasaca güçlü görülüyor.
+
+## Sonuç
+
+**2.5 Üst (%69)** ve **Karşılıklı Gol (%69)** bu La Liga klasiğinin eşit ağırlıklı iki baskın göstergesi.`,
+    content_en: `One of La Liga's most prestigious clashes: Real Betis host Real Madrid at the Benito Villamarín. **Over 2.5 at 69%** and **BTTS at 69%** — both equally strong.
+
+## Over 2.5 Goals — 69%
+
+Real Madrid produce high-scoring away performances consistently this season. Betis play attacking, bold football at home in Seville. The clash of two quality sides justifies the market's 3+ goals expectation.
+
+## Both Teams to Score — 69%
+
+A 69% BTTS reading is significant. Betis have the attacking quality to trouble Madrid's defence, and the market clearly backs them to score. Madrid's offensive pressure meanwhile all but ensures they'll find the net.
+
+## Summary
+
+**Over 2.5 Goals (69%)** and **BTTS (69%)** are the co-equal standout picks for this La Liga classic.`,
+  },
+  {
+    slug: 'emmen-de-graafschap-2026-04-24',
+    title_tr: 'Emmen - De Graafschap Analizi: Günün En Yüksek Gol Beklentisi',
+    title_en: 'Emmen vs De Graafschap Analysis: Highest Goal Expectation of the Day',
+    date: '2026-04-24', time: '18:00',
+    league_tr: 'Hollanda Eerste Divisie', league_en: 'Netherlands Eerste Divisie',
+    home_team: 'Emmen', away_team: 'De Graafschap',
+    tags: ['eerste-divisie', 'emmen', 'de-graafschap'],
+    over25: 76, over35: 52, btts: 76, fhover15: 50, fhbtts: 28, corners: 50,
+    content_tr: `Hollanda Eerste Divisie'de Emmen, De Graafschap'ı ağırlıyor. Bu maç bugünün en yüksek gol beklentisine sahip karşılaşması: **2.5 Üst %76**, **3.5 Üst %52** ve **Karşılıklı Gol %76**.
+
+## 2.5 Üst — %76 ve Karşılıklı Gol — %76
+
+Her iki göstergede de %76 eşit bir güç. Bu iki takım karşılaştıklarında yüksek gol sayıları ve karşılıklı gol neredeyse standart hale gelmiş. Emmen'in saldırgan ev sahibi oyunu ve De Graafschap'ın ofansif deplasman yaklaşımı bu tabloyu açıklıyor.
+
+## 3.5 Üst — %52
+
+%52'lik 3.5 üst olasılığı da bu maçı özel kılıyor. Neredeyse yarı yarıya ihtimalle 4 veya daha fazla gol beklentisi, Eerste Divisie standartlarında son derece yüksek.
+
+## İlk Yarı 1.5 Üst — %50
+
+İlk yarıda 2+ gol olasılığının %50 olması maçın başından itibaren hareketli geçeceğine işaret ediyor.
+
+## Sonuç
+
+**2.5 Üst (%76)** ve **Karşılıklı Gol (%76)** günün en güçlü ikilisi. **3.5 Üst (%52)** de ciddi bir seçenek.`,
+    content_en: `In the Netherlands Eerste Divisie, Emmen host De Graafschap. This is the highest goal-expectation match of the day: **Over 2.5 at 76%**, **Over 3.5 at 52%**, and **BTTS at 76%**.
+
+## Over 2.5 Goals — 76% and BTTS — 76%
+
+Both readings at 76% simultaneously is exceptional. When these two sides meet, high scores and mutual scoring have become almost standard. Emmen's attacking home style and De Graafschap's offensive approach away from home explain this elevated expectation.
+
+## Over 3.5 Goals — 52%
+
+A 52% probability for over 3.5 goals makes this match uniquely interesting. Near-even odds of four or more goals is extraordinarily high for any division.
+
+## First Half Over 1.5 — 50%
+
+A 50% probability of 2+ first-half goals signals an explosive start is equally likely.
+
+## Summary
+
+**Over 2.5 Goals (76%)** and **BTTS (76%)** form the strongest pair of the day. **Over 3.5 Goals (52%)** is a serious complementary option.`,
+  },
+  {
+    slug: 'waalwijk-jong-psv-u21-2026-04-24',
+    title_tr: 'Waalwijk - Jong PSV Analizi: 2.5 Üst ve Karşılıklı Gol Güçlü',
+    title_en: 'Waalwijk vs Jong PSV Analysis: Over 2.5 and BTTS Strong',
+    date: '2026-04-24', time: '18:00',
+    league_tr: 'Hollanda Eerste Divisie', league_en: 'Netherlands Eerste Divisie',
+    home_team: 'Waalwijk', away_team: 'Jong PSV U21',
+    tags: ['eerste-divisie', 'waalwijk', 'jong-psv'],
+    over25: 75, over35: 47, btts: 72, fhover15: 46, fhbtts: 25, corners: 54,
+    content_tr: `Eerste Divisie'de Waalwijk, Jong PSV'yi ağırlıyor. **2.5 Üst %75** ve **Karşılıklı Gol %72** ile günün en güçlü maçlarından biri.
+
+## 2.5 Üst — %75
+
+Jong PSV, üst takımın genç yeteneklerini barındırıyor ve deplasmanda saldırgan oynuyor. Waalwijk ev sahasında yüksek gol üretimiyle biliniyor. %75'lik oran güçlü bir sinyal.
+
+## Karşılıklı Gol — %72 ve 3.5 Üst — %47
+
+%72 BTTS ve %47 ile neredeyse yarı yarıya 3.5 üst olasılığı, maçın çok gollü geçeceğini işaret ediyor.
+
+## Sonuç
+
+**2.5 Üst (%75)** ve **Karşılıklı Gol (%72)** öne çıkan seçenekler.`,
+    content_en: `In the Eerste Divisie, Waalwijk host Jong PSV. **Over 2.5 at 75%** and **BTTS at 72%** make this one of the day's strongest fixtures.
+
+## Over 2.5 Goals — 75%
+
+Jong PSV house PSV Eindhoven's brightest young talents and play attacking football away from home. Waalwijk are known for their high-scoring output at home. A 75% reading is a clear signal.
+
+## BTTS — 72% and Over 3.5 — 47%
+
+A 72% BTTS reading alongside a near-even 47% probability for over 3.5 goals points to a high-scoring affair.
+
+## Summary
+
+**Over 2.5 Goals (75%)** and **BTTS (72%)** are the headline picks.`,
+  },
+  {
+    slug: 'vvv-venlo-almere-city-fc-2026-04-24',
+    title_tr: 'VVV Venlo - Almere City Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'VVV Venlo vs Almere City Analysis: BTTS and Over 2.5',
+    date: '2026-04-24', time: '18:00',
+    league_tr: 'Hollanda Eerste Divisie', league_en: 'Netherlands Eerste Divisie',
+    home_team: 'VVV Venlo', away_team: 'Almere City FC',
+    tags: ['eerste-divisie', 'vvv-venlo', 'almere-city'],
+    over25: 74, over35: 44, btts: 75, fhover15: 44, fhbtts: 27, corners: 54,
+    content_tr: `Eerste Divisie'de VVV Venlo, Almere City'yi ağırlıyor. **Karşılıklı Gol %75** ve **2.5 Üst %74** ile güçlü bir gol ikilisi.
+
+## Karşılıklı Gol — %75
+
+Bu maçın en belirgin göstergesi. VVV Venlo ev sahasında etkili bir hücum oyunu sunarken Almere City de deplasmanda gol bulmaktan kaçınmıyor. %75 ile karşılıklı gol bu maçın ana seçeneği.
+
+## 2.5 Üst — %74 ve 3.5 Üst — %44
+
+%74 ile 2.5 üst ve %44 ile 3.5 üst, maçın yüksek gol sayısına işaret ediyor.
+
+## Sonuç
+
+**Karşılıklı Gol (%75)** ve **2.5 Üst (%74)** bu maçın çift baskın göstergesi.`,
+    content_en: `In the Eerste Divisie, VVV Venlo host Almere City. **BTTS at 75%** and **Over 2.5 at 74%** form a powerful duo.
+
+## Both Teams to Score — 75%
+
+The headline signal. VVV Venlo deliver an effective attacking display at home while Almere City don't stop scoring away from home. A 75% BTTS reading makes this the primary selection.
+
+## Over 2.5 Goals — 74% and Over 3.5 — 44%
+
+A 74% over 2.5 reading alongside a notable 44% over 3.5 probability points to a high-scoring contest.
+
+## Summary
+
+**BTTS (75%)** and **Over 2.5 Goals (74%)** are co-leading picks.`,
+  },
+  {
+    slug: 'den-bosch-ado-den-haag-2026-04-24',
+    title_tr: 'Den Bosch - ADO Den Haag Analizi: 2.5 Üst ve Karşılıklı Gol',
+    title_en: 'Den Bosch vs ADO Den Haag Analysis: Over 2.5 and BTTS',
+    date: '2026-04-24', time: '18:00',
+    league_tr: 'Hollanda Eerste Divisie', league_en: 'Netherlands Eerste Divisie',
+    home_team: 'Den Bosch', away_team: 'ADO Den Haag',
+    tags: ['eerste-divisie', 'den-bosch', 'ado-den-haag'],
+    over25: 74, over35: 44, btts: 62, fhover15: 44, fhbtts: 19, corners: 50,
+    content_tr: `Eerste Divisie'de Den Bosch, ADO Den Haag'ı ağırlıyor. **2.5 Üst %74** ve **Karşılıklı Gol %62** öne çıkan seçenekler.
+
+## 2.5 Üst — %74
+
+Den Bosch ev sahasında yüksek tempo ve gol üretimiyle dikkat çekiyor. ADO Den Haag de deplasmanda aktif bir oyun anlayışı sergiliyor. %74'lük 2.5 üst oranı güçlü bir sinyal.
+
+## Karşılıklı Gol — %62
+
+%62 ile BTTS, maçın her iki tarafın da katkısıyla şekilleneceğini gösteriyor. 3.5 üst de %44 ile dikkate değer bir seviyede.
+
+## Sonuç
+
+**2.5 Üst (%74)** bu maçın baskın göstergesi. **Karşılıklı Gol (%62)** tamamlayıcı seçenek.`,
+    content_en: `In the Eerste Divisie, Den Bosch host ADO Den Haag. **Over 2.5 at 74%** and **BTTS at 62%** are the standout picks.
+
+## Over 2.5 Goals — 74%
+
+Den Bosch attract attention with their high-tempo, high-scoring home displays. ADO Den Haag play an active style away from home. A 74% reading is a strong directional signal.
+
+## Both Teams to Score — 62%
+
+A 62% BTTS reading suggests both sides will contribute, with Over 3.5 also at a notable 44%.
+
+## Summary
+
+**Over 2.5 Goals (74%)** leads, with **BTTS (62%)** as a complementary pick.`,
+  },
+  {
+    slug: 'jong-az-roda-2026-04-24',
+    title_tr: 'Jong AZ - Roda JC Analizi: Karşılıklı Gol ve 2.5 Üst Güçlü',
+    title_en: 'Jong AZ vs Roda JC Analysis: BTTS and Over 2.5 Strong',
+    date: '2026-04-24', time: '18:00',
+    league_tr: 'Hollanda Eerste Divisie', league_en: 'Netherlands Eerste Divisie',
+    home_team: 'Jong AZ', away_team: 'Roda',
+    tags: ['eerste-divisie', 'jong-az', 'roda'],
+    over25: 73, over35: 44, btts: 74, fhover15: 44, fhbtts: 26, corners: 58,
+    content_tr: `Eerste Divisie'de Jong AZ, Roda JC'yi ağırlıyor. **Karşılıklı Gol %74** ve **2.5 Üst %73** ile yüksek gol beklentisi var.
+
+## Karşılıklı Gol — %74 ve 2.5 Üst — %73
+
+Jong AZ, AZ Alkmaar'ın genç kadrosunu sahaya sürerken saldırgan bir oyun anlayışı sergiliyor. Roda JC deplasmanda gol üretimini sürdürüyor. Her iki göstergede de %73-74 aralığı bu maçı güçlü bir seçenek yapıyor.
+
+## 9.5 Üst Korner — %58
+
+%58'lik korner istatistiği de tamamlayıcı bir gösterge sunuyor.
+
+## Sonuç
+
+**Karşılıklı Gol (%74)** ve **2.5 Üst (%73)** öne çıkan seçenekler.`,
+    content_en: `In the Eerste Divisie, Jong AZ host Roda JC. **BTTS at 74%** and **Over 2.5 at 73%** point to a high-scoring contest.
+
+## BTTS — 74% and Over 2.5 — 73%
+
+Jong AZ field AZ Alkmaar's brightest young talents with an attacking approach. Roda JC continue to score away from home. Both readings in the 73-74% range make this a strongly flagged fixture.
+
+## Over 9.5 Corners — 58%
+
+A 58% corners reading provides an additional complementary pick.
+
+## Summary
+
+**BTTS (74%)** and **Over 2.5 Goals (73%)** are the headline picks.`,
+  },
+  {
+    slug: 'jong-ajax-jong-utrecht-2026-04-24',
+    title_tr: 'Jong Ajax - Jong Utrecht Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Jong Ajax vs Jong Utrecht Analysis: BTTS and Over 2.5',
+    date: '2026-04-24', time: '18:00',
+    league_tr: 'Hollanda Eerste Divisie', league_en: 'Netherlands Eerste Divisie',
+    home_team: 'Jong Ajax', away_team: 'Jong Utrecht',
+    tags: ['eerste-divisie', 'jong-ajax', 'jong-utrecht'],
+    over25: 71, over35: 40, btts: 73, fhover15: 41, fhbtts: 25, corners: 58,
+    content_tr: `Eerste Divisie'de Jong Ajax, Jong Utrecht'i konuk ediyor. **Karşılıklı Gol %73** ve **2.5 Üst %71** ile gol dolu bir genç yetenekler derbisi.
+
+## Karşılıklı Gol — %73
+
+İki Hollanda kulübünün gençlik takımı arasındaki bu karşılaşmada saldırgan futbol norm. Jong Ajax, Ajax'ın hızlı ve teknik gençlerini sahaya sürerken Jong Utrecht de aynı anlayışla geliyor. %73'lük BTTS oranı yüksek.
+
+## 2.5 Üst — %71
+
+%71'lik 2.5 üst oranı, bu gençlik derbisinin hareketli geçeceğini pekiştiriyor.
+
+## Sonuç
+
+**Karşılıklı Gol (%73)** ve **2.5 Üst (%71)** bu maçın öne çıkan ikilisi.`,
+    content_en: `In the Eerste Divisie, Jong Ajax host Jong Utrecht. **BTTS at 73%** and **Over 2.5 at 71%** headline a high-scoring youth derby.
+
+## Both Teams to Score — 73%
+
+This clash between two Dutch clubs' reserve/youth sides sees attacking football as the norm. Jong Ajax field Ajax's rapid, technical youngsters while Jong Utrecht come with the same philosophy. A 73% BTTS reading is high.
+
+## Over 2.5 Goals — 71%
+
+A 71% over 2.5 reading reinforces the expectation of a lively, goal-filled youth derby.
+
+## Summary
+
+**BTTS (73%)** and **Over 2.5 Goals (71%)** are the co-leading picks.`,
+  },
+  {
+    slug: 'cambuur-vitesse-2026-04-24',
+    title_tr: 'Cambuur - Vitesse Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Cambuur vs Vitesse Analysis: BTTS and Over 2.5',
+    date: '2026-04-24', time: '18:00',
+    league_tr: 'Hollanda Eerste Divisie', league_en: 'Netherlands Eerste Divisie',
+    home_team: 'Cambuur', away_team: 'Vitesse',
+    tags: ['eerste-divisie', 'cambuur', 'vitesse'],
+    over25: 70, over35: 38, btts: 71, fhover15: 41, fhbtts: 24, corners: 58,
+    content_tr: `Eerste Divisie'de Cambuur, Vitesse'yi ağırlıyor. **Karşılıklı Gol %71** ve **2.5 Üst %70** ile yüksek gol beklentisi.
+
+## Karşılıklı Gol — %71 ve 2.5 Üst — %70
+
+Vitesse bu sezon Eerste Divisie'de mücadele ediyor ve gol üretimini sürdürüyor. Cambuur ev sahasında güçlü bir performans sergilemekte. Her iki göstergede de %70+ oran, piyasanın gol beklentisini net biçimde ortaya koyuyor.
+
+## Sonuç
+
+**Karşılıklı Gol (%71)** ve **2.5 Üst (%70)** bu maçın öne çıkan seçenekleri.`,
+    content_en: `In the Eerste Divisie, Cambuur host Vitesse. **BTTS at 71%** and **Over 2.5 at 70%** set a high goal expectation.
+
+## BTTS — 71% and Over 2.5 — 70%
+
+Vitesse continue to score in the Eerste Divisie this season. Cambuur are strong performers at home. Both readings above 70% reflect clear market conviction in a goal-filled match.
+
+## Summary
+
+**BTTS (71%)** and **Over 2.5 Goals (70%)** are the headline picks for this fixture.`,
+  },
+  {
+    slug: 'mvv-fc-oss-2026-04-24',
+    title_tr: 'MVV - FC Oss Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'MVV vs FC Oss Analysis: BTTS and Over 2.5',
+    date: '2026-04-24', time: '18:00',
+    league_tr: 'Hollanda Eerste Divisie', league_en: 'Netherlands Eerste Divisie',
+    home_team: 'MVV', away_team: 'FC OSS',
+    tags: ['eerste-divisie', 'mvv', 'fc-oss'],
+    over25: 69, over35: 36, btts: 71, fhover15: 38, fhbtts: 23, corners: 50,
+    content_tr: `Eerste Divisie'de MVV, FC Oss'u ağırlıyor. **Karşılıklı Gol %71** ve **2.5 Üst %69** ile güçlü gol beklentisi.
+
+## Karşılıklı Gol — %71
+
+MVV ve FC Oss'un karşılıklı gol geçmişi piyasanın %71'lik BTTS oranını doğrular nitelikte. Her iki takım da sezon boyunca karşılıklı gol istatistiklerinde üst sıralarda yer alıyor.
+
+## 2.5 Üst — %69
+
+%69 ile 2.5 üst de güçlü bir seçenek. İki takımın da savunmada açık vermesi toplam gol sayısını artırabilir.
+
+## Sonuç
+
+**Karşılıklı Gol (%71)** ve **2.5 Üst (%69)** bu maçın öne çıkan seçenekleri.`,
+    content_en: `In the Eerste Divisie, MVV host FC Oss. **BTTS at 71%** and **Over 2.5 at 69%** signal a goal-filled match.
+
+## Both Teams to Score — 71%
+
+MVV and FC Oss have a strong combined BTTS history that justifies the 71% market reading. Both sides rank among the higher BTTS teams in the division this season.
+
+## Over 2.5 Goals — 69%
+
+A 69% over 2.5 reading is strong. Both teams' defensive vulnerabilities push the total goal expectation higher.
+
+## Summary
+
+**BTTS (71%)** and **Over 2.5 Goals (69%)** are the headline picks.`,
+  },
+  {
+    slug: 'dordrecht-willem-ii-2026-04-24',
+    title_tr: 'Dordrecht - Willem II Analizi: Karşılıklı Gol Öne Çıkıyor',
+    title_en: 'Dordrecht vs Willem II Analysis: BTTS the Key Pick',
+    date: '2026-04-24', time: '18:00',
+    league_tr: 'Hollanda Eerste Divisie', league_en: 'Netherlands Eerste Divisie',
+    home_team: 'Dordrecht', away_team: 'Willem II',
+    tags: ['eerste-divisie', 'dordrecht', 'willem-ii'],
+    over25: 65, over35: 32, btts: 68, fhover15: 37, fhbtts: 23, corners: 59,
+    content_tr: `Eerste Divisie'de Dordrecht, Willem II'yi konuk ediyor. **Karşılıklı Gol %68** ve **2.5 Üst %65** ile dengeli bir gol beklentisi.
+
+## Karşılıklı Gol — %68
+
+Bu maçın baskın göstergesi. Willem II Eerste Divisie'de ciddi bir rakip ve deplasmanda gol bulmakta ısrarcı. Dordrecht ev sahasında üretken. %68'lik BTTS oranı güçlü bir sinyal.
+
+## 2.5 Üst — %65 ve Korner — %59
+
+Tamamlayıcı göstergeler olarak her ikisi de dikkate alınabilir.
+
+## Sonuç
+
+**Karşılıklı Gol (%68)** başlıca gösterge, **2.5 Üst (%65)** tamamlayıcı seçenek.`,
+    content_en: `In the Eerste Divisie, Dordrecht host Willem II. **BTTS at 68%** and **Over 2.5 at 65%** frame a balanced goal expectation.
+
+## Both Teams to Score — 68%
+
+The headline pick. Willem II are a serious outfit in the Eerste Divisie and are determined to score on the road. Dordrecht are productive at home. A 68% BTTS reading is a strong signal.
+
+## Over 2.5 Goals — 65% and Corners — 59%
+
+Both serve as supporting selections worth consideration.
+
+## Summary
+
+**BTTS (68%)** leads, with **Over 2.5 Goals (65%)** as a complementary pick.`,
+  },
+  {
+    slug: 'fc-eindhoven-helmond-sport-2026-04-24',
+    title_tr: 'FC Eindhoven - Helmond Sport Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'FC Eindhoven vs Helmond Sport Analysis: BTTS and Over 2.5',
+    date: '2026-04-24', time: '18:00',
+    league_tr: 'Hollanda Eerste Divisie', league_en: 'Netherlands Eerste Divisie',
+    home_team: 'FC Eindhoven', away_team: 'Helmond Sport',
+    tags: ['eerste-divisie', 'fc-eindhoven', 'helmond-sport'],
+    over25: 62, over35: 30, btts: 66, fhover15: 34, fhbtts: 21, corners: 41,
+    content_tr: `Eerste Divisie'de FC Eindhoven, Helmond Sport'u ağırlıyor. **Karşılıklı Gol %66** ve **2.5 Üst %62** ile karşılıklı gol ağırlıklı bir mücadele bekleniyor.
+
+## Karşılıklı Gol — %66
+
+Bu yerel Eindhoven derbisinde her iki takımın da gol bulacağına dair piyasa beklentisi %66 ile güçlü. FC Eindhoven ev sahasında üretken; Helmond Sport da deplasmanda gol arayışından vazgeçmiyor.
+
+## 2.5 Üst — %62
+
+BTTS beklentisiyle örtüşen 2.5 üst %62 ile tamamlayıcı bir seçenek.
+
+## Sonuç
+
+**Karşılıklı Gol (%66)** ve **2.5 Üst (%62)** bu maçın öne çıkan seçenekleri.`,
+    content_en: `In the Eerste Divisie, FC Eindhoven host Helmond Sport. **BTTS at 66%** and **Over 2.5 at 62%** flag a mutual-scoring contest.
+
+## Both Teams to Score — 66%
+
+In this local Eindhoven derby, the market has 66% confidence that both sides will score. FC Eindhoven are productive at home; Helmond Sport don't stop searching for goals away from home.
+
+## Over 2.5 Goals — 62%
+
+A natural complement to the BTTS expectation, Over 2.5 at 62% is a supportive pick.
+
+## Summary
+
+**BTTS (66%)** and **Over 2.5 Goals (62%)** are the headline picks.`,
+  },
 ];
 
 export function getAllPosts(): PostMeta[] {
