@@ -3,20 +3,8 @@ import { formatDate } from '@/lib/utils';
 import { LeagueGroup } from '@/lib/types';
 import PredictionsPage from '@/components/PredictionsPage';
 import LatestAnalysis from '@/components/LatestAnalysis';
-import { unstable_cache } from 'next/cache';
+import { getCachedMatches } from '@/lib/matches-cache';
 import { getLocale } from 'next-intl/server';
-
-const getCachedMatches = unstable_cache(
-  async (date: string) => {
-    const result = await getMatchesGroupedByLeague(date);
-    if (result.length === 0) {
-      throw new Error('No matches found, skip caching');
-    }
-    return result;
-  },
-  ['matches-v4'],
-  { revalidate: 600 }
-);
 
 export default async function HomePage() {
   const today = formatDate(new Date());
@@ -26,7 +14,6 @@ export default async function HomePage() {
   try {
     leagueGroups = await getCachedMatches(today);
   } catch {
-    // If cached fetch fails (empty result or error), try direct fetch
     try {
       leagueGroups = await getMatchesGroupedByLeague(today);
     } catch {

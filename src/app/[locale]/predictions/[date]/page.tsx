@@ -1,20 +1,8 @@
 import { getMatchesGroupedByLeague } from '@/lib/api-football';
 import { LeagueGroup } from '@/lib/types';
 import PredictionsPage from '@/components/PredictionsPage';
-import { unstable_cache } from 'next/cache';
+import { getCachedMatches } from '@/lib/matches-cache';
 import type { Metadata } from 'next';
-
-const getCachedMatches = unstable_cache(
-  async (date: string) => {
-    const result = await getMatchesGroupedByLeague(date);
-    if (result.length === 0) {
-      throw new Error('No matches found, skip caching');
-    }
-    return result;
-  },
-  ['matches-v6'],
-  { revalidate: 300 }
-);
 
 type Props = {
   params: Promise<{ date: string; locale: string }>;
