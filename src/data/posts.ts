@@ -2754,6 +2754,499 @@ A natural complement to the BTTS expectation, Over 2.5 at 62% is a supportive pi
 
 **BTTS (66%)** and **Over 2.5 Goals (62%)** are the headline picks.`,
   },
+  // ── 2026-05-02 ──────────────────────────────────────────────────────────────
+  {
+    slug: 'dynamo-dresden-1-fc-kaiserslautern-2026-05-02',
+    title_tr: 'Dynamo Dresden - Kaiserslautern Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Dynamo Dresden vs Kaiserslautern Analysis: BTTS and Over 2.5',
+    date: '2026-05-02', time: '11:00',
+    league_tr: 'Almanya 2. Bundesliga', league_en: 'Germany 2. Bundesliga',
+    home_team: 'Dynamo Dresden', away_team: '1. FC Kaiserslautern',
+    tags: ['2-bundesliga', 'dynamo-dresden', 'kaiserslautern'],
+    over25: 69, over35: 35, btts: 67, fhover15: 37, fhbtts: 21, corners: 42,
+    content_tr: `2. Bundesliga'da Dynamo Dresden, 1. FC Kaiserslautern'i ağırlıyor. **2.5 Üst %69** ve **Karşılıklı Gol %67** bu maçın öne çıkan göstergeleri.
+
+## 2.5 Üst — %69
+
+Dresden ev sahasında yüksek tempolu ve saldırgan bir futbol oynuyor. Kaiserslautern ise deplasmanda da gol üretimini sürdüren bir takım. Her iki takımın da hücum odaklı yaklaşımı maçı gol dolu kılıyor.
+
+## Karşılıklı Gol — %67
+
+%67'lik BTTS oranı güçlü bir sinyal. Her iki takım da savunmada zaman zaman açık bırakıyor ve karşılıklı gol istatistikleri bu maçta güçlü seçenek.
+
+## Sonuç
+
+**2.5 Üst (%69)** ve **Karşılıklı Gol (%67)** bu maçın öne çıkan seçenekleri.`,
+    content_en: `In the 2. Bundesliga, Dynamo Dresden host 1. FC Kaiserslautern. **Over 2.5 at 69%** and **BTTS at 67%** are the key indicators.
+
+## Over 2.5 Goals — 69%
+
+Dresden play high-tempo, attacking football at home. Kaiserslautern maintain their scoring output on the road. Both sides' attack-minded approach makes for a goal-laden contest.
+
+## Both Teams to Score — 67%
+
+A 67% BTTS reading is a strong signal. Both teams leave defensive gaps at times, with BTTS being a well-supported option.
+
+## Summary
+
+**Over 2.5 Goals (69%)** and **BTTS (67%)** are the headline picks.`,
+  },
+  {
+    slug: 'arminia-bielefeld-vfl-bochum-2026-05-02',
+    title_tr: 'Arminia Bielefeld - VfL Bochum Analizi: Karşılıklı Gol Öne Çıkıyor',
+    title_en: 'Arminia Bielefeld vs VfL Bochum Analysis: BTTS the Key Pick',
+    date: '2026-05-02', time: '11:00',
+    league_tr: 'Almanya 2. Bundesliga', league_en: 'Germany 2. Bundesliga',
+    home_team: 'Arminia Bielefeld', away_team: 'VfL Bochum',
+    tags: ['2-bundesliga', 'arminia-bielefeld', 'vfl-bochum'],
+    over25: 65, over35: 32, btts: 68, fhover15: 34, fhbtts: 21, corners: 58,
+    content_tr: `2. Bundesliga'da Arminia Bielefeld, VfL Bochum'u ağırlıyor. **Karşılıklı Gol %68** bu maçın baskın göstergesi.
+
+## Karşılıklı Gol — %68
+
+Bielefeld ev sahasında üretken ve karşılıklı gol geçmişi yüksek bir takım. Bochum da deplasmanda gol bulmaktan kaçınmıyor. %68 ile BTTS bu maçın en güçlü sinyali.
+
+## 2.5 Üst — %65 · 9.5+ Korner — %58
+
+Her iki gösterge de tamamlayıcı seçenek olarak değerlendirilebilir. Korner istatistiği özellikle dikkat çekici.
+
+## Sonuç
+
+**Karşılıklı Gol (%68)** başlıca gösterge, **2.5 Üst (%65)** tamamlayıcı seçenek.`,
+    content_en: `In the 2. Bundesliga, Arminia Bielefeld host VfL Bochum. **BTTS at 68%** is the headline indicator.
+
+## Both Teams to Score — 68%
+
+Bielefeld are productive at home with a strong BTTS record. Bochum don't stop scoring on their travels either. A 68% reading makes this the primary pick.
+
+## Over 2.5 Goals — 65% · Over 9.5 Corners — 58%
+
+Both serve as complementary selections. The corners reading is particularly notable.
+
+## Summary
+
+**BTTS (68%)** leads, with **Over 2.5 Goals (65%)** as a complementary pick.`,
+  },
+  {
+    slug: 'watford-coventry-2026-05-02',
+    title_tr: 'Watford - Coventry Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Watford vs Coventry Analysis: BTTS and Over 2.5',
+    date: '2026-05-02', time: '11:30',
+    league_tr: 'İngiltere Championship', league_en: 'England Championship',
+    home_team: 'Watford', away_team: 'Coventry',
+    tags: ['championship', 'watford', 'coventry'],
+    over25: 67, over35: 34, btts: 69, fhover15: 35, fhbtts: 21, corners: 46,
+    content_tr: `İngiltere Championship'te Watford, Coventry'i ağırlıyor. **Karşılıklı Gol %69** ve **2.5 Üst %67** güçlü bir ikili.
+
+## Karşılıklı Gol — %69
+
+Watford ev sahasında tutarlı bir gol üretimi sergiliyor. Coventry ise deplasmanda gol bulmakta ısrarcı. %69'luk BTTS oranı her iki takımın da katkısına güçlü bir piyasa inancını yansıtıyor.
+
+## 2.5 Üst — %67
+
+BTTS beklentisiyle örtüşen 2.5 üst %67 ile destekleyici bir seçenek.
+
+## Sonuç
+
+**Karşılıklı Gol (%69)** ve **2.5 Üst (%67)** bu Championship karşılaşmasının öne çıkan seçenekleri.`,
+    content_en: `In the Championship, Watford host Coventry. **BTTS at 69%** and **Over 2.5 at 67%** form a strong pairing.
+
+## Both Teams to Score — 69%
+
+Watford produce consistent scoring output at home. Coventry are determined to find the net on the road. A 69% BTTS reading reflects strong market conviction in both sides contributing.
+
+## Over 2.5 Goals — 67%
+
+Consistent with the BTTS expectation, Over 2.5 at 67% is a natural companion pick.
+
+## Summary
+
+**BTTS (69%)** and **Over 2.5 Goals (67%)** are the headline picks for this Championship fixture.`,
+  },
+  {
+    slug: 'bayern-munchen-1-fc-heidenheim-2026-05-02',
+    title_tr: 'Bayern Münih - Heidenheim Analizi: Günün En Yüksek 2.5 Üst Sinyali',
+    title_en: 'Bayern München vs Heidenheim Analysis: Highest Over 2.5 Signal of the Day',
+    date: '2026-05-02', time: '13:30',
+    league_tr: 'Almanya Bundesliga', league_en: 'Germany Bundesliga',
+    home_team: 'Bayern München', away_team: '1. FC Heidenheim',
+    tags: ['bundesliga', 'bayern-munchen', 'heidenheim'],
+    over25: 83, over35: 66, btts: 69, fhover15: 62, fhbtts: 27, corners: 54,
+    content_tr: `Bundesliga'da Bayern Münih, Heidenheim'i Allianz Arena'da ağırlıyor. Bu maç bugünün tüm maçları arasında en yüksek gol beklentisine sahip: **2.5 Üst %83**, **3.5 Üst %66**, **Karşılıklı Gol %69** ve **İlk Yarı 1.5+ %62**.
+
+## 2.5 Üst — %83
+
+Bundesliga'nın tartışmasız en güçlü takımı Bayern, ev sahipliğinde yüksek gol sayılarıyla oynuyor. Heidenheim ise küçük bir takım olmasına rağmen saldırgan anlayışını koruyarak deplasmanda da gol arayışından vazgeçmiyor. Piyasanın %83 gibi olağanüstü bir 2.5 üst oranı vermesi, bu maçta en az 3 gol beklentisini çok güçlü kılıyor.
+
+## 3.5 Üst — %66
+
+3.5 üst olasılığının %66 olması son derece dikkat çekici. Neredeyse her 3 maçtan 2'sinde 4+ gol beklentisi, bu ikilinin karşılaşmaları için piyasanın çizdiği tablo.
+
+## İlk Yarı 1.5+ — %62
+
+İlk yarıda 2 veya daha fazla gol olasılığı %62. Bayern'in baştan baskı kuran oyunu erken gollerle maçı şekillendirebilir.
+
+## Karşılıklı Gol — %69
+
+Heidenheim'ın gol üretim kapasitesi, Bayern karşısında bile BTTS'yi %69'a taşıyor. Küçük takımların Bayern karşısında bile gol bulabildiği tarihsel olarak sıkça görülüyor.
+
+## Sonuç
+
+**2.5 Üst (%83)** günün açık ara en güçlü sinyali. **3.5 Üst (%66)** de ciddi bir seçenek. **Karşılıklı Gol (%69)** tamamlayıcı pick.`,
+    content_en: `In the Bundesliga, Bayern München host 1. FC Heidenheim at the Allianz Arena. This is the highest goal-expectation match of the day: **Over 2.5 at 83%**, **Over 3.5 at 66%**, **BTTS at 69%**, and **First Half Over 1.5 at 62%**.
+
+## Over 2.5 Goals — 83%
+
+Bayern, the undisputed powerhouse of the Bundesliga, regularly put up high scores at home. Heidenheim, despite being a smaller club, maintain their attacking identity and keep searching for goals on the road. An extraordinary 83% over 2.5 reading makes at least 3 goals an overwhelmingly strong expectation.
+
+## Over 3.5 Goals — 66%
+
+A 66% probability for over 3.5 goals is exceptional. The market expects four or more goals in roughly two out of every three such fixtures.
+
+## First Half Over 1.5 — 62%
+
+A 62% probability of 2+ first-half goals reflects Bayern's habit of pressing early and scoring quickly to set the tone.
+
+## Both Teams to Score — 69%
+
+Heidenheim's goal-scoring capability pushes BTTS to 69% even against Bayern. Historically, smaller sides have regularly found the net against the Bavarians.
+
+## Summary
+
+**Over 2.5 Goals (83%)** is the clearest signal of the day by a wide margin. **Over 3.5 Goals (66%)** is a serious secondary option. **BTTS (69%)** rounds out the picks.`,
+  },
+  {
+    slug: '1899-hoffenheim-vfb-stuttgart-2026-05-02',
+    title_tr: '1899 Hoffenheim - VfB Stuttgart Analizi: KG Var ve 2.5 Üst Zirvede',
+    title_en: '1899 Hoffenheim vs VfB Stuttgart Analysis: BTTS and Over 2.5 at the Top',
+    date: '2026-05-02', time: '13:30',
+    league_tr: 'Almanya Bundesliga', league_en: 'Germany Bundesliga',
+    home_team: '1899 Hoffenheim', away_team: 'VfB Stuttgart',
+    tags: ['bundesliga', 'hoffenheim', 'stuttgart'],
+    over25: 76, over35: 52, btts: 77, fhover15: 46, fhbtts: 28, corners: 59,
+    content_tr: `Bundesliga'da 1899 Hoffenheim, VfB Stuttgart'ı ağırlıyor. **Karşılıklı Gol %77** ve **2.5 Üst %76** ile günün en güçlü maçlarından biri.
+
+## Karşılıklı Gol — %77
+
+Bu maçın en belirgin sinyali. Hoffenheim saldırgan futboluyla bilinirken Stuttgart da Avrupa kulüplerinin deneyimiyle her deplasmanda gol bulmaya devam ediyor. %77'lik BTTS oranı, piyasanın her iki takımın da katkısına son derece güçlü inancını yansıtıyor.
+
+## 2.5 Üst — %76 ve 3.5 Üst — %52
+
+%76 ile 2.5 üst ve %52 ile neredeyse yarı yarıya 3.5 üst olasılığı, maçın yüksek gol sayısına işaret ediyor. 9.5+ korner de %59 ile dikkat çekici.
+
+## Sonuç
+
+**Karşılıklı Gol (%77)** ve **2.5 Üst (%76)** günün en güçlü ikililerin arasında.`,
+    content_en: `In the Bundesliga, 1899 Hoffenheim host VfB Stuttgart. **BTTS at 77%** and **Over 2.5 at 76%** make this one of the day's strongest fixtures.
+
+## Both Teams to Score — 77%
+
+The headline signal. Hoffenheim are known for their attacking football, while Stuttgart continue to score on the road with European-level quality. A 77% BTTS reading reflects exceptional market confidence in both sides contributing.
+
+## Over 2.5 Goals — 76% and Over 3.5 — 52%
+
+A 76% over 2.5 reading alongside a near-even 52% probability for over 3.5 goals points to a high-scoring affair. Over 9.5 Corners at 59% is also notable.
+
+## Summary
+
+**BTTS (77%)** and **Over 2.5 Goals (76%)** rank among the day's strongest pairs.`,
+  },
+  {
+    slug: 'eintracht-frankfurt-hamburger-sv-2026-05-02',
+    title_tr: 'Eintracht Frankfurt - Hamburger SV Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Eintracht Frankfurt vs Hamburger SV Analysis: BTTS and Over 2.5',
+    date: '2026-05-02', time: '13:30',
+    league_tr: 'Almanya Bundesliga', league_en: 'Germany Bundesliga',
+    home_team: 'Eintracht Frankfurt', away_team: 'Hamburger SV',
+    tags: ['bundesliga', 'eintracht-frankfurt', 'hamburger-sv'],
+    over25: 69, over35: 38, btts: 69, fhover15: 38, fhbtts: 22, corners: 59,
+    content_tr: `Bundesliga'da Eintracht Frankfurt, Hamburger SV'yi ağırlıyor. **2.5 Üst %69** ve **Karşılıklı Gol %69** eşit güçte iki gösterge. 9.5+ Korner de %59 ile dikkat çekiyor.
+
+## 2.5 Üst ve Karşılıklı Gol — %69
+
+Her iki göstergede de eşit olasılık ilginç bir tablo. Frankfurt ev sahasında saldırgan bir kimliğe sahipken HSV de Bundesliga'ya dönüşüyle birlikte deplasmanda aktif oynuyor. Piyasa her iki takımın da katkısıyla 3+ gol beklentisinde.
+
+## 9.5+ Korner — %59
+
+Yüksek tempolu bu karşılaşmada korner istatistiği de değerlendirilebilir.
+
+## Sonuç
+
+**2.5 Üst (%69)** ve **Karşılıklı Gol (%69)** bu maçın eşit ağırlıklı öne çıkan seçenekleri.`,
+    content_en: `In the Bundesliga, Eintracht Frankfurt host Hamburger SV. **Over 2.5 at 69%** and **BTTS at 69%** are equal in strength. Over 9.5 Corners at 59% is also notable.
+
+## Over 2.5 Goals and BTTS — 69%
+
+Both readings at the same level is telling. Frankfurt carry a strong attacking identity at home, while HSV — back in the Bundesliga — play an active style away from home. The market backs both sides to contribute to 3+ goals.
+
+## Over 9.5 Corners — 59%
+
+A high-tempo fixture supports the corners reading as an additional pick.
+
+## Summary
+
+**Over 2.5 Goals (69%)** and **BTTS (69%)** are the co-equal headline picks.`,
+  },
+  {
+    slug: 'werder-bremen-fc-augsburg-2026-05-02',
+    title_tr: 'Werder Bremen - FC Augsburg Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Werder Bremen vs FC Augsburg Analysis: BTTS and Over 2.5',
+    date: '2026-05-02', time: '13:30',
+    league_tr: 'Almanya Bundesliga', league_en: 'Germany Bundesliga',
+    home_team: 'Werder Bremen', away_team: 'FC Augsburg',
+    tags: ['bundesliga', 'werder-bremen', 'augsburg'],
+    over25: 68, over35: 35, btts: 69, fhover15: 38, fhbtts: 22, corners: 56,
+    content_tr: `Bundesliga'da Werder Bremen, FC Augsburg'u ağırlıyor. **Karşılıklı Gol %69** ve **2.5 Üst %68** ile yüksek gol beklentisi.
+
+## Karşılıklı Gol — %69
+
+Bremen ev sahasında ofansif ve etkili. Augsburg ise Bundesliga'da deplasmanda gol bulmaktan kaçınmayan bir oyun anlayışına sahip. %69'luk BTTS oranı bu iki takımın karşılıklı gol potansiyelini yansıtıyor.
+
+## 2.5 Üst — %68
+
+%68 ile 2.5 üst güçlü bir seçenek. BTTS beklentisiyle örtüşüyor.
+
+## Sonuç
+
+**Karşılıklı Gol (%69)** ve **2.5 Üst (%68)** bu maçın öne çıkan seçenekleri.`,
+    content_en: `In the Bundesliga, Werder Bremen host FC Augsburg. **BTTS at 69%** and **Over 2.5 at 68%** signal a goal-filled match.
+
+## Both Teams to Score — 69%
+
+Bremen are offensive and effective at home. Augsburg play an attacking style away from home in the Bundesliga. A 69% BTTS reading reflects both sides' mutual scoring potential.
+
+## Over 2.5 Goals — 68%
+
+At 68%, Over 2.5 is a strong pick consistent with the BTTS expectation.
+
+## Summary
+
+**BTTS (69%)** and **Over 2.5 Goals (68%)** are the headline picks.`,
+  },
+  {
+    slug: 'paris-saint-germain-lorient-2026-05-02',
+    title_tr: 'PSG - Lorient Analizi: 2.5 Üst Güçlü Sinyal',
+    title_en: 'PSG vs Lorient Analysis: Over 2.5 Strong Signal',
+    date: '2026-05-02', time: '15:00',
+    league_tr: 'Fransa Ligue 1', league_en: 'France Ligue 1',
+    home_team: 'Paris Saint Germain', away_team: 'Lorient',
+    tags: ['ligue-1', 'psg', 'lorient'],
+    over25: 73, over35: 42, btts: 62, fhover15: 44, fhbtts: 22, corners: 50,
+    content_tr: `Ligue 1'de Paris Saint Germain, Lorient'i Parc des Princes'ta ağırlıyor. **2.5 Üst %73** bu maçın baskın göstergesi.
+
+## 2.5 Üst — %73
+
+PSG, Ligue 1'de sezonun en saldırgan takımı olarak öne çıkıyor. Lorient ise küçük bütçesine rağmen gol aramaktan vazgeçmiyor. PSG'nin ev sahipliğindeki baskın hücum gücü maçı gol dolu kılıyor.
+
+## Karşılıklı Gol — %62 ve İlk Yarı 1.5+ — %44
+
+%62 ile BTTS ve %44 ile ilk yarı 1.5 üst tamamlayıcı göstergeler olarak değerlendirilebilir.
+
+## Sonuç
+
+**2.5 Üst (%73)** bu maçın baskın sinyali. **Karşılıklı Gol (%62)** tamamlayıcı seçenek.`,
+    content_en: `In Ligue 1, Paris Saint Germain host Lorient at the Parc des Princes. **Over 2.5 at 73%** is the dominant indicator.
+
+## Over 2.5 Goals — 73%
+
+PSG stand out as Ligue 1's most attacking side this season. Lorient, despite modest resources, don't stop searching for goals. PSG's dominant home attacking output makes for a goal-rich contest.
+
+## BTTS — 62% and First Half Over 1.5 — 44%
+
+BTTS at 62% and FH Over 1.5 at 44% serve as complementary picks.
+
+## Summary
+
+**Over 2.5 Goals (73%)** is the headline signal. **BTTS (62%)** works as a complementary pick.`,
+  },
+  {
+    slug: 'bayer-leverkusen-rb-leipzig-2026-05-02',
+    title_tr: 'Bayer Leverkusen - RB Leipzig Analizi: 2.5 Üst ve KG Var Eşit Güçte',
+    title_en: 'Bayer Leverkusen vs RB Leipzig Analysis: Over 2.5 and BTTS Equally Strong',
+    date: '2026-05-02', time: '16:30',
+    league_tr: 'Almanya Bundesliga', league_en: 'Germany Bundesliga',
+    home_team: 'Bayer Leverkusen', away_team: 'RB Leipzig',
+    tags: ['bundesliga', 'bayer-leverkusen', 'rb-leipzig'],
+    over25: 76, over35: 52, btts: 76, fhover15: 46, fhbtts: 28, corners: 53,
+    content_tr: `Bundesliga'nın en prestijli karşılaşmalarından biri: Bayer Leverkusen, RB Leipzig'i BayArena'da ağırlıyor. **2.5 Üst %76** ve **Karşılıklı Gol %76** — her iki göstergede de eşit güç.
+
+## 2.5 Üst ve Karşılıklı Gol — %76
+
+Leverkusen bu sezon Bundesliga'nın en hücum etkili takımlarından biri olmayı sürdürüyor. Leipzig ise deplasmanda da gol üretiminden vazgeçmiyor. Her iki takımın savunma açıkları ve yüksek press futbolu, karşılıklı gol ve üst seçeneklerini güçlendiriyor.
+
+## 3.5 Üst — %52
+
+%52 ile 3.5 üst de bu maçta ciddiye alınması gereken bir seçenek. Neredeyse yarı yarıya ihtimalle 4+ gol.
+
+## Sonuç
+
+**2.5 Üst (%76)** ve **Karşılıklı Gol (%76)** günün en güçlü ikililerin arasında. **3.5 Üst (%52)** de ciddi bir ek seçenek.`,
+    content_en: `One of the Bundesliga's most prestigious clashes: Bayer Leverkusen host RB Leipzig at the BayArena. **Over 2.5 at 76%** and **BTTS at 76%** — equally strong on both fronts.
+
+## Over 2.5 Goals and BTTS — 76%
+
+Leverkusen continue to be one of the Bundesliga's most attack-effective sides this season. Leipzig don't ease up on their scoring output away from home either. Both teams' defensive vulnerabilities under high-press football reinforce the over and BTTS picks.
+
+## Over 3.5 Goals — 52%
+
+A near-even 52% probability for over 3.5 goals makes this an exceptional match. Near coin-flip odds of four or more goals.
+
+## Summary
+
+**Over 2.5 Goals (76%)** and **BTTS (76%)** rank among the day's strongest pairs. **Over 3.5 Goals (52%)** is a serious additional pick.`,
+  },
+  {
+    slug: 'metz-monaco-2026-05-02',
+    title_tr: 'Metz - Monaco Analizi: 2.5 Üst ve 3.5 Üst Güçlü',
+    title_en: 'Metz vs Monaco Analysis: Over 2.5 and Over 3.5 Strong',
+    date: '2026-05-02', time: '17:00',
+    league_tr: 'Fransa Ligue 1', league_en: 'France Ligue 1',
+    home_team: 'Metz', away_team: 'Monaco',
+    tags: ['ligue-1', 'metz', 'monaco'],
+    over25: 76, over35: 53, btts: 68, fhover15: 46, fhbtts: 23, corners: 46,
+    content_tr: `Ligue 1'de Metz, Monaco'yu ağırlıyor. **2.5 Üst %76**, **3.5 Üst %53** ve **Karşılıklı Gol %68** ile bugünün öne çıkan Fransız ligi maçı.
+
+## 2.5 Üst — %76
+
+Monaco bu sezon Ligue 1'in en saldırgan takımlarından biri ve deplasmanda yüksek gol sayıları üretiyor. Metz ise ev sahasında gol arayan bir oyun anlayışı sergiliyor. %76'lık 2.5 üst oranı güçlü bir sinyal.
+
+## 3.5 Üst — %53
+
+%53 ile neredeyse yarı yarıya ihtimalle 4+ gol beklentisi. Monaco'nun hücum gücü bu olasılığı gerçekçi kılıyor.
+
+## Karşılıklı Gol — %68
+
+Metz'in ev sahibi avantajı ve Monaco'nun deplasmandaki ofansif kalitesi BTTS'yi %68'e taşıyor.
+
+## Sonuç
+
+**2.5 Üst (%76)** bu maçın baskın sinyali. **3.5 Üst (%53)** ve **Karşılıklı Gol (%68)** güçlü tamamlayıcı seçenekler.`,
+    content_en: `In Ligue 1, Metz host Monaco. **Over 2.5 at 76%**, **Over 3.5 at 53%**, and **BTTS at 68%** make this the standout French league fixture of the day.
+
+## Over 2.5 Goals — 76%
+
+Monaco are one of Ligue 1's most attacking sides this season, producing high scores on the road. Metz play a goal-seeking style at home. A 76% over 2.5 reading is a strong signal.
+
+## Over 3.5 Goals — 53%
+
+A near-even 53% probability of 4+ goals. Monaco's attacking firepower makes this a realistic expectation.
+
+## Both Teams to Score — 68%
+
+Metz's home advantage combined with Monaco's offensive quality on the road pushes BTTS to 68%.
+
+## Summary
+
+**Over 2.5 Goals (76%)** is the headline signal. **Over 3.5 Goals (53%)** and **BTTS (68%)** are strong complementary picks.`,
+  },
+  {
+    slug: 'peterborough-doncaster-2026-05-02',
+    title_tr: 'Peterborough - Doncaster Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Peterborough vs Doncaster Analysis: BTTS and Over 2.5',
+    date: '2026-05-02', time: '14:00',
+    league_tr: 'İngiltere League One', league_en: 'England League One',
+    home_team: 'Peterborough', away_team: 'Doncaster',
+    tags: ['league-one', 'peterborough', 'doncaster'],
+    over25: 69, over35: 36, btts: 72, fhover15: 38, fhbtts: 23, corners: 44,
+    content_tr: `İngiltere League One'da Peterborough, Doncaster'ı ağırlıyor. **Karşılıklı Gol %72** ve **2.5 Üst %69** ile güçlü bir gol beklentisi.
+
+## Karşılıklı Gol — %72
+
+Bu maçın en güçlü sinyali. Peterborough ev sahasında yüksek tempolu ve gol üretken bir futbol oynuyor. Doncaster da deplasmanda gol bulmakta ısrarcı. %72'lik BTTS oranı iki takımın karşılıklı gol potansiyelini açıkça yansıtıyor.
+
+## 2.5 Üst — %69
+
+%69 ile 2.5 üst, BTTS beklentisiyle örtüşen güçlü bir seçenek.
+
+## Sonuç
+
+**Karşılıklı Gol (%72)** ve **2.5 Üst (%69)** bu League One karşılaşmasının öne çıkan seçenekleri.`,
+    content_en: `In League One, Peterborough host Doncaster. **BTTS at 72%** and **Over 2.5 at 69%** signal a strong goal expectation.
+
+## Both Teams to Score — 72%
+
+The headline pick. Peterborough play high-tempo, productive football at home. Doncaster are persistent in finding the net away from home. A 72% BTTS reading clearly reflects both sides' mutual scoring potential.
+
+## Over 2.5 Goals — 69%
+
+At 69%, Over 2.5 is a strong pick consistent with the BTTS expectation.
+
+## Summary
+
+**BTTS (72%)** and **Over 2.5 Goals (69%)** are the headline picks for this League One fixture.`,
+  },
+  {
+    slug: 'ajax-psv-eindhoven-2026-05-02',
+    title_tr: 'Ajax - PSV Eindhoven Analizi: Hollanda Derbisinde Karşılıklı Gol ve 2.5 Üst Zirvede',
+    title_en: 'Ajax vs PSV Eindhoven Analysis: BTTS and Over 2.5 at the Top in Dutch Derby',
+    date: '2026-05-02', time: '18:00',
+    league_tr: 'Hollanda Eredivisie', league_en: 'Netherlands Eredivisie',
+    home_team: 'Ajax', away_team: 'PSV Eindhoven',
+    tags: ['eredivisie', 'ajax', 'psv-eindhoven'],
+    over25: 77, over35: 54, btts: 77, fhover15: 50, fhbtts: 29, corners: 56,
+    content_tr: `Hollanda Eredivisie'nin en büyük derbisi: Ajax, PSV Eindhoven'i Amsterdam Arena'da ağırlıyor. **2.5 Üst %77**, **Karşılıklı Gol %77**, **3.5 Üst %54** ve **İY 1.5+ %50** ile bugünün en etkileyici gol beklentili maçlarından biri.
+
+## 2.5 Üst ve Karşılıklı Gol — %77
+
+Her iki göstergede de %77 eşit güç. Ajax-PSV derbilerinde yüksek gol sayıları ve karşılıklı gol tarihsel olarak norm haline gelmiş. Her iki takım da sezonun en saldırgan yapılarından birini oluşturuyor ve bu güç dengesi karşılıklı gol açısından ideal bir zemin yaratıyor.
+
+## 3.5 Üst — %54 ve İY 1.5+ — %50
+
+3.5 üst %54 ile ve ilk yarıda 2+ gol olasılığı %50 ile bu maçın başından itibaren hareketli geçeceğini destekliyor.
+
+## Sonuç
+
+**2.5 Üst (%77)** ve **Karşılıklı Gol (%77)** bugünün en güçlü ikilileri arasında. **3.5 Üst (%54)** de ciddi bir seçenek.`,
+    content_en: `The Netherlands Eredivisie's biggest derby: Ajax host PSV Eindhoven at the Johan Cruyff Arena. **Over 2.5 at 77%**, **BTTS at 77%**, **Over 3.5 at 54%**, and **First Half Over 1.5 at 50%** make this one of the day's most impressive goal-expectation fixtures.
+
+## Over 2.5 Goals and BTTS — 77%
+
+Both readings at 77% simultaneously is exceptional. Ajax-PSV derbies have historically seen high scores and mutual scoring as the norm. Both sides field one of the season's most attacking squads, creating ideal conditions for goals at both ends.
+
+## Over 3.5 Goals — 54% and First Half Over 1.5 — 50%
+
+Over 3.5 at 54% and an even-money probability of 2+ first-half goals support a high-octane contest from the first whistle.
+
+## Summary
+
+**Over 2.5 Goals (77%)** and **BTTS (77%)** rank among the day's strongest pairs. **Over 3.5 Goals (54%)** is a serious additional pick.`,
+  },
+  {
+    slug: 'nec-nijmegen-telstar-2026-05-02',
+    title_tr: 'NEC Nijmegen - Telstar Analizi: 2.5 Üst ve Karşılıklı Gol Güçlü',
+    title_en: 'NEC Nijmegen vs Telstar Analysis: Over 2.5 and BTTS Strong',
+    date: '2026-05-02', time: '19:00',
+    league_tr: 'Hollanda Eredivisie', league_en: 'Netherlands Eredivisie',
+    home_team: 'NEC Nijmegen', away_team: 'Telstar',
+    tags: ['eredivisie', 'nec-nijmegen', 'telstar'],
+    over25: 75, over35: 46, btts: 70, fhover15: 44, fhbtts: 23, corners: 50,
+    content_tr: `Eredivisie'de NEC Nijmegen, Telstar'ı ağırlıyor. **2.5 Üst %75** ve **Karşılıklı Gol %70** ile güçlü bir gol beklentisi.
+
+## 2.5 Üst — %75
+
+NEC Nijmegen ev sahasında üretken bir saldırı oyunu sergiliyor. Telstar da Eredivisie'de deplasmanda gol bulmaktan kaçınmıyor. %75'lik 2.5 üst oranı güçlü bir sinyal.
+
+## Karşılıklı Gol — %70 ve 3.5 Üst — %46
+
+%70 ile BTTS ve %46 ile 3.5 üst tamamlayıcı seçenekler olarak değerlendirilebilir.
+
+## Sonuç
+
+**2.5 Üst (%75)** ve **Karşılıklı Gol (%70)** bu maçın öne çıkan seçenekleri.`,
+    content_en: `In the Eredivisie, NEC Nijmegen host Telstar. **Over 2.5 at 75%** and **BTTS at 70%** signal a strong goal expectation.
+
+## Over 2.5 Goals — 75%
+
+NEC Nijmegen deliver a productive attacking display at home. Telstar don't stop looking for goals away from home in the Eredivisie. A 75% reading is a clear signal.
+
+## BTTS — 70% and Over 3.5 — 46%
+
+BTTS at 70% and a notable 46% over 3.5 probability serve as supporting picks.
+
+## Summary
+
+**Over 2.5 Goals (75%)** and **BTTS (70%)** are the headline picks.`,
+  },
 ];
 
 export function getAllPosts(): PostMeta[] {
