@@ -3247,6 +3247,423 @@ BTTS at 70% and a notable 46% over 3.5 probability serve as supporting picks.
 
 **Over 2.5 Goals (75%)** and **BTTS (70%)** are the headline picks.`,
   },
+  // ── 2026-05-03 ──────────────────────────────────────────────────────────────
+  {
+    slug: 'karlsruher-sc-sv-darmstadt-98-2026-05-03',
+    title_tr: 'Karlsruher SC - SV Darmstadt 98 Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Karlsruher SC vs SV Darmstadt 98 Analysis: BTTS and Over 2.5',
+    date: '2026-05-03', time: '11:30',
+    league_tr: 'Almanya 2. Bundesliga', league_en: 'Germany 2. Bundesliga',
+    home_team: 'Karlsruher SC', away_team: 'SV Darmstadt 98',
+    tags: ['2-bundesliga', 'karlsruher-sc', 'darmstadt'],
+    over25: 71, over35: 40, btts: 72, fhover15: 38, fhbtts: 23, corners: 41,
+    content_tr: `2. Bundesliga'da Karlsruher SC, SV Darmstadt 98'i ağırlıyor. **Karşılıklı Gol %72** ve **2.5 Üst %71** ile günün en güçlü 2. Bundesliga maçı.
+
+## Karşılıklı Gol — %72
+
+Bu maçın baskın sinyali. KSC ev sahasında ofansif ve üretken bir oyun sergilerken Darmstadt deplasmanda da gol bulmaktan vazgeçmiyor. %72'lik BTTS oranı her iki takımın da katkısına güçlü piyasa inancını yansıtıyor.
+
+## 2.5 Üst — %71
+
+BTTS beklentisiyle örtüşen %71'lik 2.5 üst oranı bu maçın ikinci güçlü sinyali.
+
+## Sonuç
+
+**Karşılıklı Gol (%72)** ve **2.5 Üst (%71)** bu maçın öne çıkan seçenekleri.`,
+    content_en: `In the 2. Bundesliga, Karlsruher SC host SV Darmstadt 98. **BTTS at 72%** and **Over 2.5 at 71%** make this the day's standout 2. Bundesliga fixture.
+
+## Both Teams to Score — 72%
+
+The headline signal. KSC play an offensive, productive style at home while Darmstadt keep searching for goals on their travels. A 72% BTTS reading reflects strong market conviction in both sides contributing.
+
+## Over 2.5 Goals — 71%
+
+Consistent with the BTTS expectation, a 71% over 2.5 reading is the second strong signal for this fixture.
+
+## Summary
+
+**BTTS (72%)** and **Over 2.5 Goals (71%)** are the headline picks.`,
+  },
+  {
+    slug: '1-fc-magdeburg-hertha-bsc-2026-05-03',
+    title_tr: '1. FC Magdeburg - Hertha BSC Analizi: Karşılıklı Gol Öne Çıkıyor',
+    title_en: '1. FC Magdeburg vs Hertha BSC Analysis: BTTS the Key Pick',
+    date: '2026-05-03', time: '11:30',
+    league_tr: 'Almanya 2. Bundesliga', league_en: 'Germany 2. Bundesliga',
+    home_team: '1. FC Magdeburg', away_team: 'Hertha BSC',
+    tags: ['2-bundesliga', 'magdeburg', 'hertha-bsc'],
+    over25: 70, over35: 39, btts: 72, fhover15: 38, fhbtts: 23, corners: 46,
+    content_tr: `2. Bundesliga'da 1. FC Magdeburg, Hertha BSC'yi ağırlıyor. **Karşılıklı Gol %72** ve **2.5 Üst %70** ile yüksek gol beklentili bir karşılaşma.
+
+## Karşılıklı Gol — %72
+
+Hertha BSC bu sezon 2. Bundesliga'da deplasmanda da gol üretimini sürdürüyor. Magdeburg ev sahasında saldırgan bir kimliğe sahip. %72'lik BTTS oranı güçlü bir sinyal.
+
+## 2.5 Üst — %70
+
+%70 ile 2.5 üst da destekleyici bir seçenek. İki takımın hücum anlayışı maçı canlı tutacak.
+
+## Sonuç
+
+**Karşılıklı Gol (%72)** ve **2.5 Üst (%70)** bu maçın öne çıkan seçenekleri.`,
+    content_en: `In the 2. Bundesliga, 1. FC Magdeburg host Hertha BSC. **BTTS at 72%** and **Over 2.5 at 70%** signal a high-scoring encounter.
+
+## Both Teams to Score — 72%
+
+Hertha BSC maintain their scoring output on the road in the 2. Bundesliga this season. Magdeburg carry a strong attacking identity at home. A 72% BTTS reading is a clear signal.
+
+## Over 2.5 Goals — 70%
+
+At 70%, Over 2.5 is a strong supporting pick. Both sides' attacking approach should keep the match lively.
+
+## Summary
+
+**BTTS (72%)** and **Over 2.5 Goals (70%)** are the headline picks.`,
+  },
+  {
+    slug: 'manchester-united-liverpool-2026-05-03',
+    title_tr: 'Manchester United - Liverpool Analizi: Dev Derbide Karşılıklı Gol',
+    title_en: 'Manchester United vs Liverpool Analysis: BTTS in the Grand Derby',
+    date: '2026-05-03', time: '14:30',
+    league_tr: 'İngiltere Premier Lig', league_en: 'England Premier League',
+    home_team: 'Manchester United', away_team: 'Liverpool',
+    tags: ['premier-league', 'manchester-united', 'liverpool'],
+    over25: 70, over35: 39, btts: 72, fhover15: 39, fhbtts: 24, corners: 41,
+    content_tr: `İngiltere Premier Lig'in en büyük derbisi: Manchester United, Liverpool'u Old Trafford'da ağırlıyor. **Karşılıklı Gol %72** ve **2.5 Üst %70** ile istatistiksel açıdan da heyecan verici bir tablo.
+
+## Karşılıklı Gol — %72
+
+Bu derbinin en güçlü sinyali. United ev sahasında prestij maçlarında rakibine kapı açabiliyor; Liverpool ise her sahada gol bulmaktan vazgeçmeyen bir oyun anlayışına sahip. %72'lik BTTS oranı tarihi rekabetin karşılıklı gol potansiyelini yansıtıyor.
+
+## 2.5 Üst — %70
+
+United-Liverpool maçları tarihsel olarak yüksek gol ortalamasıyla dikkat çekiyor. %70'lik 2.5 üst oranı bu geleneği piyasanın da onayladığını gösteriyor.
+
+## Sonuç
+
+**Karşılıklı Gol (%72)** ve **2.5 Üst (%70)** günün en prestijli derbisinin öne çıkan seçenekleri.`,
+    content_en: `The Premier League's biggest derby: Manchester United host Liverpool at Old Trafford. **BTTS at 72%** and **Over 2.5 at 70%** make for a statistically compelling fixture.
+
+## Both Teams to Score — 72%
+
+The headline signal. United can leave gaps at home in high-pressure games, while Liverpool never stop looking for goals wherever they play. A 72% BTTS reading reflects the historical mutual scoring potential of this legendary rivalry.
+
+## Over 2.5 Goals — 70%
+
+United vs Liverpool fixtures have historically stood out for high scorelines. A 70% over 2.5 reading confirms the market shares that view.
+
+## Summary
+
+**BTTS (72%)** and **Over 2.5 Goals (70%)** are the standout picks for the day's most prestigious derby.`,
+  },
+  {
+    slug: 'fc-volendam-heerenveen-2026-05-03',
+    title_tr: 'FC Volendam - Heerenveen Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'FC Volendam vs Heerenveen Analysis: BTTS and Over 2.5',
+    date: '2026-05-03', time: '10:15',
+    league_tr: 'Hollanda Eredivisie', league_en: 'Netherlands Eredivisie',
+    home_team: 'FC Volendam', away_team: 'Heerenveen',
+    tags: ['eredivisie', 'volendam', 'heerenveen'],
+    over25: 70, over35: 38, btts: 71, fhover15: 41, fhbtts: 24, corners: 41,
+    content_tr: `Eredivisie'de FC Volendam, Heerenveen'i ağırlıyor. **Karşılıklı Gol %71** ve **2.5 Üst %70** ile güçlü bir gol beklentisi.
+
+## Karşılıklı Gol — %71
+
+Volendam ev sahasında üretken ve gol arayan bir oyun anlayışıyla dikkat çekiyor. Heerenveen ise Eredivisie'nin deplasmanda en tutarlı gol bulan takımlarından. %71'lik BTTS oranı güçlü bir sinyal.
+
+## 2.5 Üst — %70
+
+%70 ile 2.5 üst, BTTS beklentisini tamamlayan güçlü bir seçenek.
+
+## Sonuç
+
+**Karşılıklı Gol (%71)** ve **2.5 Üst (%70)** bu maçın öne çıkan seçenekleri.`,
+    content_en: `In the Eredivisie, FC Volendam host Heerenveen. **BTTS at 71%** and **Over 2.5 at 70%** signal a strong goal expectation.
+
+## Both Teams to Score — 71%
+
+Volendam attract attention with their goal-seeking attacking style at home. Heerenveen are among the Eredivisie's most consistent away scorers. A 71% BTTS reading is a clear signal.
+
+## Over 2.5 Goals — 70%
+
+At 70%, Over 2.5 complements the BTTS expectation as a strong pick.
+
+## Summary
+
+**BTTS (71%)** and **Over 2.5 Goals (70%)** are the headline picks.`,
+  },
+  {
+    slug: 'pec-zwolle-heracles-2026-05-03',
+    title_tr: 'PEC Zwolle - Heracles Analizi: 2.5 Üst ve Karşılıklı Gol',
+    title_en: 'PEC Zwolle vs Heracles Analysis: Over 2.5 and BTTS',
+    date: '2026-05-03', time: '12:30',
+    league_tr: 'Hollanda Eredivisie', league_en: 'Netherlands Eredivisie',
+    home_team: 'PEC Zwolle', away_team: 'Heracles',
+    tags: ['eredivisie', 'pec-zwolle', 'heracles'],
+    over25: 70, over35: 38, btts: 65, fhover15: 41, fhbtts: 20, corners: 44,
+    content_tr: `Eredivisie'de PEC Zwolle, Heracles'i ağırlıyor. **2.5 Üst %70** ve **Karşılıklı Gol %65** bu maçın öne çıkan göstergeleri.
+
+## 2.5 Üst — %70
+
+Zwolle ev sahasında aktif ve gol üretken bir futbol oynuyor. Heracles da Eredivisie'de deplasmanda pasif kalmıyor. %70'lik 2.5 üst oranı güçlü bir sinyal.
+
+## Karşılıklı Gol — %65
+
+%65 ile BTTS da destekleyici bir seçenek olarak değerlendirilebilir.
+
+## Sonuç
+
+**2.5 Üst (%70)** bu maçın baskın göstergesi, **Karşılıklı Gol (%65)** tamamlayıcı seçenek.`,
+    content_en: `In the Eredivisie, PEC Zwolle host Heracles. **Over 2.5 at 70%** and **BTTS at 65%** are the key indicators.
+
+## Over 2.5 Goals — 70%
+
+Zwolle play active, goal-productive football at home. Heracles don't sit back on their travels in the Eredivisie. A 70% reading is a strong signal.
+
+## Both Teams to Score — 65%
+
+At 65%, BTTS is a worthwhile complementary pick.
+
+## Summary
+
+**Over 2.5 Goals (70%)** is the dominant pick, with **BTTS (65%)** as a supporting selection.`,
+  },
+  {
+    slug: 'az-alkmaar-twente-2026-05-03',
+    title_tr: 'AZ Alkmaar - Twente Analizi: Karşılıklı Gol Günün En Yüksek Sinyali',
+    title_en: 'AZ Alkmaar vs Twente Analysis: BTTS the Day\'s Strongest Signal',
+    date: '2026-05-03', time: '14:45',
+    league_tr: 'Hollanda Eredivisie', league_en: 'Netherlands Eredivisie',
+    home_team: 'AZ Alkmaar', away_team: 'Twente',
+    tags: ['eredivisie', 'az-alkmaar', 'twente'],
+    over25: 72, over35: 40, btts: 73, fhover15: 41, fhbtts: 25, corners: 59,
+    content_tr: `Eredivisie'de AZ Alkmaar, Twente'yi ağırlıyor. **Karşılıklı Gol %73** ile bugünün en yüksek BTTS sinyali bu maçta. **2.5 Üst %72** ve **9.5+ Korner %59** eşlik ediyor.
+
+## Karşılıklı Gol — %73
+
+Günün en yüksek BTTS oranı. AZ Alkmaar ev sahasında Eredivisie'nin en saldırgan takımlarından biri olarak öne çıkıyor. Twente ise Eredivisie'nin kaliteli deplasman ekiplerinden; rakip kalede gol bulmakta ısrarcı. Bu iki takımın karşılaşmaları tarihsel olarak karşılıklı golle sonuçlanıyor.
+
+## 2.5 Üst — %72 ve 9.5+ Korner — %59
+
+%72 ile 2.5 üst da güçlü bir seçenek. Korner istatistiği de %59 ile tamamlayıcı bir pick sunuyor.
+
+## Sonuç
+
+**Karşılıklı Gol (%73)** günün en yüksek BTTS sinyali. **2.5 Üst (%72)** eşit güçlü tamamlayıcı seçenek.`,
+    content_en: `In the Eredivisie, AZ Alkmaar host Twente. **BTTS at 73%** is the day's highest BTTS reading. **Over 2.5 at 72%** and **Over 9.5 Corners at 59%** complete the picture.
+
+## Both Teams to Score — 73%
+
+The day's highest BTTS reading. AZ Alkmaar stand out as one of the Eredivisie's most attacking home sides. Twente are a quality away team in the division, persistent in finding the net on the road. Historical meetings between these sides regularly feature goals at both ends.
+
+## Over 2.5 Goals — 72% and Over 9.5 Corners — 59%
+
+At 72%, Over 2.5 is equally strong. The corners reading at 59% provides an additional complementary pick.
+
+## Summary
+
+**BTTS (73%)** is the day's highest BTTS signal. **Over 2.5 Goals (72%)** is an equally powerful companion pick.`,
+  },
+  {
+    slug: 'sparta-rotterdam-go-ahead-eagles-2026-05-03',
+    title_tr: 'Sparta Rotterdam - Go Ahead Eagles Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Sparta Rotterdam vs Go Ahead Eagles Analysis: BTTS and Over 2.5',
+    date: '2026-05-03', time: '14:45',
+    league_tr: 'Hollanda Eredivisie', league_en: 'Netherlands Eredivisie',
+    home_team: 'Sparta Rotterdam', away_team: 'GO Ahead Eagles',
+    tags: ['eredivisie', 'sparta-rotterdam', 'go-ahead-eagles'],
+    over25: 69, over35: 36, btts: 70, fhover15: 38, fhbtts: 22, corners: 50,
+    content_tr: `Eredivisie'de Sparta Rotterdam, Go Ahead Eagles'i ağırlıyor. **Karşılıklı Gol %70** ve **2.5 Üst %69** ile yüksek gol beklentisi.
+
+## Karşılıklı Gol — %70
+
+Sparta Rotterdam ev sahasında saldırgan ve üretken. Go Ahead Eagles ise Eredivisie'de en aktif deplasman takımlarından biri. %70'lik BTTS oranı her iki takımın da gol bulacağına dair güçlü piyasa beklentisini yansıtıyor.
+
+## 2.5 Üst — %69
+
+%69 ile 2.5 üst, BTTS beklentisini tamamlayan güçlü bir seçenek.
+
+## Sonuç
+
+**Karşılıklı Gol (%70)** ve **2.5 Üst (%69)** bu maçın öne çıkan seçenekleri.`,
+    content_en: `In the Eredivisie, Sparta Rotterdam host GO Ahead Eagles. **BTTS at 70%** and **Over 2.5 at 69%** signal a high goal expectation.
+
+## Both Teams to Score — 70%
+
+Sparta Rotterdam are attacking and productive at home. GO Ahead Eagles are one of the Eredivisie's most active away teams. A 70% BTTS reading reflects strong market conviction that both sides will score.
+
+## Over 2.5 Goals — 69%
+
+At 69%, Over 2.5 is a strong complementary pick consistent with the BTTS expectation.
+
+## Summary
+
+**BTTS (70%)** and **Over 2.5 Goals (69%)** are the headline picks.`,
+  },
+  {
+    slug: 'borussia-monchengladbach-borussia-dortmund-2026-05-03',
+    title_tr: 'Borussia Mönchengladbach - Borussia Dortmund Analizi: Bundesliga Derbisinde KG Var',
+    title_en: 'Borussia Mönchengladbach vs Borussia Dortmund Analysis: BTTS in Bundesliga Derby',
+    date: '2026-05-03', time: '15:30',
+    league_tr: 'Almanya Bundesliga', league_en: 'Germany Bundesliga',
+    home_team: 'Borussia Mönchengladbach', away_team: 'Borussia Dortmund',
+    tags: ['bundesliga', 'monchengladbach', 'borussia-dortmund'],
+    over25: 67, over35: 34, btts: 69, fhover15: 35, fhbtts: 22, corners: 44,
+    content_tr: `Bundesliga'da Borussia Mönchengladbach, Borussia Dortmund'u ağırlıyor. **Karşılıklı Gol %69** ve **2.5 Üst %67** ile istatistiksel açıdan dikkat çekici bir Bundesliga derbisi.
+
+## Karşılıklı Gol — %69
+
+Dortmund deplasmanda gol üretimini sürdüren saldırgan bir yapıya sahip. Mönchengladbach ev sahasında prestij maçlarında karşılıklı gol bırakmaya açık bir tablo çiziyor. %69'luk BTTS oranı bu derbinin iki taraflı gol potansiyelini yansıtıyor.
+
+## 2.5 Üst — %67
+
+%67 ile 2.5 üst da güçlü bir seçenek. İki Borussia arasındaki geçmiş karşılaşmalar yüksek skorlarla hatırlanıyor.
+
+## Sonuç
+
+**Karşılıklı Gol (%69)** ve **2.5 Üst (%67)** bu Bundesliga derbisinin öne çıkan seçenekleri.`,
+    content_en: `In the Bundesliga, Borussia Mönchengladbach host Borussia Dortmund. **BTTS at 69%** and **Over 2.5 at 67%** make this a statistically compelling Bundesliga derby.
+
+## Both Teams to Score — 69%
+
+Dortmund maintain an attacking, goal-scoring presence on the road. Mönchengladbach at home in a prestige fixture present a two-sided goal profile. A 69% BTTS reading reflects the derby's mutual scoring potential.
+
+## Over 2.5 Goals — 67%
+
+At 67%, Over 2.5 is a strong pick. Past meetings between the two Borussias are associated with high-scoring affairs.
+
+## Summary
+
+**BTTS (69%)** and **Over 2.5 Goals (67%)** are the headline picks for this Bundesliga derby.`,
+  },
+  {
+    slug: 'sc-freiburg-vfl-wolfsburg-2026-05-03',
+    title_tr: 'SC Freiburg - VfL Wolfsburg Analizi: Karşılıklı Gol Öne Çıkıyor',
+    title_en: 'SC Freiburg vs VfL Wolfsburg Analysis: BTTS the Key Pick',
+    date: '2026-05-03', time: '17:30',
+    league_tr: 'Almanya Bundesliga', league_en: 'Germany Bundesliga',
+    home_team: 'SC Freiburg', away_team: 'VfL Wolfsburg',
+    tags: ['bundesliga', 'sc-freiburg', 'wolfsburg'],
+    over25: 62, over35: 30, btts: 67, fhover15: 33, fhbtts: 21, corners: 56,
+    content_tr: `Bundesliga'da SC Freiburg, VfL Wolfsburg'u ağırlıyor. **Karşılıklı Gol %67** bu maçın baskın göstergesi. 9.5+ Korner de %56 ile dikkat çekici.
+
+## Karşılıklı Gol — %67
+
+Freiburg ev sahasında disiplinli ama etkili bir hücum oyunu sergiliyor. Wolfsburg ise deplasmanda gol bulmakta ısrarcı bir yapıya sahip. %67'lik BTTS oranı her iki takımın da katkısına güçlü bir piyasa inancını gösteriyor.
+
+## 2.5 Üst — %62 ve Korner — %56
+
+Tamamlayıcı göstergeler. Korner istatistiği özellikle değerlendirilebilir.
+
+## Sonuç
+
+**Karşılıklı Gol (%67)** bu maçın baskın sinyali.`,
+    content_en: `In the Bundesliga, SC Freiburg host VfL Wolfsburg. **BTTS at 67%** is the dominant indicator. Over 9.5 Corners at 56% is also notable.
+
+## Both Teams to Score — 67%
+
+Freiburg play disciplined but effective attacking football at home. Wolfsburg are persistent in scoring on their travels. A 67% BTTS reading reflects strong market confidence in both sides finding the net.
+
+## Over 2.5 Goals — 62% and Corners — 56%
+
+Complementary picks worth considering, with the corners reading particularly notable.
+
+## Summary
+
+**BTTS (67%)** is the headline pick for this fixture.`,
+  },
+  {
+    slug: 'lyon-rennes-2026-05-03',
+    title_tr: 'Lyon - Rennes Analizi: Karşılıklı Gol ve 2.5 Üst',
+    title_en: 'Lyon vs Rennes Analysis: BTTS and Over 2.5',
+    date: '2026-05-03', time: '18:45',
+    league_tr: 'Fransa Ligue 1', league_en: 'France Ligue 1',
+    home_team: 'Lyon', away_team: 'Rennes',
+    tags: ['ligue-1', 'lyon', 'rennes'],
+    over25: 66, over35: 34, btts: 69, fhover15: 35, fhbtts: 22, corners: 54,
+    content_tr: `Ligue 1'de Lyon, Rennes'i Groupama Stadium'da ağırlıyor. **Karşılıklı Gol %69** ve **2.5 Üst %66** ile güçlü bir gol beklentisi.
+
+## Karşılıklı Gol — %69
+
+Lyon bu sezon ev sahasında saldırgan bir kimliğe sahip ve karşılıklı gol istatistiği yüksek. Rennes ise Ligue 1'in deplasmanda en aktif takımlarından biri. %69'luk BTTS oranı bu maçın en güçlü sinyali.
+
+## 2.5 Üst — %66 ve Korner — %54
+
+Tamamlayıcı seçenekler olarak değerlendirilebilir.
+
+## Sonuç
+
+**Karşılıklı Gol (%69)** ve **2.5 Üst (%66)** bu Ligue 1 karşılaşmasının öne çıkan seçenekleri.`,
+    content_en: `In Ligue 1, Lyon host Rennes at the Groupama Stadium. **BTTS at 69%** and **Over 2.5 at 66%** signal a strong goal expectation.
+
+## Both Teams to Score — 69%
+
+Lyon carry a strong attacking identity at home this season with a high BTTS record. Rennes are one of Ligue 1's most active away teams. A 69% BTTS reading is the headline signal.
+
+## Over 2.5 Goals — 66% and Corners — 54%
+
+Complementary picks worth considering alongside the main BTTS selection.
+
+## Summary
+
+**BTTS (69%)** and **Over 2.5 Goals (66%)** are the headline picks for this Ligue 1 fixture.`,
+  },
+  {
+    slug: 'inter-parma-2026-05-03',
+    title_tr: 'Inter - Parma Analizi: 2.5 Üst Güçlü Sinyal',
+    title_en: 'Inter vs Parma Analysis: Over 2.5 Strong Signal',
+    date: '2026-05-03', time: '18:45',
+    league_tr: 'İtalya Serie A', league_en: 'Italy Serie A',
+    home_team: 'Inter', away_team: 'Parma',
+    tags: ['serie-a', 'inter', 'parma'],
+    over25: 69, over35: 36, btts: 43, fhover15: 38, fhbtts: 16, corners: 54,
+    content_tr: `Serie A'da Inter, Parma'yı Giuseppe Meazza'da ağırlıyor. **2.5 Üst %69** bu maçın baskın göstergesi.
+
+## 2.5 Üst — %69
+
+Inter bu sezon Serie A'nın en dominant ev sahibi takımı. Parma ise savunmada zaman zaman açık bırakıyor. İki takım arasındaki güç farkı göz önüne alındığında Inter'in yüksek gol sayılı maç üretme kapasitesi 2.5 üst olasılığını %69'a taşıyor.
+
+## Sonuç
+
+**2.5 Üst (%69)** bu maçın baskın sinyali. Inter'in ev sahipliğindeki dominant hücum gücü bu seçeneği destekliyor.`,
+    content_en: `In Serie A, Inter host Parma at the Giuseppe Meazza. **Over 2.5 at 69%** is the dominant indicator.
+
+## Over 2.5 Goals — 69%
+
+Inter are the most dominant home side in Serie A this season. Parma can leave defensive gaps. The power imbalance between the sides, combined with Inter's capacity to produce high-scoring home performances, pushes Over 2.5 to 69%.
+
+## Summary
+
+**Over 2.5 Goals (69%)** is the headline signal, supported by Inter's dominant attacking force at home.`,
+  },
+  {
+    slug: 'espanyol-real-madrid-2026-05-03',
+    title_tr: 'Espanyol - Real Madrid Analizi: 2.5 Üst ve Karşılıklı Gol',
+    title_en: 'Espanyol vs Real Madrid Analysis: Over 2.5 and BTTS',
+    date: '2026-05-03', time: '19:00',
+    league_tr: 'İspanya La Liga', league_en: 'Spain La Liga',
+    home_team: 'Espanyol', away_team: 'Real Madrid',
+    tags: ['la-liga', 'espanyol', 'real-madrid'],
+    over25: 65, over35: 32, btts: 65, fhover15: 35, fhbtts: 21, corners: 41,
+    content_tr: `La Liga'da Espanyol, Real Madrid'i RCDE Stadium'da ağırlıyor. **2.5 Üst %65** ve **Karşılıklı Gol %65** eşit güçte iki gösterge.
+
+## 2.5 Üst ve Karşılıklı Gol — %65
+
+Her iki göstergede de eşit olasılık. Real Madrid deplasmanda yüksek gol sayıları üretiyor. Espanyol ise ev sahasında küçük de olsa rakibine gol fırsatı tanıyabiliyor. Piyasanın %65 oranı vermesi, Madrid'in etkisiyle üç veya daha fazla gol ve karşılıklı gol beklentisini destekliyor.
+
+## Sonuç
+
+**2.5 Üst (%65)** ve **Karşılıklı Gol (%65)** bu La Liga karşılaşmasının eşit ağırlıklı öne çıkan seçenekleri.`,
+    content_en: `In La Liga, Espanyol host Real Madrid at the RCDE Stadium. **Over 2.5 at 65%** and **BTTS at 65%** are equally strong.
+
+## Over 2.5 Goals and BTTS — 65%
+
+Both readings at the same level. Real Madrid produce high-scoring away performances consistently. Espanyol, even at home against a superior side, can create opportunities and find the net. The market's 65% reading on both picks reflects Madrid's influence in pushing the total and enabling mutual scoring.
+
+## Summary
+
+**Over 2.5 Goals (65%)** and **BTTS (65%)** are the co-equal headline picks for this La Liga fixture.`,
+  },
 ];
 
 export function getAllPosts(): PostMeta[] {
