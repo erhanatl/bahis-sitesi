@@ -22,6 +22,52 @@ export interface PostMeta {
 export const posts: PostMeta[] = [
   {
     slug: 'netherlands-algeria-2026-06-03',
+    title_tr: 'Hollanda - Cezayir Maç Analizi ve Tahminleri',
+    title_en: 'Netherlands vs. Algeria Match Analysis and Predictions',
+    date: '2026-06-03',
+    time: '18:45',
+    league_tr: 'Hazırlık Maçları (Dünya)',
+    league_en: 'Friendlies (World)',
+    home_team: 'Netherlands',
+    away_team: 'Algeria',
+    tags: ["Hollanda","Cezayir","Maç Analizi","Hazırlık Maçı","Futbol Tahminleri"],
+    over25: 69,
+    over35: 36,
+    btts: 45,
+    fhover15: 38,
+    fhbtts: 17,
+    corners: 54,
+    content_tr: `## Karşılaşmaya Genel Bakış
+3 Haziran 2026 tarihinde, uluslararası hazırlık maçları kapsamında futbol dünyasının iki farklı ekolü karşı karşıya geliyor. Hollanda, kendi seyircisi önünde Afrika'nın en teknik takımlarından biri olan Cezayir'i konuk ediyor. Bu maç, özellikle her iki takımın da yaz dönemindeki turnuva hazırlıkları için kritik bir test niteliği taşıyor. Hollanda'nın toplam gol potansiyeli ve Cezayir'in dirençli yapısı, bahisçiler ve futbolseverler için ilgi çekici bir tablo sunuyor.
+
+## En Güçlü İstatistiksel Göstergeler
+Maç verilerine baktığımızda en dikkat çekici istatistik, %69'luk bir oranla **2.5 Üst** beklentisidir. Hollanda'nın toplam gol yollarındaki etkinliği ve hazırlık maçlarının genellikle daha açık bir oyun tarzına sahne olması bu veriyi destekliyor. Ayrıca, maçın ilk yarısında en az iki gol izleme ihtimalimiz (FH Over 1.5) %38 olarak belirlenmiş. Bu durum, 'Portakallar'ın maça hızlı bir baskıyla başlayacağını işaret ediyor. Köşe vuruşu verilerinde ise %54'lük bir oranla 9.5 barajının aşılması bekleniyor; bu da kanat organizasyonlarının yoğun olacağını kanıtlıyor.
+
+## Form Analizi ve Takım Dinamikleri
+Hollanda, son dönemde hücum hattındaki üretkenliğiyle ön plana çıkıyor. Genç yeteneklerin tecrübeli isimlerle harmanlandığı kadro, özellikle geçiş hücumlarında çok etkili. Cezayir ise daha dengeli ve fiziksel güce dayalı bir futbolu tercih etse de, deplasman karnesinde Avrupa devlerine karşı zaman zaman savunma disiplininden kopabiliyor. Karşılıklı Gol Var (BTTS) oranının %45'te kalması, analistlerin Cezayir'in gol bulma konusunda Hollanda kadar şanslı olmayabileceğini düşündüğünü gösteriyor.
+
+## H2H ve Tarihsel Rekabet
+İki takım arasındaki geçmiş randevular sınırlı olsa da, Hollanda'nın taktiksel disiplini genellikle Afrika ekiplerine karşı üstünlük kurmalarını sağlıyor. Cezayir'in kontra atak silahları, Hollanda'nın ileri çıkan savunma hattı için bir tehdit oluşturabilir. Ancak ev sahibi avantajı ve %69'luk yüksek gol beklentisi, ibreyi net bir şekilde Hollanda lehine çeviriyor.
+
+## Özet ve Tahmin
+Maçın genel temposunun yüksek olması ve Hollanda'nın oyunun kontrolünü elinde tutması bekleniyor. %69'luk 2.5 Üst oranı, bu karşılaşma için en güvenilir liman gibi görünüyor. Alternatif olarak, Hollanda'nın baskılı oyunuyla 9.5 korner barajının aşılması da denenebilir. Skor tahmini olarak 2-1 veya 3-1'lik bir ev sahibi galibiyeti ön plana çıkıyor.`,
+    content_en: `## Match Overview
+On June 3, 2026, two distinct schools of football will collide in an international friendly as the Netherlands hosts Algeria. Playing in front of their home crowd, the Dutch team aims to test their tactical prowess against one of Africa's most technically gifted sides. As both teams prepare for upcoming summer tournaments, this fixture serves as a vital barometer for their current form and squad depth.
+
+## Strongest Statistical Indicators
+According to the pre-match data, the most prominent statistic is the **69% probability for Over 2.5 goals**. This suggests a high-scoring affair, likely driven by the Netherlands' attacking philosophy and the historically open nature of friendly matches. Furthermore, there is a 38% chance of seeing Over 1.5 goals in the first half, indicating that the 'Oranje' might look to establish dominance early on. The corner market also looks promising, with a 54% probability that the match will exceed 9.5 corners, highlighting the heavy use of wing play by both managers.
+
+## Form Analysis and Team Dynamics
+The Netherlands has recently been characterized by their offensive productivity, blending young prodigies with seasoned veterans. They excel in transition and high-pressing situations. On the other hand, Algeria maintains a balanced approach, relying on physical strength and individual brilliance. However, their 45% BTTS (Both Teams to Score) rating suggests that while they are competitive, they might struggle to find the back of the net against a disciplined Dutch defense at home.
+
+## H2H and Historical Context
+While head-to-head encounters between these two nations are rare, the Netherlands generally holds a tactical edge over North African sides. Algeria's counter-attacking threats could pose problems for the Dutch high defensive line, but the technical superiority of the home side usually prevails in these settings. The high Over 2.5 percentage remains the focal point of the statistical narrative.
+
+## Summary and Prediction
+Expect a high-tempo match where the Netherlands dictates the rhythm. The 69% probability for Over 2.5 goals is the strongest indicator for those looking at the goals market. Additionally, given the expected pressure from the home side, the Over 9.5 corners line at 54% is a solid secondary option. A final scoreline favoring the hosts, such as 2-1 or 3-1, aligns well with the statistical projections and current team dynamics.`,
+  },
+  {
+    slug: 'netherlands-algeria-2026-06-03',
     title_tr: 'Hollanda - Cezayir Maç Analizi ve Bahis Tahmini',
     title_en: 'Netherlands vs Algeria Match Analysis and Betting Prediction',
     date: '2026-06-03',
