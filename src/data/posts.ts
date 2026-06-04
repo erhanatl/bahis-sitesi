@@ -22,6 +22,52 @@ export interface PostMeta {
 export const posts: PostMeta[] = [
   {
     slug: 'netherlands-algeria-2026-06-03',
+    title_tr: 'Hollanda - Cezayir Maç Analizi: 2026 Hazırlık Mücadelesinde Gol Beklentisi',
+    title_en: 'Netherlands vs. Algeria Match Analysis: Goal Expectations in 2026 Friendly',
+    date: '2026-06-03',
+    time: '18:45',
+    league_tr: 'Hazırlık Maçları (Dünya)',
+    league_en: 'Friendlies (World)',
+    home_team: 'Netherlands',
+    away_team: 'Algeria',
+    tags: ["Hollanda","Cezayir","Maç Analizi","İddaa Tahminleri","Dünya Kupası Hazırlık"],
+    over25: 69,
+    over35: 36,
+    btts: 45,
+    fhover15: 38,
+    fhbtts: 17,
+    corners: 54,
+    content_tr: `## Maç Önü Analizi
+3 Haziran 2026 tarihinde Hollanda, kendi sahasında Kuzey Afrika'nın güçlü temsilcilerinden Cezayir'i konuk ediyor. Bu hazırlık mücadelesi, her iki takımın da yaz dönemindeki büyük turnuvalar öncesinde form tutma çabasının bir parçası olarak görülüyor. Hollanda'nın ev sahibi avantajı ve son yıllarda geliştirdiği hücum varyasyonları, bu maçı analiz açısından oldukça ilgi çekici kılıyor.
+
+## En Güçlü İstatistiksel Göstergeler
+Maç verilerine bakıldığında en dikkat çekici istatistik, %69 oranındaki **2.5 Üst** beklentisidir. Bu oran, modern futbolun iki hücum odaklı ekibinin karşı karşıya gelmesiyle oldukça anlamlı hale geliyor. Ayrıca, **3.5 Üst** oranının %36 olması, maçın gollü geçme ihtimalinin yüksek olduğunu teyit ediyor. İlk yarıda en az iki gol izleme ihtimalimiz (%38 FH Over 1.5), Hollanda'nın maça baskılı başlayacağının bir işareti olarak okunabilir. Köşe vuruşları tarafında ise %54'lük bir oranla 9.5 barajının aşılması bekleniyor, bu da oyunun kanatlara yayılacağını gösteriyor.
+
+## Form Analizi ve Kadro Durumu
+Hollanda, Ronald Koeman veya halefinin yönetiminde, savunmadan oyun kuran ve kanat beklerini hücuma dahil eden bir sistemle sahada olacaktır. Takımın gol yollarındaki etkinliği, Cezayir'in bazen disiplinden kopabilen savunma hattı için ciddi bir tehdit oluşturuyor. Öte yandan Cezayir, teknik kapasitesi yüksek orta sahası ve hızlı hücumcularıyla tanınıyor. Karşılıklı Gol Var (BTTS) oranının %45'te kalması, analistlerin Cezayir'in Hollanda savunmasını geçmekte zorlanabileceğini düşündüğünü gösteriyor; ancak Cezayir'in kontra atak yeteneği her zaman bir sürprize açık.
+
+## H2H ve Rekabet Geçmişi
+Hollanda ve Cezayir tarihte çok sık karşı karşıya gelen iki ekip değil. Avrupalı ve Afrikalı takımların bu tarz randevuları genellikle taktiksel bir satranç şeklinde başlar ancak Hollanda'nın iç saha baskısı maçın ritmini hızlıca değiştirebilir. Fiziksel güç olarak Hollanda üstün görünse de, Cezayir'in bireysel yetenekleri bu fiziksel farkı kapatmaya çalışacaktır.
+
+## Özet ve Tahmin
+İstatistiklerin ve form durumlarının ışığında, Hollanda'nın maçın favorisi olduğunu söylemek mümkün. Özellikle %69'luk 2.5 Üst ihtimali, bu karşılaşmada filelerin en az üç kez havalanacağını güçlü bir şekilde öngörüyor. İlk yarıda temponun yüksek olması ve Hollanda'nın maçı domine etmesi bekleniyor. Tahminimiz: Hollanda galibiyeti ve 2.5 gol barajının aşılması yönündedir.`,
+    content_en: `## Match Preview
+On June 3, 2026, the Netherlands will host Algeria, one of the powerhouses of North African football, in a highly anticipated friendly match. As both nations prepare for major upcoming international tournaments, this fixture serves as a crucial test of their tactical discipline and offensive coordination. The Dutch home advantage and their historically aggressive style of play make this a standout fixture in the international break.
+
+## Strongest Statistical Indicators
+The most prominent statistic for this encounter is the **69% probability for Over 2.5 goals**. This indicates a strong likelihood of an open game where both sides prioritize attacking football. Furthermore, the **Over 3.5 goals** market sits at a significant 36%, suggesting that a high-scoring blowout is not out of the question. The First Half Over 1.5 goals stat (38%) points towards an explosive start, likely driven by the Netherlands' tendency to apply high pressure from the opening whistle. Corner projections are also healthy, with a 54% chance of seeing more than 9.5 corners, reflecting a game played with width.
+
+## Form Analysis and Squad Dynamics
+The Netherlands continues to evolve its total football philosophy, relying on ball-playing defenders and creative outlets in the midfield. Their ability to transition quickly from defense to attack will be the primary challenge for Algeria. The visitors, however, are known for their technical proficiency and resilience. While the BTTS (Both Teams to Score) percentage is relatively moderate at 45%, Algeria's counter-attacking speed remains a threat that the Dutch defense cannot ignore. Algeria's recent form shows a team that can be compact but sometimes struggles against elite European tactical setups.
+
+## H2H and Tactical Matchup
+Historical matchups between these two are rare, making this a fresh tactical battle. The Netherlands typically enjoys the lion's share of possession at home, while Algeria often thrives as the underdog, utilizing quick transitions. The physical superiority of the Dutch squad might be tested by the agility and individual flair of the Algerian wingers. However, the depth of the Dutch bench usually proves decisive in the latter stages of such friendlies.
+
+## Summary and Prediction
+Based on the statistical data and current team trajectories, the Netherlands enters this match as the clear favorite. The 69% Over 2.5 goals indicator is the strongest lead for bettors and analysts alike, suggesting a match with plenty of goalmouth action. We expect the Netherlands to dictate the tempo, with a high probability of multiple goals being scored. Final prediction: A comfortable home win for the Netherlands with the total goals exceeding 2.5.`,
+  },
+  {
+    slug: 'netherlands-algeria-2026-06-03',
     title_tr: 'Hollanda - Cezayir Maç Analizi: Gol Beklentisi Yüksek Bir Hazırlık Randevusu',
     title_en: 'Netherlands vs Algeria Match Analysis: High Goal Expectation in Friendly Clash',
     date: '2026-06-03',
