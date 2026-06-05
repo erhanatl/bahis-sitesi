@@ -21,6 +21,45 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'Czech-Republic-Guatemala-2026-06-05',
+    title_tr: 'Çek Cumhuriyeti - Guatemala Dostluk Maçı Analizi',
+    title_en: 'Czech Republic - Guatemala Friendly Match Analysis',
+    date: '2026-06-05',
+    time: '00:00',
+    league_tr: 'Dostluk Maçları (Dünya)',
+    league_en: 'Friendlies (World)',
+    home_team: 'Czech Republic',
+    away_team: 'Guatemala',
+    tags: ["dostluk maçı","futbol analizi","Czech Republic","Guatemala"],
+    over25: 68,
+    over35: 34,
+    btts: 35,
+    fhover15: 37,
+    fhbtts: 13,
+    corners: 50,
+    content_tr: `## Giriş
+Çek Cumhuriyeti ve Guatemala arasında oynanacak dostluk maçı için detailed bir analiz yapacağız. Bu maçın en güçlü istatistiksel göstergeleri, form analizi,.head-to-head (H2H) karşılaştırması ve.summary sections sẽ dahil edilecektir.
+## En Güçlü İstatistiksel Göstergeler
+Maç verilerine göre, Over 2.5 gol yüzdesi %68, Over 3.5 gol yüzdesi %34, BTTS (Her İki Takım da Gol Atar) yüzdesi %35, İlk Yarı Over 1.5 gol yüzdesi %37, İlk Yarı BTTS yüzdesi %13 ve Köşe vuruşları 9.5+ yüzdesi %50 olarak hesaplanmıştır.
+## Form Analizi
+Çek Cumhuriyeti son maçlarında iyi bir performans gösterdi. Guatemala ise son maçlarında ortalama bir performans sergiledi.
+## H2H Karşılaştırması
+İki takım arasında daha önce oynanmış bir maç bulunmuyor.
+## Özet
+Maçın favorisi Çek Cumhuriyeti olarak görünüyor. Ancak Guatemala'nın sürpriz yapma ihtimali de bulunuyor. İstatistiksel göstergeler ve form analizi dikkate alındığında, maçın yüksek golsüz olabileceği öngörülüyor.`,
+    content_en: `## Introduction
+We will be doing a detailed analysis of the friendly match between Czech Republic and Guatemala. This analysis will include the strongest statistical indicators, form analysis, head-to-head (H2H) comparison, and a summary.
+## Strongest Statistical Indicators
+According to the match data, the percentage of Over 2.5 goals is 68%, Over 3.5 goals is 34%, BTTS (Both Teams To Score) is 35%, First Half Over 1.5 goals is 37%, First Half BTTS is 13%, and Corners 9.5+ is 50%.
+## Form Analysis
+Czech Republic has been performing well in their recent matches. Guatemala, on the other hand, has been averaging in their recent performances.
+## H2H Comparison
+There are no previous matches between the two teams.
+## Summary
+Czech Republic seems to be the favorite to win the match. However, Guatemala has a chance to pull off a surprise. Considering the statistical indicators and form analysis, the match is expected to be high-scoring.`,
+  },
+
+  {
     slug: 'Hong-Kong-Mongolia-2026-06-05',
     title_tr: 'Hong Kong - Moğolistan Dostluk Maçı Analizi',
     title_en: 'Hong Kong - Mongolia Friendly Match Analysis',
