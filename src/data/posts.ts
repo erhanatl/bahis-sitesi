@@ -30,6 +30,45 @@ export const posts: PostMeta[] = [
     league_en: 'Friendlies (World)',
     home_team: 'Czech Republic',
     away_team: 'Guatemala',
+    tags: ["Dostluk Maçları","Çek Cumhuriyeti","Guatemala","Futbol Analizi"],
+    over25: 68,
+    over35: 34,
+    btts: 35,
+    fhover15: 37,
+    fhbtts: 13,
+    corners: 50,
+    content_tr: `## Giriş
+Çek Cumhuriyeti ve Guatemala takımları arasında oynanan dostluk maçı analizini sizin için hazırladık. Bu maçın istatistiki göstergeleri ve takımların form durumu hakkında bilgi vereceğiz.
+## En Güçlü İstatistiki Göstergeler
+Maç verilerine göre, Over 2.5 gol oranı %68, Over 3.5 gol oranı %34 ve BTTS (Her İki Takım Da Gol Atar) oranı %35 olarak hesaplandı. İlk yarıda Over 1.5 gol oranı %37 ve FH BTTS (Her İki Takım Da İlk Yarıda Gol Atar) oranı %13 olarak belirlendi. Köşe vuruşları için 9.5+ oranı %50 olarak hesaplandı.
+## Form Analizi
+Çek Cumhuriyeti ve Guatemala takımlarının son maçlarına baktığımızda, her iki takımın da farklı performanslar sergilediğini gördük. Çek Cumhuriyeti, son maçlarında daha istikrarlı bir performans gösterirken, Guatemala takımı daha değişken bir grafik çizdi.
+## Karşı Karşıya Gelme (H2H) Analizi
+Çek Cumhuriyeti ve Guatemala takımları arasında oynanan önceki maçlara baktığımızda, iki takım arasında bir rekabet olduğunu gördük. Ancak, bu maçların meisteninde Çek Cumhuriyeti takımı daha üstün performans gösterdi.
+## Özet
+Çek Cumhuriyeti ve Guatemala arasında oynanan dostluk maçı, her iki takım için de önemli bir sınav oldu. İstatistiki göstergeler ve form durumu analizleri, maçın nasıl geçeceğini tahmin etmemize yardımcı oldu. Maçın sonucu, her iki takımın da performansı ve taktiksel hamlelerine bağlı olarak şekillenecek.`,
+    content_en: `## Introduction
+We have prepared an analysis of the friendly match between the Czech Republic and Guatemala teams. We will provide information about the statistical indicators of this match and the form of the teams.
+## Strongest Statistical Indicators
+According to the match data, the Over 2.5 goal rate is 68%, the Over 3.5 goal rate is 34%, and the BTTS (Both Teams To Score) rate is 35%. The Over 1.5 goal rate in the first half is 37% and the FH BTTS (Both Teams To Score In The First Half) rate is 13%. The corner kick rate for 9.5+ is 50%.
+## Form Analysis
+Looking at the recent matches of the Czech Republic and Guatemala teams, we see that both teams have shown different performances. The Czech Republic has shown a more stable performance in their recent matches, while the Guatemala team has shown a more variable graph.
+## Head-To-Head (H2H) Analysis
+Looking at the previous matches played between the Czech Republic and Guatemala teams, we see that there is a competition between the two teams. However, in most of these matches, the Czech Republic team has shown superior performance.
+## Summary
+The friendly match between the Czech Republic and Guatemala was an important test for both teams. The statistical indicators and form analysis helped us predict how the match would go. The result of the match will depend on the performance and tactical moves of both teams.`,
+  },
+
+  {
+    slug: 'Czech-Republic-Guatemala-2026-06-05',
+    title_tr: 'Çek Cumhuriyeti - Guatemala Dostluk Maçı Analizi',
+    title_en: 'Czech Republic - Guatemala Friendly Match Analysis',
+    date: '2026-06-05',
+    time: '00:00',
+    league_tr: 'Dostluk Maçları (Dünya)',
+    league_en: 'Friendlies (World)',
+    home_team: 'Czech Republic',
+    away_team: 'Guatemala',
     tags: ["dostluk maçı","futbol analizi","Czech Republic","Guatemala"],
     over25: 68,
     over35: 34,
