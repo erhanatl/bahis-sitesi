@@ -21,6 +21,45 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'Hong-Kong-Mongolia-2026-06-05',
+    title_tr: 'Hong Kong - Moğolistan Dostluk Maçı Analizi',
+    title_en: 'Hong Kong - Mongolia Friendly Match Analysis',
+    date: '2026-06-05',
+    time: '12:00',
+    league_tr: 'Dostluk Maçları (Dünya)',
+    league_en: 'Friendlies (World)',
+    home_team: 'Hong Kong',
+    away_team: 'Mongolia',
+    tags: ["Hong Kong","Mongolia","Friendlies","Football"],
+    over25: 81,
+    over35: 63,
+    btts: 32,
+    fhover15: 60,
+    fhbtts: 14,
+    corners: 46,
+    content_tr: `## Genel Bakış
+Hong Kong ve Moğolistan takımları arasında oynanacak dostluk maçı için istatistiksel analiz yaptık. Over 2.5 gol oranı %81 ile oldukça yüksek görünüyor. Ayrıca Over 3.5 gol oranı %63 olarak belirlendi. 
+## En Güçlü İstatistiksel Göstergeler
+Maçın en güçlü istatistiksel gösterge olarak Over 2.5 gol oranı görünüyor. Bunun yanı sıra ilk yarıda over 1.5 gol olasılığı %60 olarak hesaplandı. 
+## Form Analizi
+Hong Kong ve Moğolistan takımlarının son maçlarındaki performanslarına baktığımızda, her iki takımın da farklı sonuçlar elde ettiğini gördük. 
+## Karşı Karşıya Gelme (H2H) İstatistikleri
+Hong Kong ve Moğolistan takımları arasında oynanacak bu dostluk maçı için H2H istatistiklerine baktığımızda, takımların birbirlerine karşı oynadıkları maçların sonuçlarını inceledik. 
+## Özet
+Hong Kong ve Moğolistan arasında oynanacak dostluk maçı için yaptığımız analizde, yüksek gol oranı ve takımların performanslarına göre bir sonuç beklentisi oluştu. Maçın gidişatını takip etmek ve oluşan fırsatları değerlendirmek için dikkat edilmesi gereken önemli bir maç olacak.`,
+    content_en: `## Overview
+We conducted a statistical analysis of the upcoming friendly match between Hong Kong and Mongolia. The over 2.5 goal ratio is quite high at 81%. Additionally, the over 3.5 goal ratio was determined to be 63%. 
+## Strongest Statistical Indicators
+The strongest statistical indicator for the match appears to be the over 2.5 goal ratio. Furthermore, the probability of over 1.5 goals in the first half was calculated to be 60%. 
+## Form Analysis
+Looking at the recent performances of the Hong Kong and Mongolia teams, we saw that both teams achieved different results. 
+## Head-to-Head (H2H) Statistics
+Examining the H2H statistics for the upcoming friendly match between Hong Kong and Mongolia, we analyzed the results of the matches the teams have played against each other. 
+## Summary
+Based on our analysis of the friendly match between Hong Kong and Mongolia, a high goal ratio and team performances led to a expected outcome. The match will be important to follow and evaluate the opportunities that arise.`,
+  },
+
+  {
     slug: 'hong-kong-mongolia-2026-06-05',
     title_tr: 'Hong Kong - Moğolistan: İstatistiklerin İşaret Ettiği Gollü Hazırlık Maçı',
     title_en: 'Hong Kong vs Mongolia: A Goal-Filled Friendly Predicted by Statistics',
