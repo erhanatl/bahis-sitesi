@@ -21,6 +21,58 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'hong-kong-mongolia-2026-06-05',
+    title_tr: 'Hong Kong - Moğolistan: İstatistiklerin İşaret Ettiği Gollü Hazırlık Maçı',
+    title_en: 'Hong Kong vs Mongolia: A Goal-Filled Friendly Predicted by Statistics',
+    date: '2026-06-05',
+    time: '12:00',
+    league_tr: 'Hazırlık Maçları (Dünya)',
+    league_en: 'Friendlies (World)',
+    home_team: 'Hong Kong',
+    away_team: 'Mongolia',
+    tags: ["Football","Match Analysis","Hong Kong","Mongolia","Friendlies","Goal Statistics","Betting Insights"],
+    over25: 81,
+    over35: 63,
+    btts: 32,
+    fhover15: 60,
+    fhbtts: 14,
+    corners: 46,
+    content_tr: `Hong Kong'un 5 Haziran 2026'da Moğolistan'ı hazırlık maçında ağırlayacağı karşılaşma öncesinde, futbolseverler istatistiklerin potansiyel sonuçları net bir şekilde gösterdiği bir maça hazırlanıyor. Hazırlık maçları genellikle taktiksel denemeler, kadro derinliğini test etme ve daha rekabetçi maçlar öncesinde takım kimyasını oluşturma platformu olsa da, maç öncesi veriler gollü ve yüksek tempolu bir mücadeleye işaret ediyor.
+
+## En Güçlü İstatistiksel Göstergeler
+
+Bu maç için en çarpıcı istatistiksel göstergeler, büyük ölçüde gol açısından zengin bir oyuna işaret ediyor. %81 gibi etkileyici bir oranla 2.5 Gol Üstü ve %63 ile 3.5 Gol Üstü olasılıkları, çok sayıda gol beklentisinin güçlü olduğunu vurguluyor. Bu durum, ya her iki takımın da güçlü hücum hatlarına sahip olduğunu ya da bir takımın savunmasının özellikle savunmasız olduğunu gösteriyor. Bu tablo, ilk yarıda 1.5 Gol Üstü olasılığının %60 olmasıyla daha da pekişiyor; bu da erken gollerin gelebileceğini ve aksiyon dolu bir açılış döneminin olabileceğini güçlü bir şekilde gösteriyor.
+
+Buna karşılık, düşük BTTS (Karşılıklı Gol) yüzdesi (%32) ve ilk yarı BTTS'nin (%14) daha da düşük olması önemli bir karşıt görüş sunuyor. Bu kombinasyon, eğer bol gol olacaksa, bu gollerin büyük ölçüde tek bir takımdan gelebileceğini veya bir takımın gol atmakta önemli ölçüde zorlanacağını düşündürüyor. Hong Kong (FIFA sıralamasında daha yüksek) ile Moğolistan arasındaki genel güç farkı göz önüne alındığında, bu istatistiksel anormallik, Hong Kong'un rahatça goller atarken Moğolistan'ın hücum fırsatlarını etkili bir şekilde sınırlayabileceğini güçlü bir şekilde ima edebilir. Korner 9.5+ yüzdesi %46 ile nispeten dengeli olup, oyun akışı hakkında daha az kesin bir içgörü sunmaktadır.
+
+## Form Analizi ve İkili Maçlar
+
+Her iki takım için de hazırlık maçı bağlamında belirli ve yakın zamana ait rekabetçi form verileri bulunmadığından, bu tür maçların doğasını göz önünde bulundurmak önemlidir. Hem Hong Kong hem de Moğolistan, bu karşılaşmayı kadrolarını denemek, taktiksel sistemlerini ince ayar yapmak ve yedek oyunculara maç süresi vermek için kullanacaktır. FIFA sıralaması ve uluslararası tecrübe açısından genellikle daha güçlü kabul edilen Hong Kong, üstünlük kurmayı ve güven inşa etmeyi hedefleyecektir. Moğolistan ise, belki de zayıf taraf olarak, kendilerini daha köklü bir rakibe karşı test etmek ve uluslararası konumlarını geliştirmek için değerli bir fırsat olarak görecektir.
+
+Tarihsel ikili maç kayıtları, sık sık karşılaşmayan takımlar arasındaki hazırlık maçları için genellikle daha az belirleyicidir ve burada bu tür veriler sağlanmamıştır. Ancak, genel futbol hiyerarşisi, Hong Kong'un böyle bir karşılaşmada tipik olarak favori kabul edileceğini öne sürmektedir, bu da potansiyel olarak tek taraflı bir gol şöleni olacağı yönündeki istatistiksel tahmine ağırlık katmaktadır.
+
+## Özet
+
+Çekici istatistiksel içgörüleri genel futbol hiyerarşisiyle birleştirdiğimizde, bu hazırlık maçının yüksek gol olasılığına sahip, açık ve eğlenceli bir mücadele olacağı tahmin ediliyor. Hong Kong, hücum potansiyelini değerlendirerek rahat bir galibiyet elde etme konusunda iyi bir konumda görünüyor. Düşük BTTS yüzdesi, goller beklense de Moğolistan'ın gol atmakta zorlanabileceğini ve ev sahibi takım için baskın bir galibiyetin mümkün olduğunu düşündürüyor. Ev sahibi ekibin kendi sahasında bir açıklama yapma arayışında olacağı, özellikle ev sahiplerinden gelecek birçok golle heyecan verici bir maç bekleyebiliriz.`,
+    content_en: `As Hong Kong prepares to host Mongolia in a friendly encounter on June 5, 2026, football enthusiasts anticipate a match where statistics paint a vivid picture of potential outcomes. While friendlies often serve as crucial testing grounds for tactics and squad depth, the pre-match data suggests a high-octane affair with a strong likelihood of goals.
+
+## Strongest Statistical Indicators
+
+The most striking statistical indicators for this match overwhelmingly point towards a goal-laden game. An impressive 81% probability for Over 2.5 goals and an even higher 63% for Over 3.5 goals highlight the robust expectation of multiple strikes. This suggests either both teams possess potent attacks, or one team's defense is particularly vulnerable. This outlook is further reinforced by a 60% chance of Over 1.5 goals in the first half, strongly indicating the possibility of an early breakthrough and an action-packed opening period.
+
+Conversely, the low BTTS (Both Teams To Score) percentage of 32% and an even lower 14% for FH BTTS (First Half Both Teams To Score) provide a significant counterpoint. This combination suggests that if goals are abundant, they might predominantly come from one side, or one team will struggle significantly to find the back of the net. Given the general strength differential between Hong Kong (ranked higher by FIFA) and Mongolia, this statistical anomaly could strongly imply Hong Kong scoring freely while effectively limiting Mongolia's attacking opportunities. The Corners 9.5+% at 46% is relatively balanced, offering less definitive insight.
+
+## Form Analysis and Head-to-Head
+
+Without specific recent competitive form data for both teams in a friendly context, it's essential to consider the nature of such matches. Both Hong Kong and Mongolia will likely use this fixture to experiment with lineups, fine-tune tactical systems, and give game time to fringe players. Hong Kong, generally considered the stronger side in terms of FIFA ranking and international experience, will likely aim to assert dominance and build confidence. Mongolia, while perhaps the underdog, will see this as a valuable opportunity to test themselves against a more established opponent.
+
+Historical head-to-head records are often less indicative for friendlies between teams that don't frequently compete, and such data is not provided here. However, the general footballing hierarchy suggests Hong Kong would typically be considered favorites in such a match-up, adding weight to the statistical prediction of a potentially one-sided goal fest.
+
+## Summary
+
+Combining the compelling statistical insights with the general footballing hierarchy, this friendly is poised to be an open and entertaining game with a high probability of goals. Hong Kong appears well-positioned to leverage their attacking potential, potentially securing a comfortable victory. The low BTTS percentage further suggests that while goals are expected, Mongolia might find it challenging to get on the scoresheet, making a dominant win for the home side a distinct possibility. Expect an exciting match with several goals, predominantly from the hosts, as they seek to make a statement on home soil.`,
+  },
+  {
     slug: 'netherlands-algeria-2026-06-03',
     title_tr: 'Hollanda - Cezayir Maç Analizi: 2026 Hazırlık Mücadelesinde Gol Beklentisi',
     title_en: 'Netherlands vs. Algeria Match Analysis: Goal Expectations in 2026 Friendly',
