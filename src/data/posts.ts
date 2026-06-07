@@ -21,6 +21,45 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'Colombia-Jordan-2026-06-07',
+    title_tr: 'Kolombiya - Ürdün Maçı Analizi',
+    title_en: 'Colombia vs Jordan Match Analysis',
+    date: '2026-06-07',
+    time: '23:00',
+    league_tr: 'Dostluk Maçları (Dünya)',
+    league_en: 'Friendlies (World)',
+    home_team: 'Colombia',
+    away_team: 'Jordan',
+    tags: ["Colombia","Jordan","Friendlies","Match Analysis"],
+    over25: 66,
+    over35: 33,
+    btts: 35,
+    fhover15: 37,
+    fhbtts: 15,
+    corners: 50,
+    content_tr: `## Maç Analizi
+Kolombiya ve Ürdün takımları arasında oynanacak dostluk maçı için analiz yapıldı. Over 2.5 gol oranı %66, Over 3.5 gol oranı %33, BTTS oranı %35 olarak belirlendi. İlk yarıda over 1.5 gol oranı %37, ilk yarıda BTTS oranı %15 olarak hesaplandı. Köşe vuruşları 9.5+ oranı %50 olarak tespit edildi.
+## En Güçlü İstatistiksel Göstergeler
+Over 2.5 gol oranı %66 ile en güçlü istatistiksel gösterge olarak öne çıkıyor. Bu, maçın yüksek gol potansiyeli taşıdığına işaret ediyor.
+## Form Analizi
+Kolombiya takımı son maçlarında ổnil bir performans gösteriyor. Ürdün takımı ise değişken bir performans sergiliyor.
+## Karşı Karşıya Gelme (H2H) İstatistikleri
+Kolombiya ve Ürdün takımları arasında oynanacak bu maçın H2H istatistiklerine bakıldığında, iki takımın daha önce hiç karşı karşıya gelmediği görülüyor.
+## Özet
+Kolombiya - Ürdün maçı, yüksek gol potansiyeli taşıyan bir maç olarak görünüyor. Over 2.5 gol oranı %66 ile en güçlü istatistiksel gösterge olarak öne çıkıyor. Kolombiya takımı son maçlarında ổnil bir performans gösterirken, Ürdün takımı değişken bir performans sergiliyor.`,
+    content_en: `## Match Analysis
+The friendly match between Colombia and Jordan has been analyzed. The over 2.5 goal rate is 66%, the over 3.5 goal rate is 33%, and the BTTS rate is 35%. The over 1.5 goal rate in the first half is 37%, and the BTTS rate in the first half is 15%. The corner kick rate of 9.5+ is 50%.
+## Strongest Statistical Indicators
+The over 2.5 goal rate of 66% is the strongest statistical indicator, indicating that the match has a high goal potential.
+## Form Analysis
+The Colombia team has shown a stable performance in their recent matches. The Jordan team has shown a variable performance.
+## Head-to-Head (H2H) Statistics
+Looking at the H2H statistics of the match between Colombia and Jordan, it is seen that the two teams have never faced each other before.
+## Summary
+The Colombia - Jordan match appears to be a match with high goal potential. The over 2.5 goal rate of 66% is the strongest statistical indicator. The Colombia team has shown a stable performance in their recent matches, while the Jordan team has shown a variable performance.`,
+  },
+
+  {
     slug: 'Czech-Republic-Guatemala-2026-06-05',
     title_tr: 'Çek Cumhuriyeti - Guatemala Dostluk Maçı Analizi',
     title_en: 'Czech Republic - Guatemala Friendly Match Analysis',
