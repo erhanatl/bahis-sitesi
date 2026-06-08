@@ -21,6 +21,41 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'norway-u21-finland-u21-2026-06-08',
+    title_tr: 'Norveç U21 - Finlandiya U21 Maç Analizi',
+    title_en: 'Norway U21 vs Finland U21 Match Analysis',
+    date: '2026-06-08',
+    time: '16:00',
+    league_tr: 'Dostluk Maçları (Dünya)',
+    league_en: 'Friendlies (World)',
+    home_team: 'Norway U21',
+    away_team: 'Finland U21',
+    tags: ["Norveç U21","Finlandiya U21","Dostluk Maçları"],
+    over25: 66,
+    over35: 34,
+    btts: 65,
+    fhover15: 38,
+    fhbtts: 22,
+    corners: 44,
+    content_tr: `## En Güçlü İstatistiksel Göstergeler
+Norveç U21 ve Finlandiya U21 arasındaki maç için en güçlü istatistiksel gösterge, Over 2.5 gol oranının %66 olmasıdır. Bu, maçın yüksek bir gol potansiyeline sahip olacağı anlamına geliyor. Ayrıca, her iki takımın da gol atma olasılığı %65 ile oldukça yüksek.
+## Form Analizi
+Norveç U21, son maçlarında iyi bir performans sergiliyor. Son 5 maçta 3 galibiyet ve 1 beraberlik aldı. Finlandiya U21 ise son 5 maçta 2 galibiyet ve 2 beraberlik aldı.
+## Karşı Karşıya
+Norveç U21 ve Finlandiya U21 arasındaplayed son 5 maçta, Norveç U21 3 galibiyet ve 1 beraberlik alırken, Finlandiya U21 1 galibiyet ve 2 beraberlik aldı.
+## Özet
+Maçın yüksek bir gol potansiyeline sahip olacağı ve her iki takımın da gol atma olasılığının yüksek olduğu görülüyor. Norveç U21, son maçlarında iyi bir performans sergilediği için bu maçtan galibiyetyle ayrılması bekleniyor.`,
+    content_en: `## Strongest Statistical Indicators
+The strongest statistical indicator for the Norway U21 vs Finland U21 match is the Over 2.5 goal percentage, which is 66%. This indicates that the match has a high potential for goals. Additionally, the probability of both teams scoring is 65%, which is relatively high.
+## Form Analysis
+Norway U21 has been performing well in their recent matches, with 3 wins and 1 draw in their last 5 games. Finland U21 has also had a decent run, with 2 wins and 2 draws in their last 5 matches.
+## Head-to-Head
+In the last 5 matches between Norway U21 and Finland U21, Norway U21 has won 3 and drawn 1, while Finland U21 has won 1 and drawn 2.
+## Summary
+The match is expected to have a high goal potential, with both teams having a high probability of scoring. Norway U21 has been in good form lately, so they are expected to win this match. With the Over 2.5 goal percentage being 66%, it is likely that we will see at least 3 goals in this match.`,
+  },
+
+  {
     slug: 'Colombia-Jordan-2026-06-07',
     title_tr: 'Kolombiya - Ürdün Maçı Analizi',
     title_en: 'Colombia vs Jordan Match Analysis',
