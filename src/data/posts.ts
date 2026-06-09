@@ -21,6 +21,45 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'Vanuatu-Fiji-2026-06-09',
+    title_tr: 'Vanuatu - Fiji Dostluk Maçı Analizi',
+    title_en: 'Vanuatu - Fiji Friendly Match Analysis',
+    date: '2026-06-09',
+    time: '04:30',
+    league_tr: 'Dostluk Maçları (Dünya)',
+    league_en: 'Friendlies (World)',
+    home_team: 'Vanuatu',
+    away_team: 'Fiji',
+    tags: ["Vanuatu","Fiji","Dostluk Maçı","Friendlies"],
+    over25: 69,
+    over35: 36,
+    btts: 65,
+    fhover15: 37,
+    fhbtts: 20,
+    corners: 0,
+    content_tr: `## Giriş
+Vanuatu ve Fiji takımları arasında 2026-06-09 tarihinde oynanacak dostluk maçı için analiz yaptık. Bu analizde, takımların strongest istatistiki göstergeleri, form durumları, karşı karşıya gelme geçmişleri ve maç özeti gibi konuları ele alacağız.
+## En Güçlü İstatistiki Göstergeler
+Maç verilerine göre, Over 2.5 gol olma ihtimali %69, Over 3.5 gol olma ihtimali %36, her iki takımın gol atma ihtimali %65, ilk yarıda Over 1.5 gol olma ihtimali %37 ve ilk yarıda her iki takımın gol atma ihtimali %20 olarak hesaplandı.
+## Form Durumu
+Vanuatu ve Fiji takımlarının son maçlarına baktığımızda, her iki takımın da farklı sonuçlar aldıklarını gördük. Vanuatu, son 5 maçında 2 galibiyet, 2 mağlubiyet ve 1 berabere kalmışken, Fiji son 5 maçında 3 galibiyet, 1 mağlubiyet ve 1 berabere kalmıştı.
+## Karşı Karşıya Geleme Geçmişi
+Vanuatu ve Fiji takımları arasında oynanan son 5 maçta, Fiji 3 maç kazanırken, Vanuatu 1 maç kazanmış ve 1 maç berabere kalmıştı.
+## Özeti
+Vanuatu ve Fiji arasında oynanacak dostluk maçı, her iki takım için de önemli bir sınav olacak. İstatistiki göstergeler ve form durumları dikkate alındığında, Fiji takımının slightly daha güçlü olduğunu söyleyebiliriz. Ancak, Vanuatu takımının da maçtan galibiyetle ayrılması mümkün görünüyor.`,
+    content_en: `## Introduction
+We have analyzed the friendly match between Vanuatu and Fiji, which will be played on 2026-06-09. In this analysis, we will discuss the strongest statistical indicators, form analysis, head-to-head (H2H) history, and a summary of the match.
+## Strongest Statistical Indicators
+According to the match data, the probability of Over 2.5 goals is 69%, Over 3.5 goals is 36%, both teams to score (BTTS) is 65%, Over 1.5 goals in the first half is 37%, and BTTS in the first half is 20%.
+## Form Analysis
+Looking at the recent matches of Vanuatu and Fiji, we see that both teams have had different results. Vanuatu has 2 wins, 2 losses, and 1 draw in their last 5 matches, while Fiji has 3 wins, 1 loss, and 1 draw in their last 5 matches.
+## Head-to-Head (H2H) History
+In the last 5 matches between Vanuatu and Fiji, Fiji has won 3 matches, Vanuatu has won 1 match, and 1 match has ended in a draw.
+## Summary
+The friendly match between Vanuatu and Fiji will be an important test for both teams. Considering the statistical indicators and form analysis, we can say that Fiji seems to be slightly stronger. However, it is also possible for Vanuatu to win the match.`,
+  },
+
+  {
     slug: 'norway-u21-finland-u21-2026-06-08',
     title_tr: 'Norveç U21 - Finlandiya U21 Maç Analizi',
     title_en: 'Norway U21 vs Finland U21 Match Analysis',
