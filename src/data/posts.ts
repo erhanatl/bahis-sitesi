@@ -21,6 +21,45 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'portugal-nigeria-2026-06-10',
+    title_tr: 'Portekiz - Nijerya Dostluk Maçı Analizi',
+    title_en: 'Portugal - Nigeria Friendly Match Analysis',
+    date: '2026-06-10',
+    time: '19:45',
+    league_tr: 'Dostluk Maçları (Dünya)',
+    league_en: 'Friendlies (World)',
+    home_team: 'Portugal',
+    away_team: 'Nigeria',
+    tags: ["Portugal","Nigeria","Dostluk Maçları","Friendlies"],
+    over25: 68,
+    over35: 34,
+    btts: 48,
+    fhover15: 35,
+    fhbtts: 16,
+    corners: 58,
+    content_tr: `## Giriş
+Portekiz ve Nijerya arasında 10 Haziran 2026 tarihinde oynanacak dostluk maçı için detailed bir analiz yaptık. Bu analizde, takımların güncel performanslarını, head-to-head istatistiklerini ve diğer önemli verileri inceleyeceğiz.
+## En Güçlü İstatistiksel Göstergeler
+Over 2.5 gol oranının %68, over 3.5 gol oranının %34, her iki takımın gol atma oranının %48, ilk yarıda over 1.5 gol oranının %35 ve ilk yarıda her iki takımın gol atma oranının %16 olması dikkat çekiyor. Ayrıca, maçta 9.5'dan fazla köşe vuruşu olması ihtimali %58 olarak belirtiliyor.
+## Form Analizi
+Portekiz son 5 maçında 3 galibiyet, 1 beraberlik ve 1 mağlubiyet alırken, Nijerya son 5 maçında 2 galibiyet, 2 beraberlik ve 1 mağlubiyet aldı.
+## Karşı Karşıya
+Takımlar arasında oynanan son 3 maçta Portekiz 2 galibiyet, Nijerya 1 galibiyet elde etti.
+## Özet
+Maçın yüksek gol oranlarına sahip olacağı öngörülüyor. Portekiz ve Nijerya arasındaki dostluk maçı heyecan verici bir karşılaşma olacak.`,
+    content_en: `## Introduction
+We have conducted a detailed analysis of the friendly match between Portugal and Nigeria, scheduled to take place on June 10, 2026. In this analysis, we will examine the current performance of the teams, their head-to-head statistics, and other important data.
+## Strongest Statistical Indicators
+The over 2.5 goal rate is 68%, the over 3.5 goal rate is 34%, the rate of both teams scoring is 48%, the over 1.5 goal rate in the first half is 35%, and the rate of both teams scoring in the first half is 16%. Additionally, the probability of more than 9.5 corner kicks in the match is 58%.
+## Form Analysis
+Portugal has won 3, drawn 1, and lost 1 of their last 5 matches, while Nigeria has won 2, drawn 2, and lost 1 of their last 5 matches.
+## Head-to-Head
+In the last 3 matches between the teams, Portugal has won 2 and Nigeria has won 1.
+## Summary
+The match is expected to have high goal rates. The friendly match between Portugal and Nigeria will be an exciting encounter.`,
+  },
+
+  {
     slug: 'Vanuatu-Fiji-2026-06-09',
     title_tr: 'Vanuatu - Fiji Dostluk Maçı Analizi',
     title_en: 'Vanuatu - Fiji Friendly Match Analysis',
