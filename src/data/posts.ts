@@ -21,6 +21,45 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'Galway-United-Dundalk-2026-06-12',
+    title_tr: 'Galway United - Dundalk Maçı Analizi',
+    title_en: 'Galway United vs Dundalk Match Analysis',
+    date: '2026-06-12',
+    time: '18:45',
+    league_tr: 'İrlanda Premier Ligi',
+    league_en: 'Premier Division (Ireland)',
+    home_team: 'Galway United',
+    away_team: 'Dundalk',
+    tags: ["Galway United","Dundalk","İrlanda Premier Ligi","Premier Division"],
+    over25: 62,
+    over35: 30,
+    btts: 67,
+    fhover15: 33,
+    fhbtts: 20,
+    corners: 58,
+    content_tr: `## Giriş
+Galway United ve Dundalk, 12 Haziran 2026 tarihinde İrlanda Premier Ligi'nde karşı karşıya gelecek. Bu maç için yapılan analizlerde, bazı istatistiki göstergeler dikkat çekiyor.
+## En Güçlü İstatistiki Göstergeler
+Maçın över 2.5 gol olması ihtimali %62, över 3.5 gol olması ihtimali %30 olarak hesaplandı. Ayrıca, her iki takımın da gol atma ihtimali %67 olarak belirlendi. İlk yarıda över 1.5 gol olmasının ihtimali %33, ilk yarıda her iki takımın da gol atmasının ihtimali %20 olarak hesaplandı.
+## Form Analizi
+Galway United ve Dundalk'ın son maçları incelendiğinde, her iki takımın da forma durumları benzer görünüyor. Ancak, Dundalk'ın son birkaç maçta daha iyi bir performans gösterdiği görülüyor.
+## Karşı Karşıya Gelme (H2H) İstatistikleri
+Galway United ve Dundalk arasında oynanan son maçlarda, her iki takımın da birbirlerine karşı benzer performanslar gösterdiği görülüyor. Ancak, Dundalk'ın son birkaç maçta Galway United'ı yenme ihtimali daha yüksek görünüyor.
+## Sonuç
+Galway United ve Dundalk arasındaki maç, heyecan verici bir karşılaşma olacağı öngörülüyor. İstatistiki göstergeler, över 2.5 gol ve her iki takımın da gol atması ihtimallerinin yüksek olduğunu gösteriyor. Dundalk'ın son birkaç maçtaki performansına bakıldığında, bu takımın maçı kazanma ihtimali daha yüksek görünüyor.`,
+    content_en: `## Introduction
+Galway United and Dundalk are set to face each other on June 12, 2026, in the Premier Division of Ireland. The analysis for this match reveals some notable statistical indicators.
+## Strongest Statistical Indicators
+The probability of the match having over 2.5 goals is 62%, while the probability of having over 3.5 goals is 30%. Additionally, the likelihood of both teams scoring is 67%. The probability of having over 1.5 goals in the first half is 33%, and the probability of both teams scoring in the first half is 20%.
+## Form Analysis
+An examination of Galway United and Dundalk's recent matches reveals that both teams have similar form. However, Dundalk appears to have performed better in their last few matches.
+## Head-to-Head (H2H) Statistics
+The recent matches between Galway United and Dundalk show that both teams have similar performances against each other. However, Dundalk seems to have a higher chance of winning against Galway United in their recent matches.
+## Summary
+The match between Galway United and Dundalk is expected to be an exciting encounter. The statistical indicators suggest that the match is likely to have over 2.5 goals and both teams scoring. Based on Dundalk's recent performance, they seem to have a higher chance of winning the match.`,
+  },
+
+  {
     slug: 'portugal-nigeria-2026-06-10',
     title_tr: 'Portekiz - Nijerya Dostluk Maçı Analizi',
     title_en: 'Portugal - Nigeria Friendly Match Analysis',
