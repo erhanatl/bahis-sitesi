@@ -21,6 +21,45 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'Colo-Colo-Cobresal-2026-06-13',
+    title_tr: 'Colo Colo ve Cobresal Arasındaki Çekişme',
+    title_en: 'The Clash Between Colo Colo and Cobresal',
+    date: '2026-06-13',
+    time: '21:30',
+    league_tr: 'Şili Primera División',
+    league_en: 'Chilean Primera División',
+    home_team: 'Colo Colo',
+    away_team: 'Cobresal',
+    tags: ["Colo Colo","Cobresal","Primera División"],
+    over25: 69,
+    over35: 37,
+    btts: 52,
+    fhover15: 38,
+    fhbtts: 16,
+    corners: 55,
+    content_tr: `## Giriş
+Colo Colo ve Cobresal, 13 Haziran 2026 tarihinde Şili Primera División'da karşı karşıya gelecek. Bu maç için yapılan analizlerde, önemli istatistiki göstergeler, form analizi, head-to-head (H2H) karşılaştırması ve bir özet sunulacak.
+## En Güçlü İstatistiki Göstergeler
+Maç veri analizine göre, Over 2.5 gol oranının %69, Over 3.5 gol oranının %37, her iki takımın gol atma oranının %52, ilk yarıda Over 1.5 gol oranının %38 ve ilk yarıda her iki takımın gol atma oranının %16 olduğu görülmektedir. Ayrıca, köşe vuruşlarının 9.5'un üzerinde olacağı öngörülüyor ve bu oran %55.
+## Form Analizi
+Colo Colo, son maçlarında iyi bir performans göstererek, ligde üst sıralarda yer alıyor. Cobresal ise, değişken bir form grafiği çizerek, maçtan maça farklı sonuçlar elde ediyor.
+## Head-to-Head (H2H) Karşılaştırması
+Colo Colo ve Cobresal arasında oynanan son maçlar, Colo Colo'nun hafif bir üstünlükte olduğunu gösteriyor. Ancak, Cobresal da zaman zaman sürprizlere imza atabiliyor.
+## Özet
+Bu maç, Şili Primera División'da önemli bir karşılaşma olacak. Colo Colo ve Cobresal, iyi bir performans sergilemek için tüm güçlerini ortaya koyacaklar. Maçın gidişatı, her iki takımın da güçlü ve zayıf yanlarına bağlı olarak şekillenecek.`,
+    content_en: `## Introduction
+Colo Colo and Cobresal are set to face off in the Chilean Primera División on June 13, 2026. This analysis will cover key statistical indicators, form analysis, head-to-head (H2H) comparison, and a summary of the match.
+## Strongest Statistical Indicators
+According to match data analysis, the probability of Over 2.5 goals is 69%, Over 3.5 goals is 37%, both teams to score (BTTS) is 52%, Over 1.5 goals in the first half is 38%, and BTTS in the first half is 16%. Additionally, the likelihood of corners being over 9.5 is 55%.
+## Form Analysis
+Colo Colo has been performing well in recent matches, sitting at the top of the league. Cobresal, on the other hand, has been inconsistent, with varying results from match to match.
+## Head-to-Head (H2H) Comparison
+Recent matches between Colo Colo and Cobresal suggest that Colo Colo has a slight advantage. However, Cobresal is capable of pulling off surprises.
+## Summary
+This match will be a significant encounter in the Chilean Primera División. Both Colo Colo and Cobresal will give their all to secure a win. The outcome of the match will depend on the strengths and weaknesses of both teams.`,
+  },
+
+  {
     slug: 'Galway-United-Dundalk-2026-06-12',
     title_tr: 'Galway United - Dundalk Maçı Analizi',
     title_en: 'Galway United vs Dundalk Match Analysis',
