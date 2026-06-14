@@ -21,6 +21,45 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'Germany-Curaçao-2026-06-14',
+    title_tr: 'Almanya - Curaçao: Dünya Kupası Maçı Analizi',
+    title_en: 'Germany - Curaçao: World Cup Match Analysis',
+    date: '2026-06-14',
+    time: '17:00',
+    league_tr: 'Dünya Kupası',
+    league_en: 'World Cup',
+    home_team: 'Germany',
+    away_team: 'Curaçao',
+    tags: ["Dünya Kupası","Almanya","Curaçao","Futbol","Maç Analizi"],
+    over25: 85,
+    over35: 70,
+    btts: 25,
+    fhover15: 62,
+    fhbtts: 12,
+    corners: 59,
+    content_tr: `## Giriş
+Almanya ve Curaçao takımları arasında 14 Haziran 2026 tarihinde oynanacak Dünya Kupası maçını analiz edeceğiz. Bu analizde, güçlü istatistiksel göstergeler, form analizleri, baş başa maçlar ve sonuçları değerlendireceğiz.
+## En Güçlü İstatistiksel Göstergeler
+Maç öncesi istatistiklere bakıldığında, Over 2.5 gol oranının %85, Over 3.5 gol oranının %70 olduğu görülüyor. Bu, maçın yüksek gol potansiyeli taşıdığına işaret ediyor. Ayrıca, her iki takımın da gol atma ihtimali düşük görünüyor, BTTS oranının sadece %25 olması buna örnek olarak gösterilebilir.
+## Form Analizi
+Almanya takımının son maçlarına baktığımızda, güçlü bir performans sergilediklerini görüyoruz. Ancak, Curaçao takımının da son maçlarında iyi bir grafik çizdiğini söyleyebiliriz.
+## Baş Başa Maçlar
+Almanya ve Curaçao takımları arasında daha önce oynanmış bir maç bulunmuyor. Bu nedenle, bu bölümde herhangi bir analiz yapamıyoruz.
+## Sonuç
+Sonuç olarak, Almanya ve Curaçao arasında oynanacak Dünya Kupası maçının yüksek gol potansiyeli taşıdığı söylenebilir. Almanya takımının daha güçlü bir performans sergilemesi bekleniyor, ancak Curaçao takımının da sürpriz yapma ihtimali bulunuyor.`,
+    content_en: `## Introduction
+We will analyze the World Cup match between Germany and Curaçao, scheduled to take place on June 14, 2026. In this analysis, we will evaluate strong statistical indicators, form analysis, head-to-head matches, and results.
+## Strongest Statistical Indicators
+Looking at the pre-match statistics, we see that the Over 2.5 goal rate is 85%, and the Over 3.5 goal rate is 70%. This indicates that the match has a high potential for goals. Additionally, the probability of both teams scoring is low, with a BTTS rate of only 25%.
+## Form Analysis
+Looking at Germany's recent matches, we see that they have performed well. However, Curaçao has also shown a good graph in their recent matches.
+## Head-to-Head
+There are no previous matches between Germany and Curaçao. Therefore, we cannot make any analysis in this section.
+## Summary
+In conclusion, the World Cup match between Germany and Curaçao is expected to have a high potential for goals. Germany is expected to perform better, but Curaçao also has a chance to surprise.`,
+  },
+
+  {
     slug: 'Colo-Colo-Cobresal-2026-06-13',
     title_tr: 'Colo Colo ve Cobresal Arasındaki Çekişme',
     title_en: 'The Clash Between Colo Colo and Cobresal',
