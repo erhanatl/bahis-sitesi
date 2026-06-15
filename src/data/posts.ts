@@ -21,6 +21,47 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'spain-cape-verde-islands-2026-06-15',
+    title_tr: 'İspanya - Yeşil Burun Adaları: Dünya Kupası Karşılaşması Analizi',
+    title_en: 'Spain - Cape Verde Islands: World Cup Match Analysis',
+    date: '2026-06-15',
+    time: '16:00',
+    league_tr: 'Dünya Kupası',
+    league_en: 'World Cup',
+    home_team: 'Spain',
+    away_team: 'Cape Verde Islands',
+    tags: ["Dünya Kupası","İspanya","Yeşil Burun Adaları","Futbol Analizi"],
+    over25: 76,
+    over35: 47,
+    btts: 28,
+    fhover15: 49,
+    fhbtts: 12,
+    corners: 50,
+    content_tr: `## Giriş
+İspanya ve Yeşil Burun Adaları takımları 15 Haziran 2026 tarihinde Dünya Kupası kapsamında karşı karşıya gelecek. Bu karşılaşma için yapılan analizlerde bazı güçlü istatistiksel göstergeler dikkat çekiyor.
+## En Güçlü İstatistiksel Göstergeler
+- Over 2.5 gol oranı %76 ile oldukça yüksek görünüyor. Bu, karşılaşmanın yüksek gol potansiyelini gösteriyor.
+- İlk yarıda över 1.5 gol olasılığı %49 ile ortalamanın üzerinde.
+## Form Analizi
+İspanya son karşılaşmalarında oldukça strong bir performans sergiliyor. Yeşil Burun Adaları ise deplasman karşılaşmalarında zorlanıyor.
+## Karşı Karşıya Gelme İstatistikleri
+İki takım daha önce karşı karşıya gelmediği için H2H istatistikleri bulunmuyor.
+## Özet
+İspanya ve Yeşil Burun Adaları arasındaki karşılaşma ilgi çekici görünüyor. İspanya'nın güçlü performansının devam etmesi beklenirken, Yeşil Burun Adaları'nın sürpriz yapma ihtimali düşük görünüyor.`,
+    content_en: `## Introduction
+The Spain and Cape Verde Islands teams will face each other on June 15, 2026, as part of the World Cup. Some strong statistical indicators stand out in the analysis made for this match.
+## Strongest Statistical Indicators
+- The over 2.5 goal rate appears quite high at 76%. This indicates the match has a high goal potential.
+- The probability of over 1.5 goals in the first half is above average at 49%.
+## Form Analysis
+Spain has been performing strongly in recent matches. Cape Verde Islands, on the other hand, is struggling in away matches.
+## Head-to-Head Statistics
+Since the two teams have never faced each other before, there are no H2H statistics available.
+## Summary
+The match between Spain and Cape Verde Islands looks interesting. While Spain is expected to continue its strong performance, Cape Verde Islands' chance of pulling off an upset seems low.`,
+  },
+
+  {
     slug: 'Germany-Curaçao-2026-06-14',
     title_tr: 'Almanya - Curaçao: Dünya Kupası Maçı Analizi',
     title_en: 'Germany - Curaçao: World Cup Match Analysis',
