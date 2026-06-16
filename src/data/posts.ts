@@ -21,6 +21,45 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'Iraq-Norway-2026-06-16',
+    title_tr: 'Irak - Norveç Maçı Analizi',
+    title_en: 'Iraq vs Norway Match Analysis',
+    date: '2026-06-16',
+    time: '22:00',
+    league_tr: 'Dünya Kupası',
+    league_en: 'World Cup',
+    home_team: 'Iraq',
+    away_team: 'Norway',
+    tags: ["Dünya Kupası","Irak","Norveç","Futbol"],
+    over25: 65,
+    over35: 33,
+    btts: 37,
+    fhover15: 35,
+    fhbtts: 14,
+    corners: 54,
+    content_tr: `## Geniş Perspective
+Irak ve Norveç takımları 2026-06-16 tarihinde Dünya Kupası maçında karşı karşıya geliyor. Bu maçın analizinde, takımların geçmiş performansları, istatistiki göstergeleri ve head-to-head maçlarına bakacağız.
+## İstatistiki Göstergeler
+Maçın över 2.5 gol olması ihtimali %65, över 3.5 gol olması ihtimali %33, her iki takımın gol atması ihtimali %37, ilk yarıda över 1.5 gol olması ihtimali %35 ve ilk yarıda her iki takımın gol atması ihtimali %14.
+## Form Analizi
+Irak ve Norveç takımlarının son maçlarına baktığımızda, her iki takımın da farklı performansları olduğunu görebiliyoruz. Irak, son maçlarında genel olarak iyi bir performans gösterırken, Norveç takımı bazı maçlarda zorluk yaşamış gibi görünüyor.
+## Karşı Karşıya Maçlar
+Irak ve Norveç takımları arasında oynanan geçmiş maçlara baktığımızda, her iki takımın da birbirlerine karşı farklı stratejileri olduğunu görebiliyoruz. Bu maçlarda genellikle Norveç takımı daha dominant bir performans gösteriyor gibi görünse de, Irak takımı da bazı maçlarda překvapiler yapabiliyor.
+## Özet
+Irak ve Norveç takımları arasında oynanacak olan bu maç, her iki takım için de önemli bir maç olacak. Takımların performansları, istatistiki göstergeleri ve head-to-head maçlarına baktığımızda, Norveç takımı slightly daha favori gibi görünüyor ancak Irak takımı da sürpriz yapabilir.`,
+    content_en: `## Overview
+The Iraq and Norway teams are facing each other in the World Cup match on 2026-06-16. In this analysis, we will look at the teams' past performances, statistical indicators, and head-to-head matches.
+## Statistical Indicators
+The probability of the match having over 2.5 goals is 65%, over 3.5 goals is 33%, both teams scoring is 37%, over 1.5 goals in the first half is 35%, and both teams scoring in the first half is 14%.
+## Form Analysis
+Looking at the recent matches of the Iraq and Norway teams, we can see that both teams have had different performances. Iraq has generally shown a good performance in their recent matches, while the Norway team seems to have struggled in some matches.
+## Head-to-Head Matches
+Looking at the past matches between Iraq and Norway, we can see that both teams have different strategies against each other. In these matches, the Norway team usually shows a more dominant performance, but the Iraq team can also make surprises in some matches.
+## Summary
+The match between Iraq and Norway will be an important match for both teams. Looking at the teams' performances, statistical indicators, and head-to-head matches, the Norway team seems to be slightly more favorite, but the Iraq team can also make a surprise.`,
+  },
+
+  {
     slug: 'spain-cape-verde-islands-2026-06-15',
     title_tr: 'İspanya - Yeşil Burun Adaları: Dünya Kupası Karşılaşması Analizi',
     title_en: 'Spain - Cape Verde Islands: World Cup Match Analysis',
